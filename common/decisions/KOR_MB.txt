@@ -534,7 +534,7 @@ core_HWAN = {
 				}
 				add_core_of = ROOT
 			}
-			add_timed_ideas = {
+			add_timed_idea = {
 				idea = KOR_kowareta_katana
 				days = 120
 			}
@@ -644,7 +644,7 @@ core_HWAN = {
 				}
 				add_core_of = ROOT
 			}
-			add_timed_ideas = {
+			add_timed_idea = {
 				idea = KOR_kowareta_katana
 				days = 120
 			}
@@ -715,7 +715,7 @@ core_HWAN = {
 				}
 				add_core_of = ROOT
 			}
-			add_timed_ideas = {
+			add_timed_idea = {
 				idea = KOR_kowareta_katana
 				days = 120
 			}
@@ -875,7 +875,7 @@ core_HWAN = {
 				655 = {
 				    add_core_of = ROOT
 				}
-			add_timed_ideas = {
+			add_timed_idea = {
 				idea = KOR_kowareta_katana
 				days = 120
 			}

@@ -202,15 +202,15 @@ country_event = {
 						}			
                 	}	
 					if = {
-					limit = { is_ai = yes
+						limit = { 
+						is_ai = yes
+						}
 						PRK = {
-							
 							country_event = {
 								id = korea.2
 								days = 1
 							}
 						}	
-					}
 					}
 			    KR1 = {
 				    remove_state_core = 525

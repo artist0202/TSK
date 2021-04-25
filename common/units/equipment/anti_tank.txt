@@ -91,7 +91,7 @@ equipments = {
 		visual_level = 2
 		
 		hard_attack = 40
-		ap_attack = 200
+		ap_attack = 181
 		
 		build_cost_ic = 6
 		resources = {
@@ -109,7 +109,7 @@ equipments = {
 		visual_level = 2
 		
 		hard_attack = 40
-		ap_attack = 205
+		ap_attack = 191
 		
 		build_cost_ic = 6
 		resources = {
@@ -127,7 +127,7 @@ equipments = {
 		visual_level = 2
 		
 		hard_attack = 40
-		ap_attack = 230
+		ap_attack = 201
 		
 		build_cost_ic = 6
 		resources = {
@@ -140,12 +140,12 @@ equipments = {
 		year = 1936
 
 		archetype = anti_tank_equipment
-		parent = m_1980_atgm_equipment
+		parent = m_1990_atgm_equipment
 		priority = 90
 		visual_level = 2
 		
 		hard_attack = 40
-		ap_attack = 240
+		ap_attack = 221
 		
 		build_cost_ic = 6
 		resources = {
@@ -158,12 +158,12 @@ equipments = {
 		year = 1936
 
 		archetype = anti_tank_equipment
-		parent = m_1980_atgm_equipment
+		parent = m_2000_atgm_equipment
 		priority = 90
 		visual_level = 2
 		
 		hard_attack = 40
-		ap_attack = 260
+		ap_attack = 241
 		
 		build_cost_ic = 6
 		resources = {

@@ -1,6 +1,6 @@
 ﻿capital = 818 
 
-oob = "PRK_1936"
+oob = "KPA_1936"
 set_research_slots = 4
 
 
@@ -134,11 +134,6 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-add_ideas = {
-
-	FKR_back_down_military
-}
-
 ### Country Leader ###
 
 create_country_leader = {

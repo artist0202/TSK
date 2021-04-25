@@ -25,7 +25,10 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			modern_tank_equipment = 50
+			modern_tank_equipment = 10
+			infantry_equipment = 25
+			mechanized_equipment = 10
+			support_infantry_equipment = 10
 		}
 		manpower = 500
 		max_organisation = 10

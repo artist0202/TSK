@@ -1,8 +1,4 @@
-﻿add_equipment_to_stockpile = {
-    type = m_1980_mbt
-    amount = 80
-    producer = KOR
-}
+﻿
 division_template = {
 	name = "3기갑여단"
 	priority = 2
@@ -476,7 +472,7 @@ units = {
 		name = "제73 보병사단 '충일'"
 		location = 7125
 		division_template = "동원사단"
-		force_equipment_variants = { m_1950_mbt = { owner = "KOR" } }
+		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
 		force_equipment_variants = { modern_artillery_equipment_1 = { owner = "KOR" } }
 		force_equipment_variants = { support_infantry_equipment_2 = { owner = "KOR" } }
 		start_experience_factor = 0.2
@@ -499,6 +495,7 @@ units = {
 		force_equipment_variants = { support_infantry_equipment_2 = { owner = "KOR" } }
 		start_experience_factor = 0.2
 	}
+	
 	#####################기계화##########
 	
 	division= {
@@ -552,7 +549,7 @@ units = {
 		division_template = "기계화보병사단"
 		start_experience_factor = 0.5
 		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
-		force_equipment_variants = { m_1990_mbt = { owner = "KOR" } }
+		force_equipment_variants = { m_1980_mbt = { owner = "KOR" } }
 		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
 	}
 	
@@ -574,7 +571,7 @@ units = {
 		start_experience_factor = 0.4
 		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
 		force_equipment_variants = { m_1980_mbt = { owner = "KOR" } }
-		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
+		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
 	}
 	division= {
 		name = "제3기갑여단 '번개'"
@@ -582,10 +579,11 @@ units = {
 		division_template = "3기갑여단"
 		start_experience_factor = 0.4
 		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
-		force_equipment_variants = { m_2000_mbt = { owner = "RU1" amount = 30 } }
+		force_equipment_variants = { m_2000_mbt = { owner = "RU1" } }
 		force_equipment_variants = { m_1990_IFV_equipment = { owner = "RU1" } }
-		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } 
+		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
 	}
+	
 	division= {
 		name = "제5기갑여단 '철풍'"
 		location = 7125
@@ -597,6 +595,7 @@ units = {
 	}
 	
 	#####################해병##########
+	
 	division= {
 		name = "제1해병사단 '해룡'"
 		location = 7125
@@ -615,7 +614,7 @@ units = {
 		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
 		force_equipment_variants = { support_infantry_equipment_2 = { owner = "KOR" } }
-	}
+	}  	
 	#####################향토사단##########
 	division= {
 		name = "제31 보병사단 '충장'"

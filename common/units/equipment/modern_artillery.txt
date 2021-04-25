@@ -145,7 +145,7 @@ equipments = {
 		year = 1936
 
 		archetype = motorized_rocket_equipment
-		parent = m_1980_mlrs_equipment
+		parent = m_1990_mlrs_equipment
 		priority = 50
 		visual_level = 2
 		
