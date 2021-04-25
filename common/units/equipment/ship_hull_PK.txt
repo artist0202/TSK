@@ -100,7 +100,7 @@ equipments = {
 		
 		naval_range = 500
 		
-		max_strength = 25
+		max_strength = 5
 		
 
 		fuel_consumption = 0
