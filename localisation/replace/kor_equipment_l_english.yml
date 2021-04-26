@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ modern_motorized_equipment:0 "현대 중형트럭"
+ modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ 
  KOR_modern_motorized_equipment:0 "K-511 두돈반"
  KR1_modern_motorized_equipment:0 "K-511 두돈반"
  ROK_modern_motorized_equipment:0 "K-511 두돈반"
@@ -8,8 +11,8 @@
  USF_modern_motorized_equipment:0 "HEMTT"
  JDF_modern_motorized_equipment:0 "이스즈 73식"
  
- modern_motorized_equipment:0 "현대 중형트럭"
- modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ engineer_equipment:0 "공병장비"
+ engineer_equipment_0:0 "공병장비"
  
  KOR_modern_amphibious_mechanized_equipment:0 "LVTP-1"
  PRK_modern_amphibious_mechanized_equipment:0 "BTR-60PB"
@@ -184,7 +187,7 @@
  
  PRK_m_1950_mbt:0 "T-55"
  PRK_m_1960_mbt:0 "천마호"
- PRK_m_1970_mbt:0 "천마호 나형"
+ PRK_m_1970_mbt:0 "천마-M1970"
  PRK_m_1980_mbt:0 "천마-214"
  PRK_m_1990_mbt:0 "천마-92"
  PRK_m_2000_mbt:0 "선군-915"
@@ -192,7 +195,7 @@
  
  KPA_m_1950_mbt:0 "T-55"
  KPA_m_1960_mbt:0 "천마호"
- KPA_m_1970_mbt:0 "천마호 나형"
+ KPA_m_1970_mbt:0 "천마-M1970"
  KPA_m_1980_mbt:0 "천마-214"
  KPA_m_1990_mbt:0 "천마-92"
  KPA_m_2000_mbt:0 "선군-915"

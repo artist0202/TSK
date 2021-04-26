@@ -12,7 +12,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_KOR_infantry_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/infantry/1960_infantry_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry/1960_infantry_equipment.png"
 	}
 	SpriteType = {
 		name = "GFX_KOR_infantry_equipment_5_medium"
@@ -31,19 +31,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/2000_infantry_equipment.png"
 	}
 	SpriteType = {
-		name = "GFX_KOR_infantry_equipment_9_medium" 
+		name = "GFX_KOR_infantry_equipment_9_medium"
 		texturefile = "gfx/interface/technologies/infantry/2010_infantry_equipment.png"
-	} 
-	
- ################################################################################
- ######IFV
- ################################################################################
-
-	SpriteType = {
-		name = "GFX_KOR_m_2000_IFV_equipmentt_medium"
-		texturefile = "gfx/interface/technologies/infantry/2000_IFV_equipment.png"
 	}
-	 
+	
  ################################################################################
  ######지원화기
  ################################################################################
@@ -181,12 +172,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ifv/kor_1990_ifv.png"
 	}
 	SpriteType = {
-		name = "GFX_KOR_m_2000_IFV_equipmentt_medium"
+		name = "GFX_KOR_m_2000_IFV_equipment_medium"
 		texturefile = "gfx/interface/technologies/ifv/kor_2000_ifv.png"
 	}
 	
 	SpriteType = {
-		name = "GFX_RU1_m_1990_IFV_equipmentt_medium"
+		name = "GFX_RU1_m_1990_IFV_equipment_medium"
 		texturefile = "gfx/interface/technologies/ifv/ru1_1990_ifv.png"
 	}
 	

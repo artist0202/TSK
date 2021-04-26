@@ -976,56 +976,65 @@ sub_units = {
 		entrenchment = 5
 
 		can_be_parachuted = yes
+		
+		transport = motorized_equipment
 
+		essential = {
+			infantry_equipment
+			motorized_equipment
+			engineer_equipment
+		}
+		
 		need = {
 			infantry_equipment = 80
-			support_equipment = 5
+			motorized_equipment = 10
+			engineer_equipment = 25
 		}
 
 		forest = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.2
+			movement = 0.35
 		}
 
 		hills = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.2
+			movement = 0.35
 		}
 
 		desert = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.2
+			movement = 0.35
 
 		}
 
 		jungle = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.2
+			movement = 0.35
 		}
 
 		marsh = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.2
+			movement = 0.35
 		}
 
 		fort = {
-			attack = 0.4
-			movement = 0.55
+			attack = 0.6
+			movement = 0.35
 		}
 		urban = {
-			attack = 0.2
-			movement = 0.55
+			attack = 0.1
+			movement = 0.25
 		}
 
 		river = {
-			attack = 0.7
-			defence = 0.4
-			movement = 0.55
+			attack = 0.5
+			defence = 0.2
+			movement = 0.25
 		}
 
 		amphibious = {
-			attack = 0.7
-			movement = 0.55
+			attack = 0.5
+			movement = 0.2
 		}
 
 	}
@@ -1075,13 +1084,13 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			motorized_equipment
+			engineer_equipment
 		}
 
 		need = {
-			infantry_equipment = 80
-			motorized_equipment = 10
-			support_infantry_equipment = 10
-			support_equipment = 5
+			infantry_equipment = 100
+			motorized_equipment = 20
+			engineer_equipment = 50
 		}
 
 		forest = {
@@ -1111,18 +1120,18 @@ sub_units = {
 		}
 
 		fort = {
-			attack = 0.3
+			attack = 0.6
 			movement = 0.45
 		}
 		urban = {
-			attack = 0.1
+			attack = 0.2
 			movement = 0.45
 		}
 
 		river = {
-			attack = 0.6
+			attack = 0.7
 			defence = 0.3
-			movement = 0.45
+			movement = 0.5
 		}
 
 		amphibious = {

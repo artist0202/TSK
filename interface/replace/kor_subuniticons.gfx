@@ -21,7 +21,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mot_roket_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_vec_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/infantry_vec.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_engineer_inf_icon.png" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_Heavy_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_engineer_inf_icon.png" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_Heavy_Engi_Bat_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_heavy_engineer_icon.png" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rec_infantry_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_recon_inf_icon.png" noOfFrames = 2 }
 	
 	####################################################

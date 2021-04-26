@@ -13,6 +13,7 @@
 		light_infantry = { x = 2 y = 1 }
 		light_infantry = { x = 2 y = 2 }
 		modern_artillery_brigade = { x = 3 y = 0 }
+		Engi_Bat = { x = 3 y = 1 }
 
 	}
 	support = {
@@ -40,6 +41,7 @@ division_template = {
 		light_infantry = { x = 2 y = 0 }
 		modern_infantry = { x = 2 y = 1 }
 		modern_infantry = { x = 2 y = 2 }
+		Engi_Bat = { x = 2 y = 3 }
 		modern_mbt = { x = 3 y = 0 }
 
 	}
@@ -64,6 +66,7 @@ division_template = {
 		modern_marine = { x = 1 y = 2 }
 		modern_marine = { x = 2 y = 0 }
 		modern_marine = { x = 2 y = 1 }
+		Engi_Bat = { x = 2 y = 2 }
 		modern_amphibious_marine = { x = 3 y = 0 }
 		modern_mbt = { x = 4 y = 0 }
 		modern_sp_art_brigade = { x = 4 y = 1 }
@@ -99,7 +102,7 @@ division_template = {
 		modern_sp_art_brigade = { x = 3 y = 2 }
 		modern_sp_art_brigade = { x = 3 y = 3 }
 		modern_sp_anti_air_brigade = { x = 4 y = 0 }
-	
+		Heavy_Engi_Bat = { x = 4 y = 1 }
 
 	}
 	support = {
@@ -141,20 +144,28 @@ division_template = {
 		modern_motorized = { x = 0 y = 0 }
 		modern_motorized = { x = 0 y = 1 }
 		modern_motorized = { x = 0 y = 2 }
+		mot_artillery_brigade = { x = 0 y = 3 }
 		modern_motorized = { x = 1 y = 0 }
 		modern_motorized = { x = 1 y = 1 }
 		modern_motorized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 1  = 3 }
 		modern_motorized = { x = 2 y = 0 }
 		modern_motorized = { x = 2 y = 1 }
 		modern_motorized = { x = 2 y = 2 }
-		mot_artillery_brigade = { x = 3 y = 0 }
-		mot_artillery_brigade = { x = 3 y = 1 }
-		mot_artillery_brigade = { x = 3 y = 2 }
-		mot_artillery_brigade = { x = 3 y = 3 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+		modern_sp_art_brigade = { x = 3 y = 0 }
+		modern_sp_art_brigade = { x = 3 y = 1 }
+		modern_sp_art_brigade = { x = 3 y = 2 }
+		modern_sp_art_brigade = { x = 3 y = 3 }
+		Engi_Bat = { x = 3 y = 4 }
 		modern_mbt = { x = 4 y = 0 }
-
 	}
 	support = {
+	logistics_company = { x = 0 y = 0 }
+	signal_company = { x = 0 y = 1 }
+	anti_tank = { x = 0 y = 2 }
+	field_hospital = { x = 0 y = 3 }
+	manpad = { x = 0 y = 4 }
 	}
 }
 division_template = {
@@ -180,6 +191,7 @@ division_template = {
 		modern_sp_art_brigade = { x = 3 y = 1 }
 		modern_sp_art_brigade = { x = 3 y = 2 }
 		modern_sp_art_brigade = { x = 3 y = 3 }
+		Engi_Bat = { x = 3 y = 4 }
 		modern_mbt = { x = 4 y = 0 }
 	}
 	support = {
@@ -188,6 +200,19 @@ division_template = {
 	anti_tank = { x = 0 y = 2 }
 	field_hospital = { x = 0 y = 3 }
 	manpad = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "공수특전사단"
+
+	regiments = {
+		heliborne_infantry = { x = 0 y = 0 }
+		heliborne_infantry = { x = 0 y = 1 }
+		heliborne_infantry = { x = 0 y = 2 }
+        heliborne_infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
 	}
 }
 units = {

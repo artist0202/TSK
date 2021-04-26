@@ -430,4 +430,8 @@ spriteTypes = {
 		name = "GFX_Vertical_maneuvering_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/infantry/입체기동장치.dds"
 	}
+	SpriteType = {
+		name = "GFX_engineer_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/공병장비.png"
+	}
 }

@@ -56,6 +56,7 @@ set_fuel_ratio = 1.0
 set_convoys = 350
 # Starting tech
 set_technology = {
+	engineer_equipment = 1
 	modern_moto = 1
 	tech_support = 1		
 	tech_engineers = 1

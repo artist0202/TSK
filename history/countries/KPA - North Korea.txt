@@ -6,6 +6,7 @@ set_research_slots = 4
 
 # Starting tech
 set_technology = {
+	engineer_equipment = 1	
 	tech_support = 1		
 	tech_engineers = 1
 	tech_engineers2 = 1
@@ -51,10 +52,13 @@ set_technology = {
 	m_1960_modern_tank = 1
 	m_1970_modern_tank = 1
 	m_1980_modern_tank = 1
+	m_1990_modern_tank = 1
 	
 	m_1970_mechanized_equipment = 1
 	m_1980_mechanized_equipment = 1
-
+	m_1990_mechanized_equipment = 1
+	m_2000_mechanized_equipment = 1
+	
 	m_1970_IFV = 1
 	m_1980_IFV = 1
 	m_1990_IFV = 1
@@ -65,14 +69,17 @@ set_technology = {
 	m_1970_spaa = 1
 	m_1980_spaa = 1
 	m_1990_spaa = 1
+	m_2000_spaa = 1
 	
 	m_1970_sp = 1	
 	m_1980_sp = 1
 	m_1990_sp = 1
+	m_2000_sp = 1
 	
 	m_1970_motorized_rocket_unit = 1
 	m_1980_motorized_rocket_unit = 1
 	m_1990_motorized_rocket_unit = 1
+	m_2000_motorized_rocket_unit = 1
 	
 	m_1970_manpad = 1
 	m_1980_manpad = 1

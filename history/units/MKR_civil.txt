@@ -13,6 +13,7 @@
 		light_infantry = { x = 2 y = 1 }
 		light_infantry = { x = 2 y = 2 }
 		modern_artillery_brigade = { x = 3 y = 0 }
+		Engi_Bat = { x = 3 y = 1 }
 
 	}
 	support = {
@@ -40,6 +41,7 @@ division_template = {
 		light_infantry = { x = 2 y = 0 }
 		modern_infantry = { x = 2 y = 1 }
 		modern_infantry = { x = 2 y = 2 }
+		Engi_Bat = { x = 2 y = 3 }
 		modern_mbt = { x = 3 y = 0 }
 
 	}
@@ -64,6 +66,7 @@ division_template = {
 		modern_marine = { x = 1 y = 2 }
 		modern_marine = { x = 2 y = 0 }
 		modern_marine = { x = 2 y = 1 }
+		Engi_Bat = { x = 2 y = 2 }
 		modern_amphibious_marine = { x = 3 y = 0 }
 		modern_mbt = { x = 4 y = 0 }
 		modern_sp_art_brigade = { x = 4 y = 1 }
@@ -99,7 +102,7 @@ division_template = {
 		modern_sp_art_brigade = { x = 3 y = 2 }
 		modern_sp_art_brigade = { x = 3 y = 3 }
 		modern_sp_anti_air_brigade = { x = 4 y = 0 }
-	
+		Heavy_Engi_Bat = { x = 4 y = 1 }
 
 	}
 	support = {
@@ -154,6 +157,7 @@ division_template = {
 		modern_sp_art_brigade = { x = 3 y = 1 }
 		modern_sp_art_brigade = { x = 3 y = 2 }
 		modern_sp_art_brigade = { x = 3 y = 3 }
+		Engi_Bat = { x = 3 y = 4 }
 		modern_mbt = { x = 4 y = 0 }
 	}
 	support = {
@@ -187,6 +191,7 @@ division_template = {
 		modern_sp_art_brigade = { x = 3 y = 1 }
 		modern_sp_art_brigade = { x = 3 y = 2 }
 		modern_sp_art_brigade = { x = 3 y = 3 }
+		Engi_Bat = { x = 3 y = 4 }
 		modern_mbt = { x = 4 y = 0 }
 	}
 	support = {
