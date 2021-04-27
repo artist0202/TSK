@@ -24,6 +24,8 @@ division_template = {
 	name = "향토방위사단"
 	priority = 0
 	
+	division_names_group = KOR_INF_01
+	
 	regiments = {
 		modern_infantry = { x = 0 y = 0 }
 		modern_infantry = { x = 0 y = 1 }
@@ -50,6 +52,8 @@ division_template = {
 division_template = {
 	name = "동원사단"
 	priority = 0
+	
+	division_names_group = KOR_INF_01
 	
 	regiments = {
 		light_infantry = { x = 0 y = 0 }
@@ -108,6 +112,8 @@ division_template = {
 	name = "기계화보병사단"
 	priority = 2
 	
+	division_names_group = KOR_MEC_01
+	
 	regiments = {
 		modern_mechanized = { x = 0 y = 0 }
 		modern_mechanized = { x = 0 y = 1 }
@@ -162,6 +168,8 @@ division_template = {
 division_template = {
 	name = "상비사단"
 	
+	division_names_group = KOR_INF_01
+	
 	regiments = {
 		modern_motorized = { x = 0 y = 0 }
 		modern_motorized = { x = 0 y = 1 }
@@ -192,6 +200,8 @@ division_template = {
 }
 division_template = {
 	name = "상비사단(중)"
+	
+	division_names_group = KOR_INF_01
 	
 	regiments = {
 		modern_motorized = { x = 0 y = 0 }
@@ -445,17 +455,6 @@ units = {
 		force_equipment_variants = { support_infantry_equipment_2 = { owner = "KOR" } }
 	}
 	division= {
-		name = "제70 보병사단 '충효'"
-		location = 7125
-		division_template = "동원사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.2
-		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
-		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
-		force_equipment_variants = { modern_artillery_equipment_1 = { owner = "KOR" } }
-		force_equipment_variants = { support_infantry_equipment_2 = { owner = "KOR" } }
-	}
-	division= {
 		name = "제71 보병사단 '선승'"
 		location = 7125
 		division_template = "동원사단"
@@ -599,6 +598,15 @@ units = {
 		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
 	}
 	
+	division= {
+		name = "제102기갑여단 '일출'"
+		location = 7125
+		division_template = "기갑여단"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
+		force_equipment_variants = { m_1980_mbt = { owner = "KOR" } }
+		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
+	}
 	#####################해병##########
 	
 	division= {
@@ -772,13 +780,9 @@ air_wings = {
 			owner = "KOR" 
 			amount = 30
 		}
-		m_1970_attack_helicopter_equipment = {
-			owner = "KOR" 
-			amount = 20
-		}
 		m_1980_attack_helicopter_equipment = {
 			owner = "KOR" 
-			amount = 40
+			amount = 60
 		}
 		m_1970_jet_CAS_equipment = {
 			owner = "KOR" 
