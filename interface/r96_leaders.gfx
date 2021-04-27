@@ -35,5 +35,13 @@ spriteTypes = {
 		name = "GFX_Portrait_shanghai_cho"
 		texturefile = "gfx/leaders/KOR/Portrait_shanghai_cho.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_kor_donald_i" #도날드 1세
+		texturefile = "gfx/leaders/KOR/portrait_kor_donald_i.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_kor_lee_jieun" #징짱
+		texturefile = "gfx/leaders/KOR/portrait_kor_lee_jieun.png"
+	}
 }	
 

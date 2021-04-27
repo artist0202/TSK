@@ -857,3 +857,23 @@ if = {
 		}
 	}
 }
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = yes
+	create_operative_leader = {
+		name = "이지은"
+		GFX = GFX_Portrait_kor_lee_jieun
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = no
+		nationalities = { KOR }
+	}	
+	create_operative_leader = {
+		name = "도날드 1세"
+		GFX = GFX_Portrait_kor_donald_i
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = no
+		nationalities = { KOR }
+	}	
+}
