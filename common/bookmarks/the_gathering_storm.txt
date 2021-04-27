@@ -90,7 +90,7 @@ bookmarks = {
 			}			
 		}
 		"KR1"={
-			history = "KOR_GATHERING_STORM_DESC"
+			history = "KR1_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 			}

@@ -48,17 +48,6 @@
  ROK_ship_torpedo_modern_1:0 "324mm 청상어"
  MKR_ship_torpedo_modern_1:0 "324mm 청상어"
  JDF_ship_torpedo_modern_1:0 "Mk.46 경어뢰"
- 
- carrier_ship_engine_future_2:0 "2x MT30 가스터빈 엔진"
- carrier_ship_engine_future_nuclear:0 "2x A1B 원자로"
- ship_sonar_future_1:0 "아틀라스 DSQS-21 BZ-M"
- ship_sonar_future_2:0 "아틀라스 DSQS-21 BZ-M"
- ship_armor_cruiser_future_1:0 "미래형 순양함 장갑"
- ship_armor_cruiser_future_2:0 "재설계된 미래형 순양함 장갑"
- ship_torpedo_future_1:0 "3x Mk.32 324mm"
- ship_torpedo_future_2:0 "3x Mk.32 324mm"
- ship_torpedo_sub_future_1:0 "8x 533mm 어뢰 발사관"
- ship_torpedo_sub_future_2:0 "8x 533mm 어뢰 발사관"
 #endregion
 
 
