@@ -744,69 +744,153 @@ units = {
 	
 air_wings = {
 	808 = { 
-		m_1970_jet_multirole_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-		m_1970_jet_fighter_equipment = {
-			owner = "KOR" 
-			amount = 30
-		}
-	}
-	810 = { 
-		m_1970_jet_fighter_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-		m_1970_jet_fighter_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-	}
-	525 = { 
-		m_1980_jet_multirole_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-		m_1980_jet_multirole_equipment = {
-			owner = "KOR" 
-			amount = 30
-		}
-		m_1970_attack_helicopter_equipment = {
-			owner = "KOR" 
-			amount = 20
-		}
-		m_1980_attack_helicopter_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-		m_1970_jet_CAS_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-	}
-	809 = { 
-		m_2000_jet_multirole_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-		m_2000_jet_fighter_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-	}
-	817 = { 
 		m_1990_jet_multirole_equipment = {
 			owner = "KOR" 
-			amount = 30
+			amount = 140
 		}
 		m_1990_jet_fighter_equipment = {
 			owner = "KOR" 
 			amount = 30
 		}
+
+	}
+	810 = { 
 		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 50
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 50
+		}
+		m_2010_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 130
+		}
+	}
+	525 = { 
+		m_2000_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 150
+		}
+		m_2010_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 20
+		}
+		m_2000_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 45
+		}
+		m_1990_jet_CAS_equipment = {
 			owner = "KOR" 
 			amount = 40
 		}
 	}
+	809 = { 
+		m_1990_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1990_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1990_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 45
+		}
+	}
+	817 = { 
+		m_2000_jet_multirole_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 30
+		}
+		m_2000_jet_fighter_equipment = {
+			owner = "KOR" 
+			amount = 40
+		}
+		m_1980_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 253
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_8
+			creator = "KOR"
+		}
+		requested_factories = 6
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_2000_mbt
+			creator = "KOR"
+		}
+		requested_factories = 3
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_2000_sp_equipment
+			creator = "KOR"
+		}
+		requested_factories = 2
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_1990_jet_fighter_equipment
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_2000_jet_multirole_equipment
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_2000_spaa_equipment
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_2000_atgm_equipment
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = m_1990_manpad_equipment
+			creator = "KOR"
+		}
+		requested_factories = 1
+		progress = 0.79
+		efficiency = 100
+	}
+
 }
