@@ -537,19 +537,23 @@ air_wings = {
 			owner = "KOR" 
 			amount = 50
 		}
+		m_2010_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 130
+		}
 	}
 	525 = { 
 		m_2000_jet_multirole_equipment = {
 			owner = "KOR" 
-			amount = 70
+			amount = 150
 		}
-		m_2000_attack_helicopter_equipment = {
+		m_2010_attack_helicopter_equipment = {
 			owner = "KOR" 
 			amount = 20
 		}
 		m_2000_attack_helicopter_equipment = {
 			owner = "KOR" 
-			amount = 40
+			amount = 45
 		}
 		m_1990_jet_CAS_equipment = {
 			owner = "KOR" 
@@ -565,6 +569,10 @@ air_wings = {
 			owner = "KOR" 
 			amount = 40
 		}
+		m_1990_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 45
+		}
 	}
 	817 = { 
 		m_2000_jet_multirole_equipment = {
@@ -578,6 +586,10 @@ air_wings = {
 		m_2000_jet_fighter_equipment = {
 			owner = "KOR" 
 			amount = 40
+		}
+		m_1980_attack_helicopter_equipment = {
+			owner = "KOR" 
+			amount = 253
 		}
 	}
 }

@@ -161,6 +161,9 @@ set_technology = {
 	
 	m_1970_attack_helicopter = 1
 	m_1980_attack_helicopter = 1
+	m_1990_attack_helicopter = 1
+	m_2000_attack_helicopter = 1
+	m_2010_attack_helicopter = 1
 	
 	m_1970_util_helicopter = 1
 	m_1980_util_helicopter = 1
@@ -223,6 +226,31 @@ set_technology = {
 	modern_fuel_refining = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	jet_engines = 1
+	advanced_rocket_engines = 1
+	improved_rocket_engines = 1
+	rocket_engines = 1
+	experimental_rockets = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	radio = 1
+	radio_detection = 1
+	radar_station = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+	#nukes = 1
 }
 
 add_ideas = {
@@ -235,6 +263,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
+		transport = 1
 	}
 	set_naval_oob = "KOR_1936_naval_mtg"
 }
@@ -242,6 +271,7 @@ if = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+		transport = 1
 	}
 	set_naval_oob = "KOR_1936_naval_mtg"
 }
