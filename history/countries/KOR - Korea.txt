@@ -24,10 +24,11 @@ add_ideas = {
 	KOR_danilminjok
 	kor_law_of_korean_5
 	KOR_legacy_of_518
-	#hell_joseon
-	#KOR_no_communism_crusader 
-    KOR_nationalist_question
     KOR_kowareta_katana
+	##관짝간 국민정신들##
+	#hell_joseon
+	#KOR_no_communism_crusader #'멸공북진' 요건 중점으로 감
+    #KOR_nationalist_question #'민족주의vs반민족주의 - 균형' 이건 나중에 구현할래 힣
 	#KOR_future_ideas #21세기 기술
 	#KOR_modern_millitary #미래 군대
 }
