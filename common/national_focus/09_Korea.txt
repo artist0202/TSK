@@ -1254,13 +1254,16 @@ focus_tree = {
 	focus = {
 		id = KOR_MB_2
 		icon = rok_mobilization
-		cost = 5.00
+		cost = 0.3
 		prerequisite = {
 			focus = KOR_MB_2nd_war
 			focus = KOR_MB_diplo_kill
 		}
 		x = 34
 		y = 5
+		available = {
+			has_war_with = KPA
+		}
 			completion_reward = {
 					swap_ideas = {
 							remove_idea = korean_war
@@ -1269,6 +1272,10 @@ focus_tree = {
 					swap_ideas = {
 							remove_idea = KOR_not_politic_act
 							add_idea = KOR_not_politic_act_2
+						}
+						add_timed_idea = {
+							idea = KOR_no_communism_crusader
+							days = 10
 						}
 				}
 
@@ -1327,10 +1334,6 @@ focus_tree = {
 							add_war_support = 0.05
 						}
 					add_war_support = 0.05
-					swap_ideas = {
-							remove_idea = KOR_nationalist_question
-							add_idea = KOR_weak_anti_nationalist
-						}
 				}
 
 	}
@@ -1460,6 +1463,8 @@ focus_tree = {
 				neutrality = 40
 			}
 			remove_ideas = kor_law_of_korean_5
+			remove_unit_leader = 2008
+			
 		}
 
 	}
@@ -2186,7 +2191,7 @@ focus_tree = {
 				create_country_leader = {
 					name = "Cho Yung Kil"
 					ideology = nazism
-					picture = "gfx/leaders/KOR/Gen_Cho_Yung-kil"
+					picture = "gfx/leaders/KOR/Gen_Cho_Yung-kil.dds"
 					traits = {
 					
 					}
