@@ -25,7 +25,7 @@ add_ideas = {
 	kor_law_of_korean_5
 	KOR_legacy_of_518
 	#hell_joseon
-	KOR_no_communism_crusader 
+	#KOR_no_communism_crusader 
     KOR_nationalist_question
     KOR_kowareta_katana
 	#KOR_future_ideas #21세기 기술
