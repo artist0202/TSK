@@ -116,6 +116,31 @@ set_technology = {
 	fuel_silos = 1
 	light_tank_4 = 1
 	light_tank_5 = 1
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	jet_engines = 1
+	advanced_rocket_engines = 1
+	improved_rocket_engines = 1
+	rocket_engines = 1
+	experimental_rockets = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	radio = 1
+	radio_detection = 1
+	radar_station = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	advanced_decryption = 1
+	#nukes = 1
 }
 set_convoys = 50
 
@@ -125,6 +150,7 @@ add_ideas = {
 	korean_war
 	closed_economy
     KOR_modern_millitary
+	FKR_back_down_military_2 
     KOR_juche
 }
 

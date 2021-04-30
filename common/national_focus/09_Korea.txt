@@ -1298,6 +1298,11 @@ focus_tree = {
 							bonus = 500.0
 							technology = nukes
 						}
+					add_tech_bonus = {
+							name = KOR_MB_northen_nuke
+							bonus = 500.0
+							technology = hydrogen_nukes
+						}
 					add_nuclear_bombs = 1
 				}
 

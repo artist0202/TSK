@@ -728,8 +728,14 @@ ideas = {
 				OR = {
 				    original_tag = KOR
 				    original_tag = PRK
+				} 
+				OR = {
+					NOT = {
+						has_idea = KOR_kowareta_katana
+					}
+					has_completed_focus = KOR_MB_2nd_war
 				}
-			}
+			}	
 			picture = korean_war2
 
 			ai_will_do = {
