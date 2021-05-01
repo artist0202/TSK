@@ -34,7 +34,7 @@ core_PRK = {
 
 		remove_effect = {
 			811 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			811 = {
 				remove_core_of = KPA
@@ -88,7 +88,7 @@ core_PRK = {
 
 		remove_effect = {
 			814 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			814 = {
 				remove_core_of = KPA
@@ -141,7 +141,7 @@ core_PRK = {
 
 		remove_effect = {
 			812 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			812 = {
 				remove_core_of = KPA
@@ -194,7 +194,7 @@ core_PRK = {
 
 		remove_effect = {
 			527 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			527 = {
 				remove_core_of = KPA
@@ -247,7 +247,7 @@ core_PRK = {
 
 		remove_effect = {
 			822 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			822 = {
 				remove_core_of = KPA
@@ -301,7 +301,7 @@ core_PRK = {
 
 		remove_effect = {
 			816 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			816 = {
 				remove_core_of = KPA
@@ -354,7 +354,7 @@ core_PRK = {
 
 		remove_effect = {
 			815 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			815 = {
 				remove_core_of = KPA
@@ -407,7 +407,7 @@ core_PRK = {
 
 		remove_effect = {
 			820 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			820 = {
 				remove_core_of = KPA
@@ -460,7 +460,7 @@ core_PRK = {
 
 		remove_effect = {
 			818 = {
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			818 = {
 				remove_core_of = KPA
@@ -532,7 +532,7 @@ core_HWAN = {
 				limit = {
 					is_core_of = JAP
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			add_timed_idea = {
 				idea = KOR_kowareta_katana
@@ -642,7 +642,7 @@ core_HWAN = {
 				limit = {
 					is_core_of = CHI
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			add_timed_idea = {
 				idea = KOR_kowareta_katana
@@ -695,25 +695,25 @@ core_HWAN = {
 				limit = {
 					is_core_of = INS
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			every_state = {
 				limit = {
 					is_core_of = MAL
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			every_state = {
 				limit = {
 					is_core_of = SIA
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			every_state = {
 				limit = {
 					is_core_of = VIE
 				}
-				add_core_of = ROOT
+				add_core_of = KOR
 			}
 			add_timed_idea = {
 				idea = KOR_kowareta_katana
@@ -783,97 +783,97 @@ core_HWAN = {
 
 		remove_effect = {
 				584 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				585 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				405 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				586 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				732 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				742 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				404 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				590 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				571 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				570 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				578  = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				569 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				40 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				588 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				589 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				618 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				654 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				568 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				567 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				566 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				576 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				575 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				565 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				564 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				563 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				561 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				560 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				657 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				409 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				408 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 				655 = {
-				    add_core_of = ROOT
+				    add_core_of = KOR
 				}
 			add_timed_idea = {
 				idea = KOR_kowareta_katana
