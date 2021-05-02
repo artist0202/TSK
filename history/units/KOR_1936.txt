@@ -789,7 +789,7 @@ units = {
 	#####################향토사단##########
 	division= {
 		#제31 보병사단 '충장'"
-		location = 13248
+		location = 13238
 		division_template = "향토방위사단"
 		start_experience_factor = 0.2
 		division_name = {
@@ -1024,88 +1024,4 @@ air_wings = {
 			amount = 40
 		}
 	}
-}
-####################
-####################
-####            #### 
-####  장    비   ####
-####  생    산   ####
-####            ####
-####################
-####################
-#솔직히 선택시키는 것 보다는 미리 있는거에서 조율시키는게 더 좋은 듯.
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_8
-			creator = "KOR"
-		}
-		requested_factories = 6
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_2000_mbt
-			creator = "KOR"
-		}
-		requested_factories = 3
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_2000_sp_equipment
-			creator = "KOR"
-		}
-		requested_factories = 2
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_1990_jet_fighter_equipment
-			creator = "KOR"
-		}
-		requested_factories = 1
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_2000_jet_multirole_equipment
-			creator = "KOR"
-		}
-		requested_factories = 1
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_2000_spaa_equipment
-			creator = "KOR"
-		}
-		requested_factories = 1
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_2000_atgm_equipment
-			creator = "KOR"
-		}
-		requested_factories = 1
-		progress = 0.79
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = m_1990_manpad_equipment
-			creator = "KOR"
-		}
-		requested_factories = 1
-		progress = 0.79
-		efficiency = 100
-	}
-
 }

@@ -141,6 +141,8 @@ set_technology = {
 	advanced_encryption = 1
 	advanced_decryption = 1
 	#nukes = 1
+	
+	heavy_mlrs_equipment_1 = 1
 }
 set_convoys = 50
 
@@ -150,13 +152,13 @@ add_ideas = {
 	korean_war
 	closed_economy
     KOR_modern_millitary
-	FKR_back_down_military_2 
     KOR_juche
 }
 
 set_stability = 0.2
 set_war_support = 0.4
 set_fuel_ratio = 0.1
+
 set_convoys = 100
 set_politics = {
 	ruling_party = communism

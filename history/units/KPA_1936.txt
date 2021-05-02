@@ -299,6 +299,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제5 보병 사단"
@@ -311,6 +312,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제12 보병 사단"
@@ -323,6 +325,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제25 보병 사단"
@@ -335,6 +338,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 
 ###4th Army Corps
@@ -350,6 +354,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 		
 	}
 	division = {			
@@ -384,6 +389,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "33rd 보병 사단"
@@ -396,6 +402,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 		
 	}
 	division = {			
@@ -409,6 +416,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 		
 	}
 	division = {			
@@ -422,6 +430,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 ###2nd Army Corps
@@ -477,6 +486,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "근위 제6 보병사단"
@@ -489,6 +499,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제8 보병사단"
@@ -501,6 +512,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 
 	division = {			
@@ -538,6 +550,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1990_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제13 보병 사단"
@@ -550,6 +563,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제31 보병 사단"
@@ -562,6 +576,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제46 보병 사단"
@@ -574,6 +589,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 
 ###############################
@@ -591,6 +607,7 @@ units = {
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1990_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제4 기계화사단"
@@ -602,6 +619,7 @@ units = {
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1990_mlrs_equipment = { owner = "KPA" } }
 		
 	}
 	###815 Mechanized Corps
@@ -615,6 +633,7 @@ units = {
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제45 기계화사단"
@@ -625,6 +644,7 @@ units = {
 		force_equipment_variants = { m_1980_APC_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 
 	division = {			
@@ -670,12 +690,14 @@ units = {
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제105 근위서울 류경수 전차사단"
 		location = 10065
 		division_template = "땅크사단"
 		start_experience_factor = 0.8
+		force_equipment_variants = { m_2000_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제106 전차사단"
@@ -687,6 +709,7 @@ units = {
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_6 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1990_mlrs_equipment = { owner = "KPA" } }
 	}
 
 ###############################
@@ -716,6 +739,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제79 보병 사단"
@@ -728,6 +752,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제111 보병 사단"
@@ -740,6 +765,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_0 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### 7th Army Corps
@@ -772,6 +798,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제20 차량화 보병 사단"
@@ -782,7 +809,8 @@ units = {
 		force_equipment_variants = { m_1950_mbt = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
-		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }		
+		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }	
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }		
 	}
 	
 	### 12th Army Corps
@@ -807,6 +835,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제68 보병 사단"
@@ -819,6 +848,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### U/I Army Corps, Hamgyong
@@ -833,6 +863,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### Pyongyang Defense Command 10065
@@ -847,6 +878,7 @@ units = {
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제106 보병 사단"
@@ -857,6 +889,7 @@ units = {
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제17 보병 사단"
@@ -867,6 +900,7 @@ units = {
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 ###############################
@@ -894,6 +928,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }	
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제167 차량화 보병 사단"
@@ -906,6 +941,7 @@ units = {
 		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }	
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1970_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제47 기계화 려단"
@@ -956,6 +992,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제42 보병 사단"
@@ -968,6 +1005,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### 10th Army Corps
@@ -982,6 +1020,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### 11th Army Corps
@@ -996,6 +1035,7 @@ units = {
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
 		force_equipment_variants = { m_1980_atgm_equipment = { owner = "KPA" } }
+		force_equipment_variants = { m_1970_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### 108th Mechanized Corps, Hamhung
@@ -1009,6 +1049,7 @@ units = {
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제109 기계화사단"
@@ -1020,6 +1061,7 @@ units = {
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_4 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 	### 425th Mechanized Corps, Chongju & Yongbyon
@@ -1033,6 +1075,7 @@ units = {
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	division = {			
 		name = "제184 기계화사단"
@@ -1044,6 +1087,7 @@ units = {
 		force_equipment_variants = { m_1970_spaa_equipment = { owner = "KPA" } }
 		force_equipment_variants = { infantry_equipment_5 = { owner = "KPA" } }
 		force_equipment_variants = { support_infantry_equipment_1 = { owner = "KPA" } }
+		force_equipment_variants = { m_1980_mlrs_equipment = { owner = "KPA" } }
 	}
 	
 ######################################
