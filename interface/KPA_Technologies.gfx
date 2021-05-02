@@ -113,7 +113,15 @@ spriteTypes = {
  ################################################################################
  ######MLRS
  ################################################################################
- 
+	SpriteType = {
+		name = "GFX_KPA_heavy_mlrs_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/art/heavy_mlrs_equipment_1.png"
+	}
+	SpriteType = {
+		name = "GFX_KPA_heavy_mlrs_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/art/heavy_mlrs_equipment_2.png"
+	}
+	
  	SpriteType = {
 		name = "GFX_KPA_m_1970_mlrs_equipment_medium"
 		texturefile = "gfx/interface/technologies/art/PRK_1970_mlrs.dds"

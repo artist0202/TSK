@@ -1,0 +1,21 @@
+
+Communication_Command = {
+	icon = usa_congress
+
+	# picture = 
+
+	allowed = {
+		OR = {
+		original_tag = KOR
+		original_tag = ROK
+		original_tag = MKR
+		original_tag = JDF
+		original_tag = PRK
+		}
+	}
+
+	priority = 1000
+
+	scripted_gui = parliament_gui
+	visible_when_empty = yes
+}

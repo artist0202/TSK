@@ -103,8 +103,8 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 50
-		hard_attack = 15
-		ap_attack = 20
+		hard_attack = 5
+		ap_attack = 3
 		air_attack = 0
 		
 		build_cost_ic = 23
@@ -129,9 +129,9 @@ equipments = {
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 55
-		hard_attack = 20
-		ap_attack = 50
+		soft_attack = 65
+		hard_attack = 5
+		ap_attack = 5
 		air_attack = 0
 		
 		build_cost_ic = 26
@@ -156,9 +156,9 @@ equipments = {
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 60
-		hard_attack = 35
-		ap_attack = 150
+		soft_attack = 85
+		hard_attack = 5
+		ap_attack = 5
 		air_attack = 0
 		
 		build_cost_ic = 30
@@ -183,9 +183,9 @@ equipments = {
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 65
-		hard_attack = 35
-		ap_attack = 190
+		soft_attack = 100
+		hard_attack = 5
+		ap_attack = 5
 		air_attack = 0
 		
 		build_cost_ic = 35
@@ -195,4 +195,57 @@ equipments = {
 		}
 	}
 	
+	heavy_mlrs_equipment_1 = { #BM-30
+		year = 1936
+
+		archetype = motorized_rocket_equipment
+		parent = motorized_rocket_equipment_1
+		priority = 50
+		visual_level = 2
+		
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 13
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 60
+		hard_attack = 35
+		ap_attack = 270
+		air_attack = 0
+		
+		build_cost_ic = 60
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
+	}
+	
+	heavy_mlrs_equipment_2 = { #선군 ATACMS
+		year = 1936
+
+		archetype = motorized_rocket_equipment
+		parent = heavy_mlrs_equipment_1
+		priority = 50
+		visual_level = 2
+		
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 13
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 80
+		hard_attack = 55
+		ap_attack = 300
+		air_attack = 0
+		
+		build_cost_ic = 75
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
+	}
 }

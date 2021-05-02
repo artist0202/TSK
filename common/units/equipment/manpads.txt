@@ -84,40 +84,4 @@ equipments = {
 			steel = 3
 		}
 	}
-	m_2000_manpad_equipment = {
-		year = 1943
-
-		archetype = manpad_equipment
-		parent = m_1980_manpad_equipment
-		priority = 80
-		visual_level = 2
-		
-		soft_attack = 1
-		hard_attack = 3
-		ap_attack = 5
-		air_attack = 80
-
-		build_cost_ic = 7
-		resources = {
-			steel = 3
-		}
-	}
-	m_2010_manpad_equipment = {
-		year = 1943
-
-		archetype = manpad_equipment
-		parent = m_1980_manpad_equipment
-		priority = 80
-		visual_level = 2
-		
-		soft_attack = 1
-		hard_attack = 3
-		ap_attack = 5
-		air_attack = 100
-
-		build_cost_ic = 8
-		resources = {
-			steel = 4
-		}
-	}
 }

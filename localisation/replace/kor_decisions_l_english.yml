@@ -41,6 +41,9 @@
  Retrain: "재교육의 실행"
  Retrain.t: "장군들이 현대의 전략,전술을 익힐것입니다."
  
+ Communication_Command: "합동참모본부"
+ Communication_Command_desc: "합동참모본부(북한의 경우 총참모부)는 육, 해, 공군의 뛰어난 인적자원들로 구성되어있으며, 이들은 각 군의 유기적인 합동작전을 구상하고 효율적으로 작전이 진행될 수있도록 감독하며, 미래 전장에 대한 군의 적응을 위해서 가상 적군에 대한 정보수집을 통해 군사력건설의 소요와 군사전략을 기획해 현대에서든 미래에서든 군이 효율적인 승리를 거두는 것을 목표로 하고 있는 조직입니다. \n\n\n\n\n £command \n\n\n\n\n"
+ 
  JDF_internal_factions:0 "제국파 VS 입헌파"
  JDF_internal_factions_desc:0 "과거로이동한후,자위대의 파벌은 나뉘어졌습니다.\n\n가장 관련 있는 조직으로는 우리는 일본인이며, 조국인 일본제국으로 복귀하여 함께싸워야한다는 [ImperialismName]와,\n\n우리는 일본제국의 군대가아닌 일본국의 자위대이며,전수방위원칙에 따라야한다는 [constitutionalismName]가 존재합니다. [constitutionalismValues] [ImperialismValues]"
  JDF_constitutionalism_values:0 "\n\n[constitutionalismName]의 §Y영향력§!: [?JDF.constitutionalism|+0]"
@@ -97,7 +100,11 @@
  KOR_army_spylevel_few_effects:0 "§O북한의 간첩이 군대내부에 조금침투해있으며 적극대응을 추천드립니다§!"
  KOR_army_spylevel_mid_effects:0 "§O북한의 간첩이 많이 침투해있으며 강력대응을 추천드립니다§!"
  KOR_army_spylevel_many_effects:0 "§R기무사령부에서 보고드립니다. 완벽하게 북한의 간첩들을 처리하였으며 어떠한 조치도 필요 없습니다.§!"
-
+ 
+ develop_sead: "전자전 무장 개발"
+ make_sead: "전자전 무장 생산"
+ sead_mission: "전자전 임무 실행 / 현재 보유중인 전자전 무장 : [?Root.sead_arm]"
+ 
  army_xp:0 "£army_experience_dec  §H75§!"
  army_xp_blocked:0 "£army_experience_dec  §H75§!"
  cp_atleast:0 "£cp_atleast_dec  §H20§!"

@@ -101,7 +101,12 @@ spriteTypes = {
 
 
 #######################디시전 사진##########
-	
+
+	spriteType = {
+		name = "command"
+		texturefile = "gfx/texticons/command.png"
+		legacy_lazy_load = no
+	}
 	spriteType = {
 		name = "GFX_faction_constitutionalism"
 		texturefile = "gfx/texticons/faction_constitutionalism.dds"

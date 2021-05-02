@@ -10,7 +10,7 @@ ideas = {
 			
 			
 			modifier = {
-				land_reinforce_rate = 0.2 
+				land_reinforce_rate = 0.2
 				attrition = -0.8
 				land_night_attack = 0.85
 				army_org_factor = 0.3
@@ -20,30 +20,24 @@ ideas = {
 			}
 		} 
 	country = { 
-		KOR_TEST_IDEA = {
+		sead = { #시드임무
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = commie
+			
+			traits = { KOR_sead }
 			
 			modifier = {
-				land_reinforce_rate = 0.2 
-				attrition = -0.1
-				land_night_attack = 0.1
-				army_org_factor = 0.3
-				army_org_regain	= 0.3
-				supply_consumption_factor = -0.6
-				}
-			equipment_bonus = {
-                modern_sp_anti_air_brigade = {
-                    air_attack = -0.9
-                }
-                modern_sp_anti_air = {
-                    air_attack = -0.9
-                }
-                m_1970_spaa_equipment = {
-                    air_attack = -0.9
-                }
-                m_1980_spaa_equipment = {
-                    air_attack = -0.9
-                }
-            }
+			}
 		}
 	    KOR_hirohito = {
 			picture = JAP_hirohito
@@ -898,7 +892,7 @@ ideas = {
 				army_defence_factor = -0.1
 				army_attack_factor = -0.1
 				army_morale_factor = -0.1
-				conscription_factor = -0.76
+				conscription_factor = -0.77
 			
 			}
 		}
