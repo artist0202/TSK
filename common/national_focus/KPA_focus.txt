@@ -1,0 +1,486 @@
+focus_tree = {
+	id = KPA_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KPA
+		}
+	}
+	default = no
+	focus = {
+		id = KPA_timeslip
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = KPA_manlima_yundong
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 0
+
+	}
+	focus = {
+		id = KPA_war_plan_south
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_timeslip
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = KPA_kimilsung-jungilism_up
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_timeslip
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = KPA_kill_chinese_sup
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_war_plan_south
+		}
+		prerequisite = {
+			focus = KPA_kimilsung-jungilism_up
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = KPA_pokdong_no
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_timeslip
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = KPA_upgrade_politic_power
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_pokdong_no
+		}
+		prerequisite = {
+			focus = KPA_kimilsung-jungilism_up
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = KPA_fight_with_korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_kill_chinese_sup
+		}
+		prerequisite = {
+			focus = KPA_upgrade_politic_power
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = KPA_south_attack
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_fight_with_korea
+		}
+		mutually_exclusive = {
+			focus = KPA_allied_suggest
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = KPA_kaesung_yosea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_south_attack
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = KPA_none-korean_support
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_south_attack
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = KPA_nuke_choose
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_kaesung_yosea
+		}
+		prerequisite = {
+			focus = KPA_south_attack
+		}
+		prerequisite = {
+			focus = KPA_none-korean_support
+		}
+		mutually_exclusive = {
+			focus = KPA_defence_pyongyang
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = KPA_allied_suggest
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_fight_with_korea
+		}
+		mutually_exclusive = {
+			focus = KPA_south_attack
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = KPA_support_of_korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_allied_suggest
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = KPA_unifice_korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_allied_suggest
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = KPA_united_end
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_support_of_korea
+		}
+		prerequisite = {
+			focus = KPA_unifice_korea
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = KPA_army_factory_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_manlima_yundong
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = KPA_steel_factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_army_factory_1
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = KPA_heroism_industry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_army_factory_1
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = KPA_arms_factory_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_steel_factory
+		}
+		prerequisite = {
+			focus = KPA_heroism_industry
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = KPA_road_to_pyongyang
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_army_factory_1
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = KPA_research_slot_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_manlima_yundong
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = KPA_national_engeneer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_research_slot_1
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = KPA_more_nuke
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_research_slot_1
+		}
+		prerequisite = {
+			focus = KPA_army_factory_1
+		}
+		prerequisite = {
+			focus = KPA_national_engeneer
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = KPA_life_is_nuke
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_research_slot_1
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = KPA_kpas_researcher
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_life_is_nuke
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = KOR_industrail_complex_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_manlima_yundong
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = KPA_stearilla
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_industrail_complex_1
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = KPA_kpa_national_intelliger_agency
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_stearilla
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = KPA_cheollo
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_industrail_complex_1
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = KPA_republic_industrial
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_industrail_complex_1
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = KPA_road_to_sinuiju
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_cheollo
+		}
+		prerequisite = {
+			focus = KPA_republic_industrial
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = KPA_kangsong_daeguk
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_arms_factory_2
+			focus = KPA_kpas_researcher
+			focus = KPA_kpa_national_intelliger_agency
+		}
+		prerequisite = {
+			focus = KPA_more_nuke
+		}
+		prerequisite = {
+			focus = KPA_road_to_sinuiju
+		}
+		prerequisite = {
+			focus = KPA_road_to_pyongyang
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = KPA_defence_pyongyang
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_kaesung_yosea
+		}
+		prerequisite = {
+			focus = KPA_none-korean_support
+		}
+		mutually_exclusive = {
+			focus = KPA_nuke_choose
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = KPA_kim_dynasty_korean_peninsula
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_defence_pyongyang
+			focus = KPA_nuke_choose
+		}
+		prerequisite = {
+			focus = KPA_industry_go_another
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = KPA_industry_go_another
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_south_attack
+		}
+		prerequisite = {
+			focus = KPA_fight_with_korea
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = KPA_go_asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_kim_dynasty_korean_peninsula
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = KPA_go_europe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KPA_kim_dynasty_korean_peninsula
+		}
+		x = 13
+		y = 8
+
+	}
+}
