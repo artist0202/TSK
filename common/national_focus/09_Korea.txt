@@ -1983,30 +1983,30 @@ focus_tree = {
 		x = 48
 		y = 3
 		completion_reward = {
-			add_ideas = hanjin_ship
+			add_ideas = nine_hanjin_ship
 			if = {
 				limit = {
-					has_idea = hanjin_ship
+					has_idea = nine_hanjin_ship
 				}
 				add_political_power = 150
 			}
 			if = {
 				limit = {
-					has_idea = hyundai_ship
+					has_idea = nine_hyundai_ship
 				}
 				swap_ideas = {
-					add_idea = hyundai_ship
-					remove_idea = daewoo_ship
+					add_idea = nine_hyundai_ship
+					remove_idea = nine_daewoo_ship
 				}
 				add_political_power = 60
 			}
 			if = {
 				limit = {
-					has_idea = daewoo_ship
+					has_idea = nine_daewoo_ship
 				}
 				swap_ideas = {
-					add_idea = hanjin_ship
-					remove_idea = daewoo_ship
+					add_idea = nine_hanjin_ship
+					remove_idea = nine_daewoo_ship
 				}
 				add_political_power = 60
 			}
