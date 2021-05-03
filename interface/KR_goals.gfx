@@ -140,5 +140,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/K_asche/attack_battle.png"
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_military_reorganization"
+		texturefile = "gfx/interface/goals/admiral/Military_Reorganization.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_nationalization_of_enterprises"
+		texturefile = "gfx/interface/goals/admiral/nationalization_of_enterprises.dds"
+		legacy_lazy_load = no
+	}
 
 }
