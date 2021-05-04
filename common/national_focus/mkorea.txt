@@ -253,7 +253,7 @@ focus_tree = {
 	}
 	focus = { #군대 재정비
 		id = MKR_Military_Reorganization
-		icon = GFX_goal_unknown
+		icon = GFX_military_reorganization
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_East_Asia_Tension_Stiff
@@ -1015,7 +1015,7 @@ focus_tree = {
 	}
 	focus = { #파산위기 기업 국유화
 		id = MKR_nationalization_of_enterprises
-		icon = GFX_goal_unknown
+		icon = GFX_nationalization_of_enterprises
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_economic_crisis
