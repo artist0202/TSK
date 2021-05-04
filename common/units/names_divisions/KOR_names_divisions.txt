@@ -328,29 +328,29 @@ KOR_ARM_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Armored Division" }
-		2 = { "%dnd Armored Division" }
-		3 = { "%drd Armored Division" }
-		4 = { "%dth Armored Division" }
-		5 = { "%dth Armored Division" }
-		6 = { "%dth Armored Division" }
-		7 = { "%dth Armored Division" }
-		8 = { "%dth Armored Division" }
-		9 = { "%dth Armored Division" }
-		10 = { "%dth Armored Division" }
-		11 = { "%dth Armored Division" }
-		12 = { "%dth Armored Division" }
-		13 = { "%dth Armored Division" }
-		14 = { "%dth Armored Division" }
-		15 = { "%dth Armored Division" }
-		16 = { "%dth Armored Division" }
-		17 = { "%dth Armored Division" }
-		18 = { "%dth Armored Division" }
-		19 = { "%dth Armored Division" }
-		20 = { "%dth Armored Division" }
-		21 = { "%dst Armored Division" }
-		22 = { "%dnd Armored Division" }
-		23 = { "%drd Armored Division" }
+		1 = { "%d. 기갑 사단" }
+		2 = { "%d. 기갑 사단" }
+		3 = { "%d. 기갑 사단" }
+		4 = { "%d. 기갑 사단" }
+		5 = { "%d. 기갑 사단" }
+		6 = { "%d. 기갑 사단" }
+		7 = { "%d. 기갑 사단" }
+		8 = { "%d. 기갑 사단" }
+		9 = { "%d. 기갑 사단" }
+		10 = { "%d. 기갑 사단" }
+		11 = { "%d. 기갑 사단" }
+		12 = { "%d. 기갑 사단" }
+		13 = { "%d. 기갑 사단" }
+		14 = { "%d. 기갑 사단" }
+		15 = { "%d. 기갑 사단" }
+		16 = { "%d. 기갑 사단" }
+		17 = { "%d. 기갑 사단" }
+		18 = { "%d. 기갑 사단" }
+		19 = { "%d. 기갑 사단" }
+		20 = { "%d. 기갑 사단" }
+		21 = { "%d. 기갑 사단" }
+		22 = { "%d. 기갑 사단" }
+		23 = { "%d. 기갑 사단" }
 
 	}
 }
@@ -453,16 +453,16 @@ KOR_MAR_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst ROK Marine Division 'Sea-Dragon'" }
-		2 = { "%dnd ROK Marine Division 'Blue-Dragon'" }
-		3 = { "%drd ROK Marine Division 'Green-Dragon'" }
-		4 = { "%dth ROK Marine Division 'White-Dragon" }
-		5 = { "%dth ROK Marine Division 'Sky-Dragon'" }
-		6 = { "%dth ROK Marine Division" }
-		7 = { "%dth ROK Marine Division" }
-		8 = { "%dth ROK Marine Division" }
-		9 = { "%dth ROK Marine Division" }
-		10 = { "%dth ROK Marine Division" }
+		1 = { "%d. 해병 사단 '해룡'" }
+		2 = { "%d. 해병 사단 '청룡'" }
+		3 = { "%d. 해병 사단 '흑룡'" }
+		4 = { "%d. 해병 사단 '공룡" }
+		5 = { "%d. 해병 사단 '천룡'" }
+		6 = { "%d. 해병 사단" }
+		7 = { "%d. 해병 사단" }
+		8 = { "%d. 해병 사단" }
+		9 = { "%d. 해병 사단" }
+		10 = { "%d. 해병 사단" }
 
 	}
 }
@@ -486,16 +486,16 @@ KOR_PAR_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst ROK Airborne Division 'Eagle'" }
-		2 = { "%dnd ROK Airborne Division 'Flying Tiger'" }
-		3 = { "%drd ROK Airborne Division 'Pegasus'" }
-		4 = { "%dth ROK Airborne Division 'Ghost'" }
-		5 = { "%dth ROK Airborne Division 'Golden Bat'" }
-		6 = { "%dth ROK Airborne Division 'Black Panther'" }
-		7 = { "%dth ROK Airborne Division" }
-		8 = { "%dth ROK Airborne Division" }
-		9 = { "%dth ROK Airborne Division" }
-		10 = { "%dth ROK Airborne Division" }
+		1 = { "%d. 공수 사단 '독수리'" }
+		2 = { "%d. 공수 사단 '비호'" }
+		3 = { "%d. 공수 사단 '천마'" }
+		4 = { "%d. 공수 사단 '귀성'" }
+		5 = { "%d. 공수 사단 '황금 박쥐'" }
+		6 = { "%d. 공수 사단 '흑범'" }
+		7 = { "%d. 공수 사단" }
+		8 = { "%d. 공수 사단" }
+		9 = { "%d. 공수 사단" }
+		10 = { "%d. 공수 사단" }
 
 	}
 }
