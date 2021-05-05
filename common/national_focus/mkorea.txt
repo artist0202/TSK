@@ -164,7 +164,7 @@ focus_tree = {
 	}
 	focus = { #인기있는 얼굴마담
 		id = MKR_Popular
-		icon = GFX_goal_unknown
+		icon = GFX_popular
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
@@ -1049,7 +1049,7 @@ focus_tree = {
 	}
 	focus = { #세금인상
 		id = MKR_tax_increase
-		icon = GFX_goal_unknown
+		icon = GFX_tax_increase
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_securing_national_finance

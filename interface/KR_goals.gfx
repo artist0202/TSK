@@ -142,12 +142,22 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_military_reorganization"
-		texturefile = "gfx/interface/goals/admiral/Military_Reorganization.dds"
+		texturefile = "gfx/interface/goals/admiral360/Military_Reorganization.dds"
 		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_nationalization_of_enterprises"
-		texturefile = "gfx/interface/goals/admiral/nationalization_of_enterprises.dds"
+		texturefile = "gfx/interface/goals/admiral360/nationalization_of_enterprises.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_tax_increase"
+		texturefile = "gfx/interface/goals/admiral360/tax_increase.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_popular"
+		texturefile = "gfx/interface/goals/admiral360/popular.png"
 		legacy_lazy_load = no
 	}
 
