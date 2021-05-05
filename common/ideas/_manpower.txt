@@ -10,7 +10,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -39,7 +39,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -84,7 +84,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -173,7 +173,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -293,7 +293,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -439,7 +439,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -571,7 +571,7 @@ ideas = {
 				NOT = {
 				    OR = {
 					    original_tag = KOR
-				        original_tag = PRK
+				        original_tag = KPA
 					}	
 				}
 			}
@@ -686,14 +686,14 @@ ideas = {
 			allowed = {
 				OR = {
 				    original_tag = KOR
-				    original_tag = PRK
+				    original_tag = KPA
 				}
 			}
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				OR = {
 				    original_tag = KOR
-				    original_tag = PRK
+				    original_tag = KPA
 				}
 			}
 			picture = korean_war
@@ -720,14 +720,14 @@ ideas = {
 			allowed = {
 				OR = {
 				    original_tag = KOR
-				    original_tag = PRK
+				    original_tag = KPA
 				}
 			}
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				OR = {
 				    original_tag = KOR
-				    original_tag = PRK
+				    original_tag = KPA
 				} 
 				OR = {
 					NOT = {
@@ -735,6 +735,7 @@ ideas = {
 					}
 					has_completed_focus = KOR_MB_2nd_war
 				}
+				has_war = yes
 			}	
 			picture = korean_war2
 

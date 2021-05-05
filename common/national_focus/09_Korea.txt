@@ -3295,7 +3295,7 @@ focus_tree = {
 				expire = "1965.1.1"
 				ideology = socialism
 				traits = {
-					moon_trait
+					KOR_president_moon_disaster
 					
 				}
 			}
@@ -3306,7 +3306,7 @@ focus_tree = {
 				expire = "1965.1.1"
 				ideology = marxism
 				traits = {
-					moon_trait
+					KOR_president_moon_disaster
 					
 				}
 			}
