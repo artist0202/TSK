@@ -20,8 +20,8 @@ state={
 		1936.1.2 = {
 			remove_core_of = PRK
 			buildings = {
-			infrastructure = 3
-			dockyard = 3
+				infrastructure = 6
+				dockyard = 3
 			}
 		}
 		1936.1.3 = {

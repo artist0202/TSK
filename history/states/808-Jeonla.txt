@@ -29,6 +29,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 4
 			dockyard = 2
+			arms_factory = 3
 			}
 			remove_core_of = PRK
 		}

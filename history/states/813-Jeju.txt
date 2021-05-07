@@ -18,8 +18,8 @@ state={
 		add_core_of = PRK
 		1936.1.2 = {
 			buildings = {
-			dockyard = 3
-			fuel_silo = 1
+				dockyard = 3
+				fuel_silo = 1
 			}
 		}
 		1936.1.3 = {

@@ -36,9 +36,13 @@ state={
 		1936.1.2 = {
 			remove_core_of = PRK
 			buildings = {
-			industrial_complex = 8
-			arms_factory = 3
-			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 16
+			dockyard = 3
+			air_base = 6
+			fuel_silo = 3
+			steel_alloy_ind = 2
+			infrastructure = 10
 			}
 		}
 		1936.1.3 = {
