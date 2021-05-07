@@ -257,6 +257,7 @@ set_technology = {
 
 add_ideas = {
     KOR_09_modern_millitary
+	KOR_modern_airforce
 }
 
 
