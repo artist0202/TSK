@@ -140,7 +140,8 @@ set_technology = {
 	advanced_computing_machine = 1
 	advanced_encryption = 1
 	advanced_decryption = 1
-	#nukes = 1
+	nukes = 1
+	hydrogen_nukes = 1
 	
 	heavy_mlrs_equipment_1 = 1
 }
@@ -152,12 +153,13 @@ add_ideas = {
 	korean_war
 	closed_economy
     KOR_modern_millitary
+	KPA_chinese_leaders_attack
     KOR_juche
 }
 
-set_stability = 0.2
-set_war_support = 0.4
-set_fuel_ratio = 0.1
+set_stability = 0.15
+set_war_support = 0.25
+set_fuel_ratio = 0.05
 
 set_convoys = 100
 set_politics = {
@@ -216,7 +218,7 @@ create_country_leader = {
 
 	create_field_marshal = {
 		name = "Kim Jong-un"
-			picture = "Kim_Jong-un.dds"
+			picture = "KJU.dds"
 		traits = { inspirational_leader }
 		id = 44100
 		skill = 1
@@ -224,6 +226,17 @@ create_country_leader = {
 		defense_skill = 1
 		planning_skill = 1
 		logistics_skill = 1
+	}
+	create_field_marshal = {
+		name = "Jang Seong Taek"
+		picture = "장성택.dds"
+		traits = {  }
+		id = 41101
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
 	}
 	create_corps_commander = {
 		name = "Ri Myong-su"
@@ -255,7 +268,7 @@ create_country_leader = {
 	}
 	create_corps_commander = {
 		name = "Hyon Yong Chol"
-		picture = "Portrait_Hyon_Yong_Chol.dds"
+		picture = "현영철.dds"
 		traits = {  }
 		id = 44104
 		skill = 2
@@ -267,7 +280,7 @@ create_country_leader = {
 
 	create_corps_commander = {
 		name = "Cho Ryong Hae"
-		picture = "Portrait_Cho_Ryong_Hae.dds"
+		picture = "최룡해.dds"
 		traits = {  }
 		id = 44105
 		skill = 2

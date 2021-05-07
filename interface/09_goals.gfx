@@ -10,6 +10,23 @@ spriteTypes = {
 		name = "focus_Lee_Myung_bak"
 		texturefile = "gfx/interface/goals/focus_Lee_Myung_bak.dds"
 	}
+	####
+	SpriteType = {
+		name = "Warning_to_North_Korea"   
+		texturefile = "gfx/interface/goals/K_asche/Warning_to_North_Korea.png"
+	}
+	SpriteType = { 
+		name = "death_communsim"   
+		texturefile = "gfx/interface/goals/K_asche/death_communsim.png"
+	}
+	SpriteType = {
+		name = "attack_battle"    
+		texturefile = "gfx/interface/goals/K_asche/attack_battle.png"
+	}
+	SpriteType = {
+		name = "38line"     
+		texturefile = "gfx/interface/goals/K_asche/38line.png"
+	}
 	SpriteType = {
 		name = "focus_Roh_Moo_hyun"
 		texturefile = "gfx/interface/goals/focus_Roh_Moo_hyun.dds"

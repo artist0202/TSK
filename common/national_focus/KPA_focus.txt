@@ -11,46 +11,92 @@ focus_tree = {
 	default = no
 	focus = {
 		id = KPA_timeslip
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = 타임슬립
+		cost = 0.3
 		x = 9
 		y = 0
+			available = {
+					KPA = {
+							owns_state = 818
+						}
+					KPA = {
+							owns_state = 527
+						}
+				}
+			bypass = {
+				NOT = {
+					KPA = {
+							owns_state = 818
+						}
+					KPA = {
+							owns_state = 527
+						}
+					}	
+				}
+			completion_reward = {
+					add_political_power = 150
+					custom_effect_tooltip = KOR_MB_timeslip_is_done
+					hidden_effect = {
+						add_stability = -0.1
+							add_ideas = FKR_back_down_military_2
+							set_major = yes
+							add_ideas = KOR_modern_millitary
+							set_country_flag = big_event_time_slip
+							set_country_flag = 2009_scenario
+						}
+				}
 
 	}
 	focus = {
 		id = KPA_manlima_yundong
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = 천리마운동재개
+		cost = 2
 		x = 23
 		y = 0
+		available = {
+			OR = {
+				has_completed_focus = KPA_kim_dynasty_korean_peninsula
+				has_completed_focus = KPA_united_end
+			}
+		}
+		completion_reward = {
+			add_ideas = chunrima
+		}
 
 	}
 	focus = {
 		id = KPA_war_plan_south
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = attack_south_korea
+		cost = 0.3
 		prerequisite = {
 			focus = KPA_timeslip
 		}
 		x = 6
 		y = 1
+		completion_reward = {
+			add_war_support = 0.15
+		}
 
 	}
 	focus = {
 		id = KPA_kimilsung-jungilism_up
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = juche
+		cost = 0.3
 		prerequisite = {
 			focus = KPA_timeslip
 		}
 		x = 9
 		y = 1
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.1
+		}
 
 	}
 	focus = {
 		id = KPA_kill_chinese_sup
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = maoism2
+		cost = 1
 		prerequisite = {
 			focus = KPA_war_plan_south
 		}
@@ -59,23 +105,41 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
+		completion_reward = {
+			remove_unit_leader = 41101
+			add_stability = 0.025
+			add_political_power = 120
+			remove_ideas = KPA_chinese_leaders_attack
+			add_timed_idea = {
+				idea = KPA_killed_chinese_leader
+				days = 40
+			}
+		}
 
 	}
 	focus = {
 		id = KPA_pokdong_no
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = revolutionize_ulema
+		cost = 0.2
 		prerequisite = {
 			focus = KPA_timeslip
 		}
 		x = 12
 		y = 1
+		available = {
+			NOT = {
+				has_war_with = KOR
+			}
+		}
+		completion_reward = {
+			add_ideas = KPA_attack_pokdong
+		}
 
 	}
 	focus = {
 		id = KPA_upgrade_politic_power
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = communist_china
+		cost = 1
 		prerequisite = {
 			focus = KPA_pokdong_no
 		}
@@ -84,12 +148,19 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
+		completion_reward = {
+			add_ideas = generic_communist_revolutionary
+			
+			army_experience = 15
+			navy_experience = 15
+			air_experience = 15
+		}
 
 	}
 	focus = {
 		id = KPA_fight_with_korea
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = Warning_to_North_Korea 
+		cost = 2
 		prerequisite = {
 			focus = KPA_kill_chinese_sup
 		}
@@ -98,48 +169,96 @@ focus_tree = {
 		}
 		x = 9
 		y = 3
+		completion_reward = {
+			remove_ideas = FKR_back_down_military_2
+		}
 
 	}
 	focus = {
 		id = KPA_south_attack
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = attack_battle
+		cost = 2
 		prerequisite = {
 			focus = KPA_fight_with_korea
 		}
 		mutually_exclusive = {
 			focus = KPA_allied_suggest
 		}
+		available = {
+			KOR = {
+				has_completed_focus = KOR_MB_northen_fight
+			}
+		}	
+		bypass = {
+			OR = {
+				KOR = {
+					has_completed_focus = KOR_MB_2nd_war
+				}
+				has_war_with = KOR
+			}	
+		}
 		x = 6
 		y = 4
+		completion_reward = {
+			
+			add_nuclear_bombs = 15
+					set_country_flag = big_event_2nd_korean_war
+					declare_war_on = {
+							target = KOR
+							type = annex_everything
+						}
+		}
 
 	}
 	focus = {
 		id = KPA_kaesung_yosea
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = 38line
+		cost = 0.3
 		prerequisite = {
 			focus = KPA_south_attack
 		}
 		x = 5
 		y = 5
+		available = {
+				KPA = {
+					controls_state = 811
+				}
+			}	
+		bypass = {
+			NOT = {
+				KPA = {
+					controls_state = 811
+				}
+			}	
+			}	
+		completion_reward = {
+			add_timed_idea = {
+				idea = KPA_kaeseong_defence
+				days = 60
+			}
+		}
 
 	}
 	focus = {
 		id = KPA_none-korean_support
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = juche2
+		cost = 2
 		prerequisite = {
 			focus = KPA_south_attack
 		}
 		x = 7
 		y = 5
+		completion_reward = {
+			add_stability = 0.2
+			army_experience = 3
+			add_war_support = 0.25
+		}
 
 	}
 	focus = {
 		id = KPA_nuke_choose
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = nuclear_science
+		cost = 2
 		prerequisite = {
 			focus = KPA_kaesung_yosea
 		}
@@ -154,17 +273,58 @@ focus_tree = {
 		}
 		x = 3
 		y = 6
+		completion_reward = {
+			launch_nuke = {
+				province = 7125
+				state = 807
+				controller = KOR
+				use_nuke = yes
+			}			
+			launch_nuke = {
+				province = 13244
+				state = 525
+				controller = KOR
+				use_nuke = yes
+			}			
+			launch_nuke = {
+				province = 13249
+				state = 817
+				controller = KOR
+				use_nuke = yes
+			}		
+			launch_nuke = { 
+				province = 13248
+				state = 808
+				controller = KOR
+				use_nuke = yes
+			}			
+			launch_nuke = {
+				province = 4056
+				state = 809
+				controller = KOR
+				use_nuke = yes
+			}			
+			launch_nuke = {
+				province = 13250
+				state = 809
+				controller = KOR
+				use_nuke = yes
+			}			
+		}
 
 	}
 	focus = {
 		id = KPA_allied_suggest
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_fight_with_korea
 		}
 		mutually_exclusive = {
 			focus = KPA_south_attack
+		}
+		available = {
+			always = no
 		}
 		x = 12
 		y = 4
@@ -173,7 +333,7 @@ focus_tree = {
 	focus = {
 		id = KPA_support_of_korea
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_allied_suggest
 		}
@@ -184,7 +344,7 @@ focus_tree = {
 	focus = {
 		id = KPA_unifice_korea
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_allied_suggest
 		}
@@ -195,7 +355,7 @@ focus_tree = {
 	focus = {
 		id = KPA_united_end
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_support_of_korea
 		}
@@ -209,7 +369,7 @@ focus_tree = {
 	focus = {
 		id = KPA_army_factory_1
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_manlima_yundong
 		}
@@ -220,7 +380,7 @@ focus_tree = {
 	focus = {
 		id = KPA_steel_factory
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_army_factory_1
 		}
@@ -231,7 +391,7 @@ focus_tree = {
 	focus = {
 		id = KPA_heroism_industry
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_army_factory_1
 		}
@@ -242,7 +402,7 @@ focus_tree = {
 	focus = {
 		id = KPA_arms_factory_2
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_steel_factory
 		}
@@ -256,7 +416,7 @@ focus_tree = {
 	focus = {
 		id = KPA_road_to_pyongyang
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_army_factory_1
 		}
@@ -267,7 +427,7 @@ focus_tree = {
 	focus = {
 		id = KPA_research_slot_1
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_manlima_yundong
 		}
@@ -278,7 +438,7 @@ focus_tree = {
 	focus = {
 		id = KPA_national_engeneer
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_research_slot_1
 		}
@@ -289,7 +449,7 @@ focus_tree = {
 	focus = {
 		id = KPA_more_nuke
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_research_slot_1
 		}
@@ -306,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = KPA_life_is_nuke
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_research_slot_1
 		}
@@ -317,7 +477,7 @@ focus_tree = {
 	focus = {
 		id = KPA_kpas_researcher
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_life_is_nuke
 		}
@@ -328,7 +488,7 @@ focus_tree = {
 	focus = {
 		id = KOR_industrail_complex_1
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_manlima_yundong
 		}
@@ -339,7 +499,7 @@ focus_tree = {
 	focus = {
 		id = KPA_stearilla
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KOR_industrail_complex_1
 		}
@@ -350,7 +510,7 @@ focus_tree = {
 	focus = {
 		id = KPA_kpa_national_intelliger_agency
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_stearilla
 		}
@@ -361,7 +521,7 @@ focus_tree = {
 	focus = {
 		id = KPA_cheollo
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KOR_industrail_complex_1
 		}
@@ -372,7 +532,7 @@ focus_tree = {
 	focus = {
 		id = KPA_republic_industrial
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KOR_industrail_complex_1
 		}
@@ -383,7 +543,7 @@ focus_tree = {
 	focus = {
 		id = KPA_road_to_sinuiju
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_cheollo
 		}
@@ -397,7 +557,7 @@ focus_tree = {
 	focus = {
 		id = KPA_kangsong_daeguk
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 2
 		prerequisite = {
 			focus = KPA_arms_factory_2
 			focus = KPA_kpas_researcher
@@ -418,8 +578,8 @@ focus_tree = {
 	}
 	focus = {
 		id = KPA_defence_pyongyang
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = death_communsim
+		cost = 2
 		prerequisite = {
 			focus = KPA_kaesung_yosea
 		}
@@ -429,14 +589,25 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = KPA_nuke_choose
 		}
+		available = {
+				KPA = {
+					controls_state = 818
+				}
+			}	
 		x = 6
 		y = 6
+		completion_reward = {
+			add_timed_idea = {
+				idea = KPA_save_the_pyongyang 
+				days = 30
+			}
+		}
 
 	}
 	focus = {
 		id = KPA_kim_dynasty_korean_peninsula
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = great_red_menace
+		cost = 2
 		prerequisite = {
 			focus = KPA_defence_pyongyang
 			focus = KPA_nuke_choose
@@ -446,12 +617,15 @@ focus_tree = {
 		}
 		x = 9
 		y = 7
+		completion_reward = {
+			add_ideas = KPA_red_peninsula
+		}
 
 	}
 	focus = {
 		id = KPA_industry_go_another
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = industry_military
+		cost = 2
 		prerequisite = {
 			focus = KPA_south_attack
 		}
@@ -460,28 +634,245 @@ focus_tree = {
 		}
 		x = 9
 		y = 6
+		available = {
+			has_war_with = KOR
+		}
+		bypass = {
+			NOT = {
+				has_war_with = KOR
+			}
+		}
+		completion_reward = {
+			
+					random_owned_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = steel_alloy_ind
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					818 = {
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+									type = industrial_complex
+									level = 4
+									instant_build = yes
+								}
+						}
+		}
 
 	}
 	focus = {
 		id = KPA_go_asia
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = asia
+		cost = 2
 		prerequisite = {
 			focus = KPA_kim_dynasty_korean_peninsula
 		}
 		x = 5
 		y = 8
+		available = {
+			KPA = {
+				controls_state = 525
+				controls_state = 807
+			}
+		}
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = JAP
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CHI
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = MAN
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = MEN
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SHX
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PRC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = XSM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YUN
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = JAP
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = GXC
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SIA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PHI
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = INS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = RAJ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = MON
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AFG
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PER
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TIB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = IRQ
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SIK
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TAN
+			}
+		}
 
 	}
 	focus = {
 		id = KPA_go_europe
-		icon = GFX_goal_unknown
-		cost = 10.00
+		icon = europe
+		cost = 2
 		prerequisite = {
 			focus = KPA_kim_dynasty_korean_peninsula
 		}
 		x = 13
 		y = 8
+		available = {
+			KPA = {
+				controls_state = 525
+				controls_state = 807
+			}
+		}
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = SOV
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = GER
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = POL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CZE
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ENG
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = FRA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = SPA
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = IRE
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AUS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = TUR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = BEL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = HOL
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = INS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ROM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = YUG
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ITA
+			}
+		}
 
 	}
 }

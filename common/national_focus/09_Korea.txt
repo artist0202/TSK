@@ -15,15 +15,15 @@ focus_tree = {
 		x = 8
 		y = 0
 			available = {
+				OR = {
+					has_completed_focus = KOR_MB_11
+					has_completed_focus = KOR_MB_12
+				}	
 					KOR = {
-							owns_state = 807
+							owns_state = 527
 						}
 					KOR = {
-							owns_state = 525
-						}
-					OR = {
-							has_completed_focus = KOR_MB_northen_allied_support
-							has_completed_focus = KOR_MB_northen_fight
+							owns_state = 818
 						}
 				}
 			completion_reward = {
@@ -726,10 +726,7 @@ focus_tree = {
 		y = 2
 			completion_reward = {
 					KPA = {
-							swap_ideas = {
-									remove_idea = FKR_back_down_military
-									add_idea = FKR_back_down_military_2
-								}
+									remove_idea = FKR_back_down_military_2
 						}
 				}
 
@@ -775,7 +772,18 @@ focus_tree = {
 							ideology = stalinism
 							traits = {
 
-}
+							}
+						}
+					create_field_marshal = {
+							name = "Kim Jong-un"
+							desc = ""
+						traits = { inspirational_leader }
+							id = 45000
+							skill = 1
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 1
+							logistics_skill = 1
 						}
 				}
 
@@ -908,6 +916,7 @@ focus_tree = {
 
 }
 						}
+						remove_unit_leader = 45000
 					random_list = {
 							30 = {
 									country_event = {
