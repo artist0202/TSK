@@ -164,7 +164,7 @@ focus_tree = {
 	}
 	focus = { #인기있는 얼굴마담
 		id = MKR_Popular
-		icon = GFX_popular
+		icon = GFX_Popular_face_madam
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_implementation_of_appeasement_policy
@@ -1015,7 +1015,7 @@ focus_tree = {
 	}
 	focus = { #파산위기 기업 국유화
 		id = MKR_nationalization_of_enterprises
-		icon = GFX_nationalization_of_enterprises
+		icon = GFX_Acquisition_of_business
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_economic_crisis
@@ -1049,7 +1049,7 @@ focus_tree = {
 	}
 	focus = { #세금인상
 		id = MKR_tax_increase
-		icon = GFX_tax_increase
+		icon = GFX_tax_increase2
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_securing_national_finance
@@ -1173,7 +1173,7 @@ focus_tree = {
 	}
 	focus = { #신 새마을운동
 		id = MKR_New_Saemaul_Movement
-		icon = GFX_goal_unknown
+		icon = GFX_new_Town
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_Sixth_Economic_Development_Plan
