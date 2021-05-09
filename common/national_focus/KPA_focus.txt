@@ -273,6 +273,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 6
+		available = {
+			always = no
+		}
 		completion_reward = {
 			launch_nuke = {
 				province = 7125
