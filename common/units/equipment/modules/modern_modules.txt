@@ -650,7 +650,7 @@ equipment_modules = {
 
 	ship_torpedo_modern_1 = {
 		category = ship_torpedo
-		
+
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -669,7 +669,6 @@ equipment_modules = {
 
 	ship_torpedo_modern_2 = {
 		category = ship_torpedo
-		parent = ship_torpedo_4
 		
 		sfx = sfx_ui_sd_module_turret
 
@@ -694,7 +693,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 50
-			build_cost_ic = 16000
+			build_cost_ic = 500
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -710,7 +709,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 55
-			build_cost_ic = 16000
+			build_cost_ic = 600
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -726,7 +725,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 62
-			build_cost_ic = 16000
+			build_cost_ic = 700
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -743,7 +742,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 20
 			hg_attack = 30
-			build_cost_ic = 16000
+			build_cost_ic = 1000
 		}
 		build_cost_resources = {
 			steel = 1

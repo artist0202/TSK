@@ -48,6 +48,8 @@ spriteTypes = {
 	
 	spriteType = { name = "GFX_unit_Modern_DDH_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDH.dds" }
 	spriteType = { name = "GFX_unit_Modern_DDH_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDH_inverted.dds" }
+	spriteType = { name = "GFX_unit_modern_submarine_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds" }
+	spriteType = { name = "GFX_unit_modern_submarine_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_submarine_inverted.dds" }
 	spriteType = { name = "GFX_unit_modern_DDG_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDG.dds" }
 	spriteType = { name = "GFX_unit_modern_DDG_icon_medium_black"					texturefile = "gfx/interface/counters/ships_small/onmap_Modern_DDG_inverted.dds" }
 	spriteType = { name = "GFX_unit_modern_PCC_icon_medium_white"					texturefile = "gfx/interface/counters/ships_small/onmap_PCC.dds" }

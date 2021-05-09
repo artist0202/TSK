@@ -2,6 +2,10 @@ focus_tree = {
 	id = mkorea_focus_tree
 	country = {
 		factor = 0
+		modifier = {
+			add = 10
+			tag = KR1
+		}
 	}
 	default = no
 	continuous_focus_position = { x = 100 y = 1900 }
@@ -20,14 +24,11 @@ focus_tree = {
 		id = MKR_economic_crisis
 		icon = GFX_goal_economic_crisis
 		cost = 10.00
-		prerequisite = {
-			focus = MKR_recovery_from_civil_war
-		}
 		completion_reward = {
 			country_event = { id = mkorea.49 }
 		}
-		x = 16
-		y = 1
+		x = 28
+		y = 0
 
 	}
 	focus = { #내전에서의 회복 ('국가재건' 국민정신 300일동안 획득)
@@ -845,7 +846,7 @@ focus_tree = {
 			custom_effect_tooltip = USA_great_depression_cooldown_tt
 		}
 		x = 24
-		y = 3
+		y = 1
 
 	}
 	focus = { #서해안 고속도로
@@ -883,8 +884,7 @@ focus_tree = {
 			}		
 		}
 		x = 22
-		y = 4
-
+		y = 2
 	}
 	focus = { #1910년의 복수
 		id = MKR_revenge_of_1910
@@ -953,7 +953,7 @@ focus_tree = {
 			custom_effect_tooltip = USA_great_depression_cooldown_tt
 		}
 		x = 24
-		y = 4
+		y = 2
 
 	}
 	focus = { #동해안 고속도로
@@ -990,7 +990,7 @@ focus_tree = {
 			}		
 		}
 		x = 26
-		y = 4
+		y = 2
 
 	}
 	focus = { #부서진 산업 복구
@@ -1010,7 +1010,7 @@ focus_tree = {
 			} 
 		}
 		x = 24
-		y = 5
+		y = 3
 
 	}
 	focus = { #파산위기 기업 국유화
@@ -1025,8 +1025,7 @@ focus_tree = {
 			set_country_flag = { flag = KOR_economic_collapse_cooldown value = 1 days = 100 }
 			custom_effect_tooltip = KOR_economic_collapse_cooldown_tt
 		}
-		relative_position_id = MKR_economic_crisis
-		x = 0
+		x = 28
 		y = 1
 
 	}
@@ -1042,9 +1041,9 @@ focus_tree = {
 			set_country_flag = { flag = KOR_economic_collapse_cooldown value = 1 days = 100 }
 			custom_effect_tooltip = KOR_economic_collapse_cooldown_tt
 		}
-		relative_position_id = MKR_nationalization_of_enterprises
-		x = 0
-		y = 1
+
+		x = 28
+		y = 2
 
 	}
 	focus = { #세금인상
@@ -1060,9 +1059,8 @@ focus_tree = {
 			set_country_flag = { flag = KOR_economic_collapse_cooldown value = 1 days = 100 }
 			custom_effect_tooltip = KOR_economic_collapse_cooldown_tt
 		}
-		relative_position_id = MKR_securing_national_finance
-		x = 0
-		y = 1
+		x = 28
+		y = 3
 
 	}
 	focus = { #강철합금공장 확장
@@ -1092,7 +1090,7 @@ focus_tree = {
 			}
 		}
 		x = 25
-		y = 6
+		y = 4
 
 	}
 	focus = { #민간산업에 투자
@@ -1151,7 +1149,7 @@ focus_tree = {
 			}
 		}
 		x = 27
-		y = 6
+		y = 4
 
 	}
 	focus = { #6차 경제개발 5개년 계획
@@ -1168,7 +1166,7 @@ focus_tree = {
 			} 
 		}
 		x = 30
-		y = 3
+		y = 1
 
 	}
 	focus = { #신 새마을운동
@@ -1182,7 +1180,7 @@ focus_tree = {
 			add_ideas = MKR_saemaul
 		}
 		x = 30
-		y = 4
+		y = 2
 
 	}
 	focus = { #공업단지 신설
@@ -1193,7 +1191,7 @@ focus_tree = {
 			focus = MKR_New_Saemaul_Movement
 		}
 		x = 30
-		y = 5
+		y = 3
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -1233,7 +1231,7 @@ focus_tree = {
 			}
 		}
 		x = 32
-		y = 4
+		y = 2
 
 	}
 	focus = { #해운국
@@ -1247,7 +1245,7 @@ focus_tree = {
 			add_ideas = mkr_ships_focus
 		}
 		x = 35
-		y = 4
+		y = 2
 
 	}
 	focus = { #방산업체 활성화
@@ -1264,7 +1262,7 @@ focus_tree = {
 			custom_effect_tooltip = mkr_Activating_the_defense_contractor
 		}
 		x = 33
-		y = 5
+		y = 3
 
 	}
 	focus = { #중공업,중화학단지
@@ -1312,7 +1310,7 @@ focus_tree = {
 			}
 		}
 		x = 31
-		y = 6
+		y = 4
 
 	}
 	focus = { #추가적인 조선소
@@ -1357,7 +1355,7 @@ focus_tree = {
 			}
 		}
 		x = 35
-		y = 6
+		y = 4
 
 	}
 	focus = { #한강의 기적
@@ -1377,7 +1375,7 @@ focus_tree = {
 			}
 		}
 		x = 33
-		y = 7
+		y = 5
 
 	}
 	focus = { #무역품 수출허가
@@ -1394,7 +1392,7 @@ focus_tree = {
 			add_ideas = MKR_trade_goods
 		}
 		x = 37
-		y = 4
+		y = 2
 
 	}
 	focus = { #대한민국 국가정보원
@@ -1658,7 +1656,7 @@ focus_tree = {
 			focus = MKR_clearance_for_export_of_trade_goods
 		}
 		x = 39
-		y = 4
+		y = 2
 
 	}
 }
