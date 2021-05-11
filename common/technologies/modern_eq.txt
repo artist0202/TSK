@@ -1478,7 +1478,7 @@ technologies = {
 	m_1970SS = {#로미오급
 
 		enable_equipments = { 
-			modern_submarine_1
+			ship_hull_modern_submarine_1
 		}
 
 		research_cost = 1
@@ -1492,7 +1492,7 @@ technologies = {
 	m_1980SS = {#로미오급
 
 		enable_equipments = { 
-			modern_submarine_2
+			ship_hull_modern_submarine_2
 		}
 
 		research_cost = 1
@@ -1506,7 +1506,7 @@ technologies = {
 	m_1990SS = {#장보고급,상어급
 
 		enable_equipments = { 
-			modern_submarine_3
+			ship_hull_modern_submarine_3
 		}
 
 		research_cost = 1
@@ -1520,7 +1520,7 @@ technologies = {
 	m_2000SS = {#손원일급
 
 		enable_equipments = { 
-			modern_submarine_4
+			ship_hull_modern_submarine_4
 		}
 
 		research_cost = 1
@@ -1534,7 +1534,7 @@ technologies = {
 	m_2010SS = {#신포급,도산안창호급
 
 		enable_equipments = { 
-			modern_submarine_5
+			ship_hull_modern_submarine_5
 		}
 
 		research_cost = 1
@@ -1877,6 +1877,34 @@ technologies = {
 		}
 	}
 	
+	sub_ship_engine_modern_1 = { #잠수함엔진1
+
+		enable_equipment_modules = {
+			sub_ship_engine_modern_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	sub_ship_engine_modern_2 = { #잠수함엔진2
+
+		enable_equipment_modules = {
+			sub_ship_engine_modern_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
 	light_ship_engine_modern_1 = { #경엔진1
 
 		enable_equipment_modules = {
@@ -1923,6 +1951,20 @@ technologies = {
 
 		enable_equipment_modules = {
 			cruiser_ship_engine_modern_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ship_sub_snorkel_modern = { #스노클
+
+		enable_equipment_modules = {
+			ship_sub_snorkel_modern
 		}
 
 		research_cost = 1
@@ -2087,6 +2129,61 @@ technologies = {
 		}
 	}
 	
+	ship_torpedo_sub_modern_1 = { #잠수함어뢰
+
+		enable_equipment_modules = {
+			ship_torpedo_sub_modern_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ship_torpedo_sub_modern_2 = { #잠수함어뢰2
+
+		enable_equipment_modules = {
+			ship_torpedo_sub_modern_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ship_torpedo_sub_modern_3 = { #잠수함어뢰3
+
+		enable_equipment_modules = {
+			ship_torpedo_sub_modern_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ship_sts_sub_1 = { #잠수함발사 대함미사일
+
+		enable_equipment_modules = {
+			ship_sts_sub_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 ####################################################################
 #########산업
 

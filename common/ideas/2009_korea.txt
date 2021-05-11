@@ -17,21 +17,21 @@ ideas = {
 				supply_consumption_factor = -0.6
 				}
 			}
-			KOR_modern_airforce = { #미래 국군
-			picture = generic_production_bonus
-			allowed = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			
-			modifier = {
-				air_attack_factor = 0.8
-				air_defence_factor = 0.8
-				air_agility_factor = 0.8
-				}
-			}
+			#KOR_modern_airforce = { #미래 국군 = (왜넣음? 공군은딱히 더건들필요없는데?)
+			#picture = generic_production_bonus
+			#allowed = {
+			#	always = yes
+			#}
+			#
+			#removal_cost = -1
+			#
+			#
+			#modifier = {
+			#	air_attack_factor = 0.8
+			#	air_defence_factor = 0.8
+			#	air_agility_factor = 0.8
+			#	}
+			#}
 		} 
 	country = { 
 		sead = { #시드임무

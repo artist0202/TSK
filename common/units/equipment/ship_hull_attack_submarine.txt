@@ -19,8 +19,18 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_torpedo_slot = inherit 
-			fixed_ship_engine_slot = inherit
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			fixed_ship_sonar_slot = {
+				required = no
+				allowed_module_categories = { ship_sonar }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -65,7 +75,7 @@ equipments = {
 		manpower = 200
 	}
 	
-	modern_submarine_1 = { #로미오급
+	ship_hull_modern_submarine_1 = { #로미오급
 		year = 1922
 
 		archetype = ship_hull_modern_submarine
@@ -74,15 +84,16 @@ equipments = {
 		module_slots = inherit	
 	}
 	
-	modern_submarine_2 = { #우즈시오급,상어급
+	ship_hull_modern_submarine_2 = { #우즈시오급,상어급
 		year = 1944
 
 		archetype = ship_hull_modern_submarine
 		priority = 2500
-		parent = modern_submarine_1
+		parent = ship_hull_modern_submarine_1
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -126,15 +137,16 @@ equipments = {
 		}			
 	}
 	
-	modern_submarine_3 = { #유우시오급,신포급,장보고급
+	ship_hull_modern_submarine_3 = { #유우시오급,신포급,장보고급
 		year = 1944
 
 		archetype = ship_hull_modern_submarine
 		priority = 2500
-		parent = modern_submarine_2
+		parent = ship_hull_modern_submarine_2
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -178,15 +190,16 @@ equipments = {
 		}	
 	}
 	
-	modern_submarine_4 = { #하루시오급
+	ship_hull_modern_submarine_4 = { #하루시오급
 		year = 1944
 
 		archetype = ship_hull_modern_submarine
 		priority = 2500
-		parent = modern_submarine_3
+		parent = ship_hull_modern_submarine_3
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -230,15 +243,16 @@ equipments = {
 		}		
 	}
 	
-	modern_submarine_5 = { #오야시오급,손원일급
+	ship_hull_modern_submarine_5 = { #오야시오급,손원일급
 		year = 1944
 
 		archetype = ship_hull_modern_submarine
 		priority = 2500
-		parent = modern_submarine_4
+		parent = ship_hull_modern_submarine_4
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {

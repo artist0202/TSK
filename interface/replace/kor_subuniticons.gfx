@@ -73,4 +73,9 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_modern_PK_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PK.png"		noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_PK_2_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PK.png"		noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_modern_PK_3_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/PK.png"		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_modern_submarine_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png" 		noOfFrames = 2 }
 }

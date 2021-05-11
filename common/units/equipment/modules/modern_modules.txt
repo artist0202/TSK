@@ -494,6 +494,19 @@ equipment_modules = {
 		}
 	}
 	
+	ship_sub_snorkel_modern = {
+		category = ship_sub_snorkel
+		gfx = ship_sub_snorkel
+		
+		multiply_stats = {
+			sub_visibility = -0.25 
+		}
+		
+		add_stats = {
+			build_cost_ic = 200
+		}
+	}
+	
 	ship_hel_modern = {
 		category = ship_airplane_launcher
 		sfx = sfx_ui_sd_module_turret
@@ -692,8 +705,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 50
+			torpedo_attack = 40
 			build_cost_ic = 500
+			sub_attack = 10
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -708,8 +722,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 55
+			torpedo_attack = 45
 			build_cost_ic = 600
+			sub_attack = 12
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -724,8 +739,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 62
+			torpedo_attack = 50
 			build_cost_ic = 700
+			sub_attack = 15
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -740,8 +756,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			lg_attack = 20
-			hg_attack = 30
+			lg_attack = 15
+			hg_attack = 20
 			build_cost_ic = 1000
 		}
 		build_cost_resources = {

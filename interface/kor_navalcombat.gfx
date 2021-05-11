@@ -31,6 +31,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/PK.png"
 		noOfFrames = 2
 	}
+	spriteType = { # "battleship"
+		name = "GFX_navalcombat_ship_icon_modern_submarine"
+		texturefile = "gfx/interface/navalcombat/ships/modern_SS.png"
+		noOfFrames = 2
+	}
 	
 	#I don't know what I am doing...
 	spriteType = { # "battlecruiser"
@@ -59,6 +64,12 @@ spriteTypes = {
 	spriteType = { # "battlecruiser"
 		name = "GFX_navalcombat_ship_small_icon_modern_PK"
 		texturefile = "gfx/interface/counters/ships_small/onmap_modern_PK.png"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # "battlecruiser"
+		name = "GFX_navalcombat_ship_small_icon_modern_submarine"
+		texturefile = "gfx/interface/counters/ships_small/onmap_submarine.dds"
 		noOfFrames = 1
 	}
 ]

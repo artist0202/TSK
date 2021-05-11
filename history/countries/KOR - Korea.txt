@@ -224,6 +224,13 @@ set_technology = {
 	ship_manpad = 1
 	depth_charge_modern_1 = 1
 	
+	sub_ship_engine_modern_1 = 1
+	sub_ship_engine_modern_2 = 1
+	ship_sub_snorkel_modern = 1
+	ship_torpedo_sub_modern_1 = 1
+	ship_torpedo_sub_modern_2 = 1
+	ship_sts_sub_1 = 1
+	
 	modern_steel_mill = 1
 	modern_fuel_refining = 1
 	synth_oil_experiments = 1
@@ -887,6 +894,19 @@ if = {
 			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
 			mid_1_custom_slot = ship_mg
 			rear_1_custom_slot = ship_vulcan_1
+		}
+	}
+	create_equipment_variant = {
+		name = "장보고급"
+		type = ship_hull_modern_submarine_3
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = ship_sts_sub_1
 		}
 	}
 }
