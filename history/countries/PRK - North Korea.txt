@@ -183,7 +183,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KPA/KJU.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = nazism
 	traits = {
 		#
 	}
@@ -194,7 +194,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/PRK/Kim_il_sung.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = jucheism
 	traits = {
 		#
 	}
