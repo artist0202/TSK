@@ -127,4 +127,36 @@ spriteTypes = {
 		name = "GFX_new_Town"
 		texturefile = "gfx/interface/goals/K_asche/new_Town.png"
 	}
+	SpriteType = {
+		name = "GFX_Acquisition_of_business"
+		texturefile = "gfx/interface/goals/K_asche/Acquisition_of_business.png"
+	}
+	SpriteType = {
+		name = "GFX_new_Town"
+		texturefile = "gfx/interface/goals/K_asche/new_Town.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_Diplomacy_with_France"
+		texturefile = "gfx/interface/goals/K_asche/MKR_Diplomacy_with_France.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_PDU"
+		texturefile = "gfx/interface/goals/K_asche/MKR_PDU.png"
+	}
+	SpriteType = {
+		name = "GFX_defeat_of_fascism"
+		texturefile = "gfx/interface/goals/K_asche/MKR_the_defeat_of_fascism.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_the_OMG_red"
+		texturefile = "gfx/interface/goals/K_asche/MKR_the_OMG_red.dds"
+	}
+	SpriteType = {
+		name = "GFX_MKR_non_aggression_treaty_with_Japan"
+		texturefile = "gfx/interface/goals/K_asche/MKR_non_aggression_treaty_with_Japan.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_Stronger_Korea"
+		texturefile = "gfx/interface/goals/K_asche/MKR_Stronger_Korea.png"
+	}
 }

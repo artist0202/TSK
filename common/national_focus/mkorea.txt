@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	focus = { #태평양 방위연합
 		id = MKR_PDU
-		icon = GFX_goal_unknown
+		icon = GFX_MKR_PDU
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_Stand_with_US
@@ -504,7 +504,7 @@ focus_tree = {
 	}
 	focus = { #일본과의 불가침조약
 		id = MKR_non_aggression_treaty_with_Japan
-		icon = GFX_goal_unknown
+		icon = GFX_MKR_non_aggression_treaty_with_Japan
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_preventive_war
@@ -729,7 +729,7 @@ focus_tree = {
 	}
 	focus = { #헌법제5조 폐기
 		id = MKR_Stronger_Korea
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_MKR_Stronger_Korea
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_the_appointment_of_General_Lee
@@ -1534,7 +1534,7 @@ focus_tree = {
 	}
 	focus = { #연합국 가입
 		id = MKR_Diplomacy_with_France
-		icon = GFX_goal_unknown
+		icon = GFX_MKR_Diplomacy_with_France
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_contact_allies 
@@ -1550,12 +1550,15 @@ focus_tree = {
 	}
 	focus = { #파시즘타도
 		id = MKR_the_defeat_of_fascism
-		icon = GFX_focus_attack_germany
+		icon = GFX_MKR_the_OMG_red
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_the_old_enemy
 			focus = MKR_Allied_accession
 		}
+		
+		x = 4
+		y = 13
 		completion_reward = {
 			create_wargoal = {
 				type = topple_government
@@ -1563,9 +1566,6 @@ focus_tree = {
 				expire = 0
 			}
 		}
-		x = 4
-		y = 13
-
 	}
 	focus = { #열강의 식민지들
 		id = MKR_colonies_of_the_great_powers
@@ -1626,7 +1626,7 @@ focus_tree = {
 	}
 	focus = { #연합국 가입
 		id = MKR_Allied_accession
-		icon = GFX_goal_unknown
+		icon = GFX_defeat_of_fascism
 		cost = 10.00
 		prerequisite = {
 			focus = MKR_Allied_Technical_Sharing
