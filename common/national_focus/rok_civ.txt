@@ -89,7 +89,7 @@ focus_tree = {
 	}
 	focus =  { #독립군 장교단
 		id = ROK_Independent_Army_Officers
-		icon = GFX_Independent_Army_Corps
+		icon = GFX_Independent_Army_Corps 
 		cost = 10.00
 		prerequisite = {
 			focus =  ROK_national_support
