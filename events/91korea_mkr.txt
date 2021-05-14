@@ -84,6 +84,12 @@ country_event = { #테러폭격?
 	option = {
 		name = mkorea.4.a
 		add_ideas = ROK_bombing
+		ROK = {
+			add_timed_idea = {
+				idea = ROK_bomb
+				days = 60
+			}
+		}
     }	
 }
 

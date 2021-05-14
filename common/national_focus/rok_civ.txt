@@ -15,9 +15,12 @@ focus_tree = {
 		cost = 10.00
 		x = 8
 		y = 0
-		completion_reward = {
+		#completion_reward = {
 			add_stability = -0.075
 			add_political_power = 120
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.1 }
 		}
 
 	}
@@ -30,8 +33,11 @@ focus_tree = {
 		}
 		x = 8
 		y = 1
-		completion_reward = { 
+		#completion_reward = { 
 			add_war_support = 0.15
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.2 }
 		}
 
 	}
@@ -44,9 +50,12 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-		completion_reward = {
+		#completion_reward = {
 			add_stability = 0.1
 			add_political_power = 70
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.3 }
 		}
 
 	}
@@ -59,10 +68,32 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
-		completion_reward = {
+		#completion_reward = {
 			load_oob = "ROK_civilwar"
-		}
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.6 }
+		}	
 
+	}
+	focus = {
+		id = ROK_Attack_Instructions #공격지침 하달
+		icon = close_air_support
+		cost = 3
+		prerequisite = {
+			focus = ROK_supply_of_goods
+		}
+		    completion_reward = {
+			    every_army_leader = {
+			     	add_skill_level = 2
+			    }
+				add_timed_idea = {
+					idea = ROK_offensive
+					days =20
+				}
+			}
+		x = 10
+		y = 4
 	}
 	focus =  { #물자보급
 		id = ROK_supply_of_goods
@@ -73,7 +104,7 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
-		completion_reward = {
+		#completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_4
 				amount = 8500
@@ -84,6 +115,9 @@ focus_tree = {
 				amount = 1400
 				producer = ROK
 			}
+		#}	
+		completion_reward = {
+			country_event = { id = rok_civ.7 }
 		}	
 
 	}
@@ -96,7 +130,7 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-		completion_reward = {
+		#completion_reward = {
 			create_corps_commander = {
 				name = "Kim Hong Il"
 				picture = "김홍일.dds"
@@ -141,7 +175,10 @@ focus_tree = {
 				planning_skill = 1
 				logistics_skill = 1
 			}
-		}
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.4 }
+		}	
 
 	}
 	focus =  { #국민의 승리
