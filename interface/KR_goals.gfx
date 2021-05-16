@@ -160,7 +160,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/K_asche/MKR_Stronger_Korea.png"
 	}
 	SpriteType = {
-		name = "GFX_dicea"
+		name = "GFX_dice"
 		texturefile = "gfx/interface/goals/K_asche/dice.png"
 	}
 	SpriteType = {
