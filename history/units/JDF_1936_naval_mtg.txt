@@ -11,10 +11,14 @@ units = {
 			ship = { name = "JDS Shimakaze" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하타카제급" } } }
 			ship = { name = "JDS Mineyuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }			
 			ship = { name = "JDS Hamayuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }	
-			ship = { name = "JDS Isoyuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }			
+			ship = { name = "JDS Isoyuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }	
 			ship = { name = "JDS Haruyuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }	
+			ship = { name = "JDS Asayuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }	
+			ship = { name = "JDS Yamayuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }	
+			ship = { name = "JDS Matsuyuki" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "하츠유키급" } } }			
 		    ship = { name = "JDS Tachikaze" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = JDF version_name = "타치카제급" } } }	
 		    ship = { name = "JDS Sawakaze" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_1 = { amount = 1 owner = JDF version_name = "타치카제급" } } }	
+		    ship = { name = "JDS Asagiri" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "아사기리급" } } }
 		    ship = { name = "JDS Sawagiri" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "아사기리급" } } }	
 	        ship = { name = "JDS Amagiri" definition = modern_DDH start_experience_factor = 0.4 equipment = { ship_hull_modern_DDH_2 = { amount = 1 owner = JDF version_name = "아사기리급" } } }	
 		}
@@ -24,6 +28,17 @@ units = {
 			ship = { name = "JDS Abukuma" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = JDF version_name = "아부쿠마급" } } }
 			ship = { name = "JDS Ōyodo" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = JDF version_name = "아부쿠마급" } } }
 			ship = { name = "JDS Sendai" definition = modern_FF start_experience_factor = 0.4 equipment = { ship_hull_FF_2 = { amount = 1 owner = JDF version_name = "아부쿠마급" } } }			
+		}
+		task_force = {
+			name = "잠수대군" 
+			location = 10011 	 
+			ship = { name = "SS-571 Takashio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
+			ship = { name = "SS-570 Kuroshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "우즈시오급" } } }
+			ship = { name = "SS-573 Yūshio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }		
+			ship = { name = "SS-574 Mochishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }
+			ship = { name = "SS-579 Akishio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "유우시오급" } } }	
+			ship = { name = "SS-583 Harushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }
+			ship = { name = "SS-584 Natsushio" definition = modern_submarine start_experience_factor = 0.4 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = JDF version_name = "하루시오급" } } }			
 		}
 	}
 }

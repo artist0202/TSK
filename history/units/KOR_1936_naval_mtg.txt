@@ -118,6 +118,22 @@ units = {
 			ship = { name = "ROKS 경주" definition = modern_PCC start_experience_factor = 0.3 equipment = { ship_hull_PCC_2 = { amount = 1 owner = KOR version_name = "포항급" } } }
 			ship = { name = "ROKS 충주" definition = modern_PCC start_experience_factor = 0.3 equipment = { ship_hull_PCC_2 = { amount = 1 owner = KOR version_name = "포항급" } } }
 		}
+		task_force = {
+				name = "잠수함전대"
+				location = 4056
+				ship = { name = "SS-061" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-062" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-063" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-065" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-066" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-067" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-068" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-069" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = KOR version_name = "장보고급" } } }
+				ship = { name = "SS-072" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = KOR version_name = "손원일급" } } }
+				ship = { name = "SS-073" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = KOR version_name = "손원일급" } } }
+				ship = { name = "SS-074" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_4 = { amount = 1 owner = KOR version_name = "손원일급" } } }
+			}
+		}
 	}
 	fleet = {
 		name = "기동전대"			

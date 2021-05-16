@@ -54,7 +54,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 10
+		sub_visibility = 9
 		naval_speed = 16
 		reliability = 0.80
 
@@ -117,7 +117,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 9
+		sub_visibility = 8
 		naval_speed = 16
 		reliability = 0.80
 
@@ -170,7 +170,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 8
+		sub_visibility = 7
 		naval_speed = 16
 		reliability = 0.80
 
@@ -223,7 +223,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 7
+		sub_visibility = 6
 		naval_speed = 16
 		reliability = 0.80
 
@@ -276,7 +276,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 6
+		sub_visibility = 5
 		naval_speed = 16
 		reliability = 0.80
 

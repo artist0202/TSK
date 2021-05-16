@@ -793,6 +793,12 @@
  ship_hull_modern_DDG_1:0 "이지스 구축함 선체 I"
  ship_hull_modern_DDG_2:0 "이지스 구축함 선체 II"
  
+ ship_hull_modern_submarine_1:0 "공격잠수함 선체 I"
+ ship_hull_modern_submarine_2:0 "공격잠수함 선체 II"
+ ship_hull_modern_submarine_3:0 "공격잠수함 선체 III"
+ ship_hull_modern_submarine_4:0 "공격잠수함 선체 IV"
+ ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
+ 
  
  MKR_Vertical_maneuvering_equipment_1:0 "입체기동장치"
  ROK_Vertical_maneuvering_equipment_1:0 "입체기동장치"

@@ -7,7 +7,7 @@ sub_units = {
 		type = { screen_ship }
 		need = { ship_hull_PCC = 1 }
 		
-		max_organisation = 45
+		max_organisation = 55
 
 		supply_consumption = 0.01
 		

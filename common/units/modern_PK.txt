@@ -2,12 +2,12 @@ sub_units = {
 	modern_PK = {
 		sprite = modern_PK
 		map_icon_category = ship
-		priority = 2
+		priority = 1
 		active = yes
 		type = { screen_ship }
 		need = { ship_hull_PK = 1 }
 		
-		max_organisation = 30
+		max_organisation = 20
 
 		supply_consumption = 0.01
 		

@@ -2,12 +2,12 @@ sub_units = {
 	modern_submarine = {
 		sprite = modern_submarine
 		map_icon_category = ship
-		priority = 2
+		priority = 5
 		active = yes
 		type = { submarine }
 		need = { ship_hull_modern_submarine = 1 }
 		
-		max_organisation = 50
+		max_organisation = 60
 		
 		supply_consumption = 0.01
 		
