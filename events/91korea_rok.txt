@@ -1,4 +1,5 @@
 add_namespace = rok
+add_namespace = rok_civ
 country_event = { # 14대 대선
 	id = rok.1
 	title = rok.1.t
@@ -54,4 +55,176 @@ country_event = { # 내전끝
 		add_ideas = rok_remnants_of_the_military
 		add_ideas = KOR_economic_collapse_1
     }	
+}country_event = { # 긴급보안법
+	id = rok_civ.1
+	title = rok_civ.1.t
+	desc = rok_civ.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.1.a
+			add_stability = -0.075
+			add_political_power = 120
+		ai_chance = { factor = 100 }
+    }	
 }
+
+country_event = { # 국민지지확보
+	id = rok_civ.2
+	title = rok_civ.2.t
+	desc = rok_civ.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.2.a
+		add_timed_idea = {
+			idea = ROK_death_before_surrender
+			days = 150
+		}
+			add_war_support = 0.15
+    }	
+}
+
+country_event = { # 독립운동가 귀국
+	id = rok_civ.3
+	title = rok_civ.3.t
+	desc = rok_civ.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.3.a
+			add_stability = 0.1
+			add_political_power = 70
+
+    }	
+}
+
+country_event = { # 독립군 장교단
+	id = rok_civ.4
+	title = rok_civ.4.t
+	desc = rok_civ.4.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.4.a
+		add_ideas = ROK_independent_officer
+		
+			create_corps_commander = {
+				name = "Kim Hong Il"
+				picture = "김홍일.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20000
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Yu Dong Yeol"
+				picture = "유동열.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20001
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Kim Hak Kyu"
+				picture = "김학규.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20002
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Kim Jun Yeop"
+				picture = "김준엽.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20003
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+    }	
+}
+
+country_event = { # 테러폭격의 피해
+	id = rok_civ.5
+	title = rok_civ.5.t
+	desc = rok_civ.5.d
+	picture = GFX_
+
+    is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.5.a
+		add_ideas = ROK_bomb
+    }	
+}
+
+country_event = { # 예비사단 동원
+	id = rok_civ.6
+	title = rok_civ.6.t
+	desc = rok_civ.6.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.6.a
+		load_oob = "ROK_civil_hyangto"
+    }	
+}
+
+country_event = { # 물자보급
+	id = rok_civ.7
+	title = rok_civ.7.t
+	desc = rok_civ.7.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { #
+		name = rok_civ.7.a
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_4
+				amount = 8500
+				producer = ROK
+			}
+			add_equipment_to_stockpile = {
+				type = support_infantry_equipment_1
+				amount = 1400
+				producer = ROK
+			}
+    }
+} 

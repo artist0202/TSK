@@ -141,7 +141,11 @@ set_technology = {
 	m_1970PCC = 1
 	m_1970ff = 1
 	m_1980patrol = 1
-
+	
+	m_1970SS = 1	
+	m_1980SS = 1
+	m_1990SS = 1
+	
 	modern_light_battery_1 = 1
 	ship_missile_luncher_1 = 1
 	ship_ciws = 1
@@ -156,6 +160,12 @@ set_technology = {
 	ship_manpad = 1
 	depth_charge_modern_1 = 1
 	
+	sub_ship_engine_modern_1 = 1
+	sub_ship_engine_modern_2 = 1
+	ship_sub_snorkel_modern = 1
+	ship_torpedo_sub_modern_1 = 1
+	ship_torpedo_sub_modern_2 = 1
+	ship_sts_sub_1 = 1
 }
 
 set_variable = { PRK_army_spylevel = 0 }
@@ -417,6 +427,48 @@ if = {
 			fixed_ship_engine_slot = light_ship_engine_modern_1
 			front_1_custom_slot = ship_light_secondaries_1
 			mid_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "위스키급"
+		type = ship_hull_modern_submarine_1
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "로미오급"
+		type = ship_hull_modern_submarine_2
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "폭스트롯급"
+		type = ship_hull_modern_submarine_3
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = empty
 		}
 	}
 }

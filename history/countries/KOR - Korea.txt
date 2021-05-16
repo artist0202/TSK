@@ -909,6 +909,19 @@ if = {
 			rear_1_custom_slot = ship_sts_sub_1
 		}
 	}
+	create_equipment_variant = {
+		name = "손원일급"
+		type = ship_hull_modern_submarine_4
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_2	
+			fixed_ship_engine_slot = sub_ship_engine_modern_2
+			fixed_ship_sonar_slot = ship_sonar_modern_2
+			front_1_custom_slot = ship_torpedo_sub_modern_2
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = ship_sts_sub_1
+		}
+	}
 }
 if = {
 	limit = { has_dlc = "La Resistance" }

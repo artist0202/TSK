@@ -9,83 +9,290 @@ focus_tree = {
 	}
 	
 	default = no
-	focus = { #긴급보안법
-		id = security_law
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #긴급보안법
+		id = ROK_security_law
+		icon = secret_police
+		cost = 2.00
 		x = 8
 		y = 0
+		#completion_reward = {
+			add_stability = -0.075
+			add_political_power = 120
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.1 }
+		}
 
 	}
-	focus = { #국민지지확보
-		id = national_support
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #국민지지확보
+		id = ROK_national_support
+		icon = support_the_left_right
+		cost = 2.00
 		prerequisite = {
-			focus = security_law
+			focus =  ROK_security_law
 		}
 		x = 8
 		y = 1
+		#completion_reward = { 
+			add_war_support = 0.15
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.2 }
+		}
 
 	}
-	focus = { #독립운동가 귀국
-		id = independence_fighters
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #독립운동가 귀국
+		id = ROK_independence_fighters
+		icon = GFX_Popular_face_madam
+		cost = 3.00
 		prerequisite = {
-			focus = national_support
+			focus =  ROK_national_support
 		}
 		x = 6
 		y = 2
+		#completion_reward = {
+			add_stability = 0.1
+			add_political_power = 70
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.3 }
+		}
 
 	}
-	focus = { #동원령
-		id = mobilization_order
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #동원령
+		id = ROK_mobilization_order
+		icon = GFX_mobilization_order
+		cost = 3.00
 		prerequisite = {
-			focus = national_support
+			focus =  ROK_national_support
 		}
 		x = 8
 		y = 2
+		#completion_reward = {
+			load_oob = "ROK_civilwar"
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.6 }
+		}	
 
 	}
-	focus = { #물자보급
-		id = supply of goods
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus = {
+		id = ROK_Attack_Instructions #공격지침 하달
+		icon = close_air_support
+		cost = 3
 		prerequisite = {
-			focus = mobilization_order
+			focus = ROK_supply_of_goods
+		}
+		    completion_reward = {
+			    every_army_leader = {
+			     	add_skill_level = 2
+			    }
+				add_timed_idea = {
+					idea = ROK_offensive
+					days =20
+				}
+			}
+		x = 10
+		y = 4
+	}
+	focus =  { #물자보급
+		id = ROK_supply_of_goods
+		icon = K1A1
+		cost = 4.00
+		prerequisite = {
+			focus =  ROK_mobilization_order
 		}
 		x = 8
 		y = 3
+		#completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_4
+				amount = 8500
+				producer = ROK
+			}
+			add_equipment_to_stockpile = {
+				type = support_infantry_equipment_1
+				amount = 1400
+				producer = ROK
+			}
+		#}	
+		completion_reward = {
+			country_event = { id = rok_civ.7 }
+		}	
 
 	}
-	focus = { #독립군 장교단
-		id = Independent_Army_Officers
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #독립군 장교단
+		id = ROK_Independent_Army_Officers
+		icon = GFX_Independent_Army_Corps 
+		cost = 5.00
 		prerequisite = {
-			focus = national_support
+			focus =  ROK_national_support
 		}
 		x = 10
 		y = 2
+		#completion_reward = {
+			create_corps_commander = {
+				name = "Kim Hong Il"
+				picture = "김홍일.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20000
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Yu Dong Yeol"
+				picture = "유동열.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20001
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Kim Hak Kyu"
+				picture = "김학규.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20002
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Kim Jun Yeop"
+				picture = "김준엽.dds"
+				traits = { unaccustomed_to_modern_warfare }
+				id = 20003
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		#}
+		completion_reward = {
+			country_event = { id = rok_civ.4 }
+		}	
 
 	}
-	focus = { #국민의 승리
-		id = victory_of_the_people
-		icon = GFX_goal_unknown
-		cost = 10.00
+	focus =  { #국민의 승리
+		id = ROK_victory_of_the_people
+		icon = GFX_mkr_victory_in_the_civil_war
+		cost = 5.00
 		prerequisite = {
-			focus = Independent_Army_Officers
+			focus =  ROK_Independent_Army_Officers
 		}
 		prerequisite = {
-			focus = independence_fighters
+			focus =  ROK_independence_fighters
 		}
 		completion_reward = {
 			load_focus_tree = rok_focus
 			set_global_flag = civil_rok_win
 		}
+		available = {
+			is_puppet = no
+			has_war = no
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = PRK
+					}
+					NOT = {
+						has_war_with = MKR
+					}
+				}
+				controls_state = 525
+				controls_state = 807
+				controls_state = 810
+			}
+			else_if = {
+				limit = {
+					MKR = {
+						NOT = {
+							has_war_with = PRK
+						}
+					}
+					has_war_with = MKR
+				}
+				custom_trigger_tooltip = {
+					tooltip = 91_annex_mkr
+					controls_state = 525
+					controls_state = 807
+					controls_state = 810
+				}
+			}
+			else_if = {
+				limit = {
+					MKR = {
+						has_war_with = PRK
+					}
+					has_war_with = MKR
+					has_war_with = PRK
+				}
+				custom_trigger_tooltip = {
+					tooltip = 91_annex_mkr_and_prk
+					controls_state = 525
+					controls_state = 807
+					controls_state = 810
+					controls_state = 811
+					controls_state = 814
+					controls_state = 527
+					controls_state = 818
+					controls_state = 812
+					controls_state = 815
+					controls_state = 822
+					controls_state = 816
+					controls_state = 820
+				}
+			}
+			else_if = {
+				limit = {
+					has_war_with = PRK
+					NOT = {
+						has_war_with = MKR
+					}	
+				}
+				custom_trigger_tooltip = {
+					tooltip = 91_annex_prk
+					controls_state = 525
+					controls_state = 807
+					controls_state = 810
+					controls_state = 811
+					controls_state = 814
+					controls_state = 527
+					controls_state = 818
+					controls_state = 812
+					controls_state = 815
+					controls_state = 822
+					controls_state = 816
+					controls_state = 820
+				}
+			}
+			else_if = {
+				limit = {
+					DKR = {
+						NOT = {
+							has_war_with = PRK
+						}	
+					}
+					MKR = {
+						exists = no
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = 91_control_mkr
+					controls_state = 525
+					controls_state = 807
+					controls_state = 810
+				}
+			}
+		}	
 		x = 8
 		y = 4
 

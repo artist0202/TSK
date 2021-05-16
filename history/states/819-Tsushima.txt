@@ -4,6 +4,9 @@ state={
 	provinces={
 		10011 
 	}
+	resources={
+		oil=320 # was: 580
+	}
 	history={
 		owner = JDF
 		buildings = {

@@ -90,6 +90,8 @@ JDF_DDG_HISTORICAL = {
 		"Atago" "Ashigara" 
 		#마야급
 		"Maya" "Haguro"
+		#
+		"Mirai" "Yukinami" "Haruka"
 	}
 }
 

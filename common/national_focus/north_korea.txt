@@ -738,7 +738,7 @@ focus_tree = {
 	}
 	focus = { #전투공업 ('전투공업'국민정신 획득)
 		id = prk_Combat_Industry
-		icon = 전투공업
+		icon = industry_military
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Chollima_Movement
@@ -752,7 +752,7 @@ focus_tree = {
 	}
 	focus = { #공업단지 신설 (민공 +1,군공+2)
 		id = prk_new_industrial_complex
-		icon = 공업단지신설
+		icon = industry_communist2
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Combat_Industry
@@ -925,7 +925,7 @@ focus_tree = {
 	}
 	focus = { #강성대국 건설 ('강성대국' 국민정신 획득하고 일간정치력획득 +15%)
 		id = prk_a_powerful_and_powerful_nation
-		icon = 강성대국 
+		icon = communism6
 		cost = 10.00
 		prerequisite = {
 			focus = prk_technical_revolution

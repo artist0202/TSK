@@ -641,7 +641,7 @@ units = {
 				name_order = 20
 		}
 		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
-		force_equipment_variants = { m_1990_mbt = { owner = "KOR" } }
+		force_equipment_variants = { m_2000_mbt = { owner = "KOR" } }
 		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
 	}
 	division= {
@@ -663,7 +663,7 @@ units = {
 		division_template = "기계화보병사단"
 		start_experience_factor = 0.5
 		force_equipment_variants = { infantry_equipment_7 = { owner = "KOR" } }
-		force_equipment_variants = { m_1990_mbt = { owner = "KOR" } }
+		force_equipment_variants = { m_2000_mbt = { owner = "KOR" } }
 		force_equipment_variants = { m_1990_sp_equipment = { owner = "KOR" } }
 	}
 	division= {

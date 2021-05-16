@@ -220,6 +220,7 @@ country_event = {
 				    remove_state_core = 809
 				    remove_state_core = 808
 				    remove_state_core = 813
+				    remove_state_core = 821
 				}
         	}				
         }		

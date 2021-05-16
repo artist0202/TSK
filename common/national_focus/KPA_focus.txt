@@ -274,7 +274,7 @@ focus_tree = {
 		x = 3
 		y = 6
 		available = {
-			always = no
+			is_ai = no
 		}
 		completion_reward = {
 			launch_nuke = {

@@ -2,6 +2,11 @@
 #NHK
 #Japan
 music = {
+	name = "zipangu_ost"
+	file = "zipangu_ost.ogg"
+	volume = 0.85
+}
+music = {
 	name = "yukinoshingun"
 	file = "눈의 진군.ogg"
 	volume = 0.85

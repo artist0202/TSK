@@ -371,4 +371,60 @@ if = {
 			front_1_custom_slot = ship_missile_luncher_1
 		}
 	}
+	create_equipment_variant = {
+		name = "야마구모급"
+		type = ship_hull_FF_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_ciws_1
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_1
+			fixed_ship_sts_slot = empty
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_depth_charge_modern_1
+			front_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "우즈시오급"
+		type = ship_hull_modern_submarine_3
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "유우시오급"
+		type = ship_hull_modern_submarine_3
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = ship_sts_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "하루시오급"
+		type = ship_hull_modern_submarine_4
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_modern_1	
+			fixed_ship_engine_slot = sub_ship_engine_modern_1
+			fixed_ship_sonar_slot = ship_sonar_modern_1
+			front_1_custom_slot = ship_torpedo_sub_modern_1
+			mid_1_custom_slot = ship_sub_snorkel_modern
+			rear_1_custom_slot = ship_sts_sub_1
+		}
+	}
 }
