@@ -159,4 +159,48 @@ spriteTypes = {
 		name = "GFX_MKR_Stronger_Korea"
 		texturefile = "gfx/interface/goals/K_asche/MKR_Stronger_Korea.png"
 	}
+	SpriteType = {
+		name = "GFX_dicea"
+		texturefile = "gfx/interface/goals/K_asche/dice.png"
+	}
+	SpriteType = {
+		name = "GFX_social_democratic_party"
+		texturefile = "gfx/interface/goals/K_asche/social_democratic_party.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_a_power_instrument"
+		texturefile = "gfx/interface/goals/K_asche/prk_a_power_instrument.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_leader_yeo"
+		texturefile = "gfx/interface/goals/K_asche/prk_leader_yeo.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_contact_with_the_South"
+		texturefile = "gfx/interface/goals/K_asche/prk_contact_with_the_South.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_hundred_years_enemy"
+		texturefile = "gfx/interface/goals/K_asche/prk_hundred_years_enemy.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Operation_storm"
+		texturefile = "gfx/interface/goals/K_asche/prk_Operation_storm.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_troop_strength"
+		texturefile = "gfx/interface/goals/K_asche/prk_troop_strength.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_additional_tank_plant"
+		texturefile = "gfx/interface/goals/K_asche/prk_additional_tank_plant.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_additional_tunnel_construction"
+		texturefile = "gfx/interface/goals/K_asche/prk_additional_tunnel_construction.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_south_wave_espionage"
+		texturefile = "gfx/interface/goals/K_asche/prk_south_wave_espionage.png"
+	}
 }

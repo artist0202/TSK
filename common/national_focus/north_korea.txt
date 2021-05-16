@@ -231,7 +231,7 @@ focus_tree = {
 	}
 	focus = { #추가적인 땅굴 건설 ('전쟁준비'카테고리안의 '땅굴건설' 디시전활성화 이는 남침전쟁초기에 사단속도를 올려줄거임)
 		id = prk_additional_tunnel_construction
-		icon = GFX_goal_unknown
+		icon = GFX_prk_additional_tunnel_construction
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Communistic_Unification
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = { #남파간첩 확대 ('전쟁준비'카테고리안의 '남파간첩확대' 디시전활성화 바닐라 중공디시전 참고하면될거임)
 		id = prk_south_wave_espionage
-		icon = GFX_goal_unknown
+		icon = GFX_prk_south_wave_espionage
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Communistic_Unification
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = { #추가 땅크공장 (군공 +2)
 		id = prk_additional_tank_plant
-		icon = GFX_goal_unknown
+		icon = GFX_prk_additional_tank_plant
 		cost = 10.00
 		prerequisite = {
 			focus = prk_additional_tunnel_construction
@@ -292,7 +292,7 @@ focus_tree = {
 	}
 	focus = { #휴전선 병력강화 (휴전선 요새 +1씩)
 		id = prk_troop_strength
-		icon = GFX_goal_unknown
+		icon = GFX_prk_troop_strength
 		cost = 10.00
 		prerequisite = {
 			focus = prk_south_wave_espionage
@@ -405,7 +405,7 @@ focus_tree = {
 	}
 	focus = { #주사위 던지기 ('암살당한 김정일' 뉴스뜸 북한에도'암살당한 김정일'이벤트발생 국가지도자를 북한군부로 교체, 황해도에서 일부 부대들반란)
 		id = prk_dice_throw
-		icon = GFX_goal_unknown
+		icon = GFX_dice
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Pyongyang_Defense_Command_Appointment
@@ -555,7 +555,7 @@ focus_tree = {
 	}
 	focus = { #권력장악 ('군부내 불만' 국민정신 제거)
 		id = prk_a_power_instrument
-		icon = GFX_goal_unknown
+		icon = GFX_prk_a_power_instrument
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Securing_support_within_the_party
@@ -566,7 +566,7 @@ focus_tree = {
 	} 
 	focus = { #제1차 사민당대회 (정치력 +100)
 		id = prk_First_Social_Democratic_Congress
-		icon = GFX_goal_unknown
+		icon = GFX_social_democratic_party
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Securing_support_within_the_party
@@ -577,7 +577,7 @@ focus_tree = {
 	}
 	focus = { #여운형동지를 추대 ('여운형'이 국가지도자가 됨)
 		id = prk_leader_yeo
-		icon = GFX_goal_unknown
+		icon = GFX_prk_leader_yeo
 		cost = 10.00
 		prerequisite = {
 			focus = prk_First_Social_Democratic_Congress
@@ -591,7 +591,7 @@ focus_tree = {
 	}
 	focus = { #남조선과 접촉하다 (남한에 '북한이 접촉해오다' 이벤트발생)
 		id = prk_contact_with_the_South
-		icon = GFX_goal_unknown
+		icon = GFX_prk_contact_with_the_South
 		cost = 10.00
 		prerequisite = {
 			focus = prk_leader_yeo
@@ -1585,7 +1585,7 @@ focus_tree = {
 	}
 	focus = { #작전명 "폭풍" (작전명 "폭풍" 국민정신 획득 50일간 공방 +15%)
 		id = prk_Operation_storm
-		icon = 조선의미래
+		icon = GFX_prk_Operation_storm
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Special_Forces_Penetration
@@ -2172,7 +2172,7 @@ focus_tree = {
 	}
 	focus = { #백년의 적 (일본과 관계도 -50)
 		id = prk_hundred_years_enemy
-		icon = 백년의적
+		icon = GFX_prk_hundred_years_enemy
 		cost = 10.00
 		prerequisite = {
 			focus = prk_Declaration_of_Communistic_Unification
