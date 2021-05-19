@@ -1,6 +1,6 @@
 ideas = {
 	hidden_ideas = {
-			KOR_modern_millitary = {
+		KOR_modern_millitary = {
 			picture = generic_production_bonus
 			allowed = {
 				always = no
@@ -15,12 +15,55 @@ ideas = {
 				land_night_attack = 0.85
 				army_org_factor = 0.3
 				army_org_regain	= 0.3
-				supply_consumption_factor = -0.1
+				supply_consumption_factor = -0.25
+			}
+		}
+		KOR_ammo = {
+			picture = generic_production_bonus
+			allowed = {
+				original_tag = ROK
+				original_tag = KR1
+	 		    original_tag = PRK
+				original_tag = KOR
+				original_tag = JDF
+	 		    original_tag = MKR
+	 		    original_tag = KPA
+			}
+
+			removal_cost = -1
+			
+			
+			equipment_bonus = {
+				light_mun_equipment = {
+					build_cost_ic = -0.85 instant = yes
+					reliability = -2 instant = yes
 				}
 			}
-		} 
+			equipment_bonus = {
+				heavy_mun_equipment = {
+					reliability = -1.5 instant = yes
+					build_cost_ic = -0.5 instant = yes
+				}
+			}
+		}
+	} 
 	
 	country = {
+		KOR_cornered = { #궁지에 몰린 여우
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+				original_tag = ROK
+				original_tag = KR1
+	 		    original_tag = PRK
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				ai_focus_defense_factor = 1
+			}
+		}
 		ROK_counterattack = {
 			allowed = {
 				always = no
@@ -35,8 +78,8 @@ ideas = {
 
 			targeted_modifier = {
 				tag = PRK
-				attack_bonus_against = 0.7
-				defense_bonus_against = 0.6
+				attack_bonus_against = 0.4
+				defense_bonus_against = 0.8
 			}
 
 		}
@@ -53,7 +96,7 @@ ideas = {
 			picture = generic_acquire_tanks
 			
 			modifier = {
-				air_close_air_support_attack_factor  = 0.7
+				air_close_air_support_attack_factor  = 0.9
 			}
 
 		}
@@ -88,8 +131,8 @@ ideas = {
 			picture = generic_acquire_tanks
 			
 			modifier = {
-				army_defence_factor = 0.2
-				army_attack_factor = 0.2
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
 			}
 		}
 
@@ -120,8 +163,6 @@ ideas = {
 			always = yes
 			}
 			modifier = {	
-				max_command_power = 100
-				army_leader_cost_factor = -0.5
 				army_leader_start_level = 2
 				army_leader_start_attack_level = 1
 				army_leader_start_planning_level = 2
@@ -331,33 +372,6 @@ ideas = {
 				army_speed_factor	= -0.1
 			}
 		}
-		KOR_uncompromized_country_idea = {
-
-			available = {
-				has_war = no
-			}
-
-			allowed_civil_war = {
-				original_tag = JDF
-			}
-			
-			removal_cost = -1
-
-			picture = generic_spy_coup
-			
-			modifier = {
-				enemy_justify_war_goal_time = 9.99
-				justify_war_goal_time = 9.99
-				lend_lease_tension = 1.0
-				send_volunteers_tension = 1.0
-				trade_opinion_factor = -1.0
-				join_faction_tension = 1.0
-				guarantee_tension = 1.0
-				license_armor_purchase_cost = 1.0
-				improve_relations_maintain_cost_factor = 9.99
-				political_power_gain = -0.1
-			}
-		}
 		
 		KOR_focus_def = {
 			picture = generic_production_bonus
@@ -371,8 +385,7 @@ ideas = {
 			
 			modifier = {
 				ai_focus_defense_factor = 0.5
-				army_defence_factor = 0.3
-				army_attack_factor = 0.3
+				army_defence_factor = 0.1
 			}
 		}
 		
@@ -522,8 +535,14 @@ ideas = {
 
 			targeted_modifier = {
 				tag = ROK
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.2
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+
+			}
+			targeted_modifier = {
+				tag = MKR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 
 			}
 			modifier = {
@@ -547,21 +566,9 @@ ideas = {
 
 			targeted_modifier = {
 				tag = MKR
-				attack_bonus_against = 0.5
-				defense_bonus_against = 0.5
+				attack_bonus_against = 0.3
+				defense_bonus_against = 0.3
 
-			}
-			targeted_modifier = {
-				tag = ROK
-				attack_bonus_against = 0.6
-				defense_bonus_against = 0.6
-
-			}
-			modifier = {
-				air_close_air_support_attack_factor  = 0.15
-				air_air_superiority_attack_factor  = 0.15
-				air_air_superiority_defence_factor   = 0.15
-				
 			}
 
 		}
@@ -577,7 +584,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_defence_factor = -0.8
 				army_attack_factor = -0.4
 			}
 		}
@@ -595,8 +601,8 @@ ideas = {
 
 			targeted_modifier = {
 				tag = PRK
-				attack_bonus_against = 0.7
-				defense_bonus_against = 0.6
+				attack_bonus_against = 0.5
+				defense_bonus_against = 0.4
 			}
 
 		}

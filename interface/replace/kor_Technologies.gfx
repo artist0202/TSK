@@ -1,7 +1,31 @@
 spriteTypes = {	
-
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_KOR_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량2.png"
+	}
+ ################################################################################
+ 
 	### South korea ###
-	
+	SpriteType = {
+		name = "GFX_heavy_mun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/중탄약.png"
+	}
+	SpriteType = {
+		name = "GFX_light_mun_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/경탄약.png"
+	}
 	SpriteType = {
 		name = "GFX_KOR_modern_motorized_equipment_medium"
 		texturefile = "gfx/interface/technologies/kor_motorized_equipment_1.dds"
@@ -380,14 +404,10 @@ spriteTypes = {
 		name = "GFX_KOR_m_2010_jet_CAS_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/kor_2010_CAS.dds"
 	}
-	SpriteType = {
-		name = "GFX_GER_1970_attack_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1970_attack_helicopter.dds"
-	}		
-	SpriteType = {
-		name = "GFX_GER_1970_util_helicopter_equipment_medium"
-		texturefile = "gfx/interface/technologies/planes/1970_util_helicopter.dds"
-	}	
+
+ ################################################################################
+ ######해군
+ ################################################################################
 	SpriteType = {
 		name = "GFX_GER_2000_jet_multirole_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/2000_jet_multirole.dds"
@@ -433,7 +453,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_2.png"
 	}
     SpriteType = {
-		name = "GFX_KOR_ship_hull_PK_2_medium"
+		name = "GFX_KOR_ship_hull_PK_3_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_PK_3.png"
 	}
     SpriteType = {
@@ -465,7 +485,6 @@ spriteTypes = {
 		name = "GFX_KOR_ship_hull_modern_submarine_6_medium"
 		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
 	}
-	
     SpriteType = {
 		name = "GFX_JDF_ship_hull_modern_submarine_3_medium"
 		texturefile = "gfx/interface/technologies/navy/JDF_sub_3.png"

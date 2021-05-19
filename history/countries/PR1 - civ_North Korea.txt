@@ -20,6 +20,11 @@ set_convoys = 150
 
 # Starting tech
 set_technology = {
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
+	engineer_equipment = 1	
 	tech_support = 1		
 	tech_engineers = 1
 	tech_engineers2 = 1

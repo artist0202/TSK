@@ -47,7 +47,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			anti_air_attack = 3
+			anti_air_attack = 0.8
 			lg_attack = 0.1
 			build_cost_ic = 50
 		}

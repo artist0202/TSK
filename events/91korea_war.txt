@@ -214,6 +214,9 @@ country_event = {
 		MKR = {
 		white_peace = PRK
 		}
+		ROK = {
+		white_peace = PRK
+		}
 	}	
 	
 	option = { #헛소리!

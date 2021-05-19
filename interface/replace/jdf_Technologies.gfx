@@ -1,5 +1,21 @@
 spriteTypes = {	
-
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/usf_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/jdf_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/jdf_경차량2.png"
+	}
+	
 	### JSDF ###
 	
 	SpriteType = {
@@ -184,11 +200,11 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_JDF_heavy_anti_air_eq_medium"
-		texturefile = "gfx/interface/technologies/aa/kor_heavy_anti_air.dds"
+		texturefile = "gfx/interface/technologies/aa/jdf_heavy_anti_air.dds"
 	}
 	SpriteType = {
 		name = "GFX_JDF_aa_missile_medium"
-		texturefile = "gfx/interface/technologies/aa/kor_aa_missile.dds"
+		texturefile = "gfx/interface/technologies/aa/jdf_aa_missile.dds"
 	}
 	
  ################################################################################
@@ -196,7 +212,7 @@ spriteTypes = {
  ################################################################################
 	SpriteType = {
 		name = "GFX_JDF_m_1980_manpad_equipment_medium"
-		texturefile = "gfx/interface/technologies/aa/kor_1980_manpad.dds"
+		texturefile = "gfx/interface/technologies/aa/jdf_1980_manpad.dds"
 	}
 	SpriteType = {
 		name = "GFX_JDF_m_1990_manpad_equipment_medium"
@@ -239,5 +255,70 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_JDF_m_1990_util_helicopter_equipment_medium"
 		texturefile = "gfx/interface/technologies/planes/JDF_1990_util_helicopter.dds"
+	}
+	
+ ################################################################################
+ ######제공기
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_jet_fighter_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2000_fighter.png"
+	}
+	
+ ################################################################################
+ ######멀티롤
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2000_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2000_jet_multirole.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2010_jet_multirole_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2010_jet_multirole.png"
+	}
+	
+	
+ ################################################################################
+ ######CAS
+ ################################################################################
+	SpriteType = {
+		name = "GFX_JDF_m_1970_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1970_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1980_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1980_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_1990_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_1990_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_JDF_m_2010_jet_CAS_equipment_medium"
+		texturefile = "gfx/interface/technologies/planes/jdf_2010_CAS.png"
 	}
 }

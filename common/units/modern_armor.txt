@@ -92,12 +92,15 @@ sub_units = {
 			category_army
 		}
 		
-		
+		essential = {
+			heavy_mun_equipment
+		}
 
 		combat_width = 2
 
 		need = {
 			modern_tank_equipment = 35
+			heavy_mun_equipment = 50
 		}
 		manpower = 500
 		max_organisation = 55

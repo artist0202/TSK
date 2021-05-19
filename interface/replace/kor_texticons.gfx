@@ -80,7 +80,16 @@ spriteTypes = {
 		texturefile = "gfx/texticons/unit_artillery_icon_small.dds"
 		legacy_lazy_load = no
 	}	
-	
+	spriteType = {
+		name = "GFX_unit_modern_motorized_rocket_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_mot_roket_icon_small"
+		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		legacy_lazy_load = no
+	}
 #############################아이디어 사진########################################
 
 	spriteType = {

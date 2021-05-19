@@ -242,4 +242,8 @@ spriteTypes = {
 		name = "GFX_구호물자출발"
 		texturefile = "gfx/event_pictures/구호물자출발.png"
 	}
+	spriteType = {
+		name = "GFX_F-4EJ"
+		texturefile = "gfx/event_pictures/F-4EJ.png"
+	}
 }

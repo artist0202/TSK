@@ -2,6 +2,58 @@
 
  modern_motorized_equipment:0 "현대 중형트럭"
  modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ light_vehicle_equipment:0 "군용 경차량"
+ light_vehicle_equipment_0:0 "전기 군용 경차량"
+ light_vehicle_equipment_1:0 "진보된 군용 경차량"
+ light_vehicle_equipment_2:0 "군용 전술차량"
+ 
+ KOR_light_vehicle_equipment_0:0 "K-111"
+ KOR_light_vehicle_equipment_1:0 "K-311"
+ KOR_light_vehicle_equipment_2:0 "K-151"
+ KR1_light_vehicle_equipment_0:0 "K-111"
+ KR1_light_vehicle_equipment_1:0 "K-311"
+ KR1_light_vehicle_equipment_2:0 "K-151"
+ MKR_light_vehicle_equipment_0:0 "K-111"
+ MKR_light_vehicle_equipment_1:0 "K-311"
+ MKR_light_vehicle_equipment_2:0 "K-151"
+ ROK_light_vehicle_equipment_0:0 "K-111"
+ ROK_light_vehicle_equipment_1:0 "K-311"
+ ROK_light_vehicle_equipment_2:0 "K-151"
+ 
+ PRK_light_vehicle_equipment_0:0 "갱생-68"
+ PRK_light_vehicle_equipment_1:0 "Uaz-469"
+ PRK_light_vehicle_equipment_2:0 "M-2018"
+ KPA_light_vehicle_equipment_0:0 "갱생-68"
+ KPA_light_vehicle_equipment_1:0 "Uaz-469"
+ KPA_light_vehicle_equipment_2:0 "M-2018"
+ 
+ USF_light_vehicle_equipment_0:0 "M151"
+ USF_light_vehicle_equipment_1:0 "M151A1"
+ USF_light_vehicle_equipment_2:0 "험비"
+ 
+ JDF_light_vehicle_equipment_0:0 "M151"
+ JDF_light_vehicle_equipment_1:0 "J601"
+ JDF_light_vehicle_equipment_2:0 "고기동차"
+ 
+ light_mun_equipment:0 "경탄약"
+ heavy_mun_equipment:0 "중탄약"
+ 
+ light_mun_equipment_0:0 "경탄약"
+ heavy_mun_equipment_0:0 "중탄약"
+ KOR_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ KOR_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ KR1_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ KR1_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ ROK_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ ROK_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ MKR_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ MKR_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ PRK_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ PRK_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ USF_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ USF_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ JDF_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ JDF_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
  
  KOR_modern_motorized_equipment:0 "K-511 두돈반"
  KR1_modern_motorized_equipment:0 "K-511 두돈반"
@@ -93,28 +145,28 @@
  KOR_infantry_equipment_5:0 "M16A1"
  KOR_infantry_equipment_6:0 "K1A"
  KOR_infantry_equipment_7:0 "K2"
- KOR_infantry_equipment_8:0 "K2C"
+ KOR_infantry_equipment_8:0 "K2A"
  KOR_infantry_equipment_9:0 "K2C1"
  
  MKR_infantry_equipment_4:0 "M2 카빈"
  MKR_infantry_equipment_5:0 "M16A1"
  MKR_infantry_equipment_6:0 "K1A"
  MKR_infantry_equipment_7:0 "K2"
- MKR_infantry_equipment_8:0 "K2C"
+ MKR_infantry_equipment_8:0 "K2A"
  MKR_infantry_equipment_9:0 "K2C1"
  
  ROK_infantry_equipment_4:0 "M2 카빈"
  ROK_infantry_equipment_5:0 "M16A1"
  ROK_infantry_equipment_6:0 "K1A"
  ROK_infantry_equipment_7:0 "K2"
- ROK_infantry_equipment_8:0 "K2C"
+ ROK_infantry_equipment_8:0 "K2A"
  ROK_infantry_equipment_9:0 "K2C1"
  
  KR1_infantry_equipment_4:0 "M2 카빈"
  KR1_infantry_equipment_5:0 "M16A1"
  KR1_infantry_equipment_6:0 "K1A"
  KR1_infantry_equipment_7:0 "K2"
- KR1_infantry_equipment_8:0 "K2C"
+ KR1_infantry_equipment_8:0 "K2A"
  KR1_infantry_equipment_9:0 "K2C1"
  
  PRK_infantry_equipment_4:0 "58식 보총"
@@ -291,13 +343,13 @@
  USF_m_2010_IFV_equipment:0 "M2A3 브래들리 IFV"
  
  PRK_m_1970_IFV_equipment:0 "BMP-1"
- PRK_m_1980_IFV_equipment:0 "VTT-323 통일호"
+ PRK_m_1980_IFV_equipment:0 "VTT-323 승리호"
  PRK_m_1990_IFV_equipment:0 "BTR-80A"
  PRK_m_2000_IFV_equipment:0 "BTR-82"
  PRK_m_2010_IFV_equipment:0 "BMP-2M"
  
  KPA_m_1970_IFV_equipment:0 "BMP-1"
- KPA_m_1980_IFV_equipment:0 "VTT-323 통일호"
+ KPA_m_1980_IFV_equipment:0 "VTT-323 승리호"
  KPA_m_1990_IFV_equipment:0 "BTR-80A"
  KPA_m_2000_IFV_equipment:0 "BTR-82"
  KPA_m_2010_IFV_equipment:0 "BMP-2M"
@@ -328,8 +380,13 @@
  JDF_modern_artillery_equipment_1:0 "M101A1 105mm"
  JDF_modern_artillery_equipment_3:0 "155mm FH70"
  
- PRK_modern_artillery_equipment_1:0 "M 1975"
- PRK_modern_artillery_equipment_2:0 "M 1981"
+ PRK_modern_artillery_equipment_1:0 "122mm M-30"
+ PRK_modern_artillery_equipment_2:0 "152mm ML-20"
+ PRK_modern_artillery_equipment_3:0 "130mm M-46"
+ 
+ KPA_modern_artillery_equipment_1:0 "122mm M-30"
+ KPA_modern_artillery_equipment_2:0 "152mm ML-20"
+ KPA_modern_artillery_equipment_3:0 "130mm M-46"
  
  m_1970_spaa_equipment:0 "1970년대 대공자주포"
  m_1980_spaa_equipment:0 "1980년대 대공자주포"
@@ -605,6 +662,9 @@
  USF_m_1980_jet_multirole_equipment:0 "F-4D"
  USF_m_1990_jet_multirole_equipment:0 "F-16C 파이팅 팔콘"
  
+ JDF_m_1970_jet_multirole_equipment:0 "F-104J"
+ JDF_m_1980_jet_multirole_equipment:0 "F-4EJ"
+ 
  PRK_m_1970_jet_multirole_equipment:0 "MIG-21Bis"
  PRK_m_1980_jet_multirole_equipment:0 "MIG-21K"
  PRK_m_1990_jet_multirole_equipment:0 "MIG-29"
@@ -645,6 +705,10 @@
  USF_m_1980_jet_fighter_equipment:0 "F-15A 이글"
  USF_m_1990_jet_fighter_equipment:0 "F-15C 이글"
  
+ JDF_m_1970_jet_fighter_equipment:0 "F-4"
+ JDF_m_1980_jet_fighter_equipment:0 "F-15J"
+ JDF_m_1990_jet_fighter_equipment:0 "F-15CJ"
+ 
  PRK_m_1970_jet_fighter_equipment:0 "MIG-23"
  PRK_m_1980_jet_fighter_equipment:0 "MIG-23ML"
  PRK_m_1990_jet_fighter_equipment:0 "SU-27"
@@ -684,6 +748,8 @@
  
  USF_m_1980_jet_CAS_equipment:0 "F-111"
  USF_m_1990_jet_CAS_equipment:0 "A-10A 썬더볼트"
+ 
+ JDF_m_1980_jet_CAS_equipment:0 "F-1"
  
  m_1970_attack_helicopter_equipment:0 "1970년대 공격헬기"
  m_1980_attack_helicopter_equipment:0 "1980년대 공격헬기"
@@ -776,7 +842,7 @@
  
  ship_hull_PK_1:0 "고속정 선체 I"
  ship_hull_PK_2:0 "고속정 선체 II"
- ship_hull_PK_3:0 "고속정 선체 III"
+ ship_hull_PK_3:0 "고속함 선체"
  
  ship_hull_FF_1:0 "호위함 선체 I"
  ship_hull_FF_2:0 "호위함 선체 II"

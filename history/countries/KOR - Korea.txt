@@ -59,7 +59,11 @@ set_fuel_ratio = 1.0
 set_convoys = 350
 # Starting tech
 set_technology = {
-	engineer_equipment = 1
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
+	engineer_equipment = 1	
 	modern_moto = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -897,6 +901,23 @@ if = {
 		}
 	}
 	create_equipment_variant = {
+		name = "윤영하급"
+		type = ship_hull_PK_3
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = modern_ship_light_battery_1
+			fixed_ship_light_aa_slot = ship_mg
+			fixed_ship_fire_control_system_slot = ship_modern_fire_control_system_1
+			fixed_ship_radar_slot = ship_modern_radar_2
+			fixed_ship_sts_slot = ship_missile_luncher_3
+			fixed_ship_depth_charge_slot = ship_depth_charge_modern_1
+			fixed_ship_engine_slot = light_ship_engine_modern_1
+			rear_1_custom_slot = modern_ship_light_battery_1
+			mid_1_custom_slot = ship_mg
+			front_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
 		name = "장보고급"
 		type = ship_hull_modern_submarine_3
 		parent_version = 0
@@ -920,6 +941,16 @@ if = {
 			front_1_custom_slot = ship_torpedo_sub_modern_2
 			mid_1_custom_slot = ship_sub_snorkel_modern
 			rear_1_custom_slot = ship_sts_sub_1
+		}
+	}
+	create_equipment_variant = {
+		name = "M48A3K"
+		type = m_1960_mbt
+		upgrades = {
+			tank_gun_upgrade = 1
+			tank_armor_upgrade = 1  
+			tank_engine_upgrade = 0
+			tank_reliability_upgrade = 2
 		}
 	}
 }

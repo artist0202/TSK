@@ -71,9 +71,12 @@ country_event = {
                 }
 			}	
 		hidden_effect = { #
+
 			ROK = {
+				set_fuel_ratio = 0.8
 				load_oob = ROK_civil
 				add_ideas = KOR_modern_millitary
+				add_ideas = KOR_ammo
 				country_event = {
                     id = korea.100
 			        days = 2
@@ -85,8 +88,10 @@ country_event = {
 				set_country_flag = kor_civ
 			}	
 			MKR = {
+				add_ideas = KOR_cornered
                 load_oob = MKR_civil
 				add_ideas = KOR_modern_millitary
+				add_ideas = KOR_ammo
 				set_country_flag = kor_civ
                 declare_war_on = {
                     target = ROK
@@ -99,8 +104,8 @@ country_event = {
             }	
 			PRK = {
 				country_event = {
-                    id = korea.2
-			        days = 3
+					id = korea.2
+					days = 1
 				}
 			}	
 			KR1 = {
@@ -175,56 +180,55 @@ country_event = {
                 	}
 				}	
 				hidden_effect = {
-			    	ROK = {
-                    	load_oob = ROK_civil
-				    	add_ideas = KOR_modern_millitary
-						country_event = {
-                       		id = korea.200
-			           		days = 2
-		            	}	
-						set_country_flag = kor_civ
-					}	
-					MKR = {
-                        load_oob = MKR_civil
-				    	add_ideas = KOR_modern_millitary
-						set_country_flag = kor_civ
-                    	declare_war_on = {
-                        	target = ROK
-                        	type = take_core_state
-                    	}
-						country_event = {
-							id = korea.100
-			           		days = 2
+						ROK = {
+							set_fuel_ratio = 0.8
+							load_oob = ROK_civil
+							add_ideas = KOR_modern_millitary
+							add_ideas = KOR_ammo
+							country_event = {
+								id = korea.200
+								days = 2
+							}	
+							set_country_flag = kor_civ
 						}	
-						country_event = {
-							id = korea.300
-							days = 5
-						}			
-                	}	
-					if = {
-						limit = { 
-						is_ai = yes
-						}
+						MKR = {
+							add_ideas = KOR_cornered
+							load_oob = MKR_civil
+							add_ideas = KOR_modern_millitary
+							set_country_flag = kor_civ
+							add_ideas = KOR_ammo
+							declare_war_on = {
+								target = ROK
+								type = take_core_state
+							}
+							country_event = {
+								id = korea.100
+								days = 2
+							}	
+							country_event = {
+								id = korea.300
+								days = 5
+							}			
+						}	
 						PRK = {
 							country_event = {
 								id = korea.2
 								days = 1
 							}
 						}	
-					}
-			    KR1 = {
-				    remove_state_core = 525
-				    remove_state_core = 810
-				    remove_state_core = 817
-				    remove_state_core = 807
-				    remove_state_core = 809
-				    remove_state_core = 808
-				    remove_state_core = 813
-				    remove_state_core = 821
-				}
-        	}				
-        }		
-	}
+						KR1 = {
+							remove_state_core = 525
+							remove_state_core = 810
+							remove_state_core = 817
+							remove_state_core = 807
+							remove_state_core = 809
+							remove_state_core = 808
+							remove_state_core = 813
+							remove_state_core = 821
+			}
+        }				
+    }		
+}
 #전쟁
 country_event = {
 	id = korea.100
@@ -262,6 +266,10 @@ country_event = {
             delete_unit_template_and_units = {
                 division_template = "공수특전사단 2" 
             }	
+			country_event = {
+				id = korea.15
+				days = 1
+			}
 		}
 	}
 }	
@@ -360,26 +368,25 @@ country_event = { #북한군 남침?
 	
 	option = {
 		name = korea.2.a
-		ai_chance = { factor = 65 }
-		
+		ai_chance = { factor = 100 }
 		PRK = {
             declare_war_on = {
-            target = MKR
-            type = take_core_state
+				target = MKR
+				type = take_core_state
 			}
             declare_war_on = {
-            target = ROK
-            type = take_core_state
+				target = ROK
+				type = take_core_state
 			}
 			unlock_decision_category_tooltip = PRK_2nd_war
 			set_country_flag = PRK_war1
-			news_event = { days = 3 id = kor_news.4 }
+			news_event = { days = 2 id = kor_news.4 }
         }
     }	
 	
 	option = {
 		name = korea.2.b
-		ai_chance = { factor = 35 }
+		ai_chance = { factor = 0 }
 	}
 }
 country_event = { #1936
@@ -535,16 +542,13 @@ country_event = { #주한미군 참전
 
 	trigger = {
 		ROK = { has_war_with = PRK }
-		has_global_flag = fall_of_seoul_PRK
-	}
-
-	mean_time_to_happen = {
-		days = 3
+		ROK = {
+		has_country_flag = fall_of_seoul_rok
+		}
 	}
 	
 	option = {
 		name = korea.10.a
-		ai_chance = { factor = 100 }
 		ROK = {
 			create_faction = ROK_USF
 			add_to_faction = USF
@@ -556,6 +560,14 @@ country_event = { #주한미군 참전
                 division_template = "주한미군" 
             }
         }
+		hidden_effect = {
+		ROK = { 
+				country_event = {
+					id = korea.11
+					days = 5
+				}	
+			}
+		}
     }	
 }
 
@@ -567,22 +579,11 @@ country_event = { #패잔병 재편성
 
 	fire_only_once = yes
 
-	trigger = {
-		ROK = { has_war_with = PRK }
-		NOT = { country_exists = MKR }
-		ROK = {
-			has_country_flag = ROK_USF_1
-        }
-	}
-
-	mean_time_to_happen = {
-		days = 3
-	}
+	is_triggered_only = yes
+	
 	
 	option = {
 		name = korea.11.a
-		ai_chance = { factor = 100 }
-
 		ROK = {
             load_oob = ROK_mkr
         }
@@ -593,7 +594,7 @@ country_event = { #자위대 항공기와 접촉
 	id = korea.12
 	title = korea.12.t
 	desc = korea.12.d
-	picture = GFX_자위대
+	picture = GFX_F-4EJ
 
 	fire_only_once = yes
 
@@ -604,7 +605,6 @@ country_event = { #자위대 항공기와 접촉
 		ai_chance = { factor = 100 }
     }	
 }
-
 country_event = { #a
 	id = korea.13
 	title = korea.13.t
@@ -662,3 +662,24 @@ country_event = {
 		news_event = { hours = 6 id = kor_news.3 }
     }
 }	
+country_event = { #항공자위대 합병
+	id = korea.15
+	title = korea.15.t
+	desc = korea.15.d
+	picture = GFX_F-4EJ
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = korea.15.a
+		ROK = {
+            load_oob = JDF_civ
+        }
+    }	
+	
+	option = {
+		name = korea.15.b
+    }	
+}

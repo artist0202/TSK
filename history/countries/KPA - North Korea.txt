@@ -6,6 +6,10 @@ set_research_slots = 4
 
 # Starting tech
 set_technology = {
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
 	engineer_equipment = 1	
 	tech_support = 1		
 	tech_engineers = 1
@@ -65,6 +69,7 @@ set_technology = {
 	
 	modern_war_artillery = 1
 	modern_war_artillery_2 = 1
+	modern_war_artillery_3 = 1
 	
 	m_1970_spaa = 1
 	m_1980_spaa = 1

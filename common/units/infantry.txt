@@ -503,6 +503,8 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			mechanized_equipment
+			light_mun_equipment
+			heavy_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -512,6 +514,8 @@ sub_units = {
 			IFV_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 30
+			light_mun_equipment = 390
+			heavy_mun_equipment = 100
 		}
 
 		forest = {
@@ -594,6 +598,7 @@ sub_units = {
 			mechanized_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 40
+			light_mun_equipment = 420
 		}
 
 		forest = {
@@ -663,8 +668,9 @@ sub_units = {
 		need = {
 			infantry_equipment = 80
 			anti_tank_equipment = 10
-			support_equipment = 1
 			support_infantry_equipment = 30
+			light_mun_equipment = 330
+			light_vehicle_equipment = 10
 		}
 	}
 	
@@ -707,11 +713,18 @@ sub_units = {
 	
 		# this is what moves us and sets speed
 		transport = motorized_equipment
-	
+		
+		essential = {
+			infantry_equipment
+			light_mun_equipment
+		}
+		
 		need = {
 			infantry_equipment = 100
 			motorized_equipment = 50
+			light_vehicle_equipment = 10
 			support_infantry_equipment = 50
+			light_mun_equipment = 450
 		}
 
 		forest = {
@@ -778,10 +791,17 @@ sub_units = {
 		weight = 0.5
 		
 		supply_consumption = 0.04
-	
+		
+		essential = {
+			infantry_equipment
+			light_mun_equipment
+		}
+		
 		need = {
 			infantry_equipment = 100
 			support_infantry_equipment = 50
+			light_mun_equipment = 450
+			light_vehicle_equipment = 10
 		}
 	}
 	
@@ -823,10 +843,16 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.01
 		breakthrough = 0.3
-	
+		
+		essential = {
+			infantry_equipment
+			light_mun_equipment
+		}
+		
 		need = {
 			infantry_equipment = 150
 			support_infantry_equipment = 100
+			light_mun_equipment = 400
 		}
 
 		marsh = {
@@ -887,6 +913,7 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			amphibious_mechanized_equipment
+			light_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -896,6 +923,7 @@ sub_units = {
 			amphibious_mechanized_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 50
+			light_mun_equipment = 450
 		}
 
 		forest = {
@@ -974,12 +1002,14 @@ sub_units = {
 			infantry_equipment
 			motorized_equipment
 			engineer_equipment
+			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 80
 			motorized_equipment = 10
 			engineer_equipment = 25
+			light_mun_equipment = 100
 		}
 
 		forest = {
@@ -1075,12 +1105,14 @@ sub_units = {
 			infantry_equipment
 			motorized_equipment
 			engineer_equipment
+			light_mun_equipment
 		}
 
 		need = {
 			infantry_equipment = 100
 			motorized_equipment = 20
 			engineer_equipment = 50
+			light_mun_equipment = 100
 		}
 
 		forest = {
@@ -1140,6 +1172,7 @@ sub_units = {
 
 		type = {
 			infantry
+			motorized
 		}
 		
 		group = infantry
@@ -1170,10 +1203,19 @@ sub_units = {
 		weight = 0.5
 		
 		supply_consumption = 0.07
-	
+		
+		transport = motorized_equipment
+		
+		essential = {
+			infantry_equipment
+			light_mun_equipment
+		}
+		
 		need = {
 			infantry_equipment = 100
 			support_infantry_equipment = 60
+			light_mun_equipment = 300
+			light_vehicle_equipment = 20
 		}
 	}
 	
@@ -1222,6 +1264,7 @@ sub_units = {
 			motorized_equipment = 50
 			support_infantry_equipment = 10
 			Vertical_maneuvering_equipment = 100
+			light_mun_equipment = 300
 		}
 		hills = {
 			attack = -0.2

@@ -43,13 +43,16 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			country_event = { id = korea.5 }
-
+			set_country_flag = martial_law
 		}
 	}
 	focus = { #언론통제
 		id = KOR_press_control
 		icon = GFX_KOR_press_control
 		cost = 0.5
+		available = {
+			has_country_flag = martial_law
+		}
 		prerequisite = {
 			focus = KOR_intel
 		}

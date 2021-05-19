@@ -13,12 +13,81 @@ technologies = {
 			always = no
 		}
 	}
-	
+		
+	light_vehicle_equipment_0 = { #경차량
 
+		enable_equipments = { 
+			light_vehicle_equipment_0
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+		
+	light_vehicle_equipment_1 = { #경차량1
+
+		enable_equipments = { 
+			light_vehicle_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+		
+	light_vehicle_equipment_2 = { #경차량2 (험비)
+
+		enable_equipments = { 
+			light_vehicle_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
 	engineer_equipment = { 
 
 		enable_equipments = { 
 			engineer_equipment_0
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	light_mun_equipment = { #경탄약
+
+		enable_equipments = { 
+			light_mun_equipment_0
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	heavy_mun_equipment = { #중탄약
+
+		enable_equipments = { 
+			heavy_mun_equipment_0
 		}
 
 		research_cost = 1
@@ -1393,6 +1462,32 @@ technologies = {
 			always = no
 		}
 	}
+	m_1990patrol = {#참수리급,SO-1급
+
+		enable_equipments = { 
+			ship_hull_PK_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	m_2000patrol = {#윤영하급
+
+		enable_equipments = { 
+			ship_hull_PK_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
 	
 ############################################################################################
 ###구축함
@@ -2189,8 +2284,7 @@ technologies = {
 
 	modern_fuel_refining = {
 		
-		fuel_gain_factor = 1
-		fuel_gain_factor_from_states = 1
+		fuel_gain_factor = 0.5
 
 		start_year = 1936
 		

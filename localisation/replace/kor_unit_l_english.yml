@@ -25,11 +25,15 @@
  Engi_Bat_desc:0 ""
  modern_sp_art_brigade:0 "현대식 자주포 대대"
  modern_sp_art_brigade_desc:0 ""
- modern_artillery_brigade:0 "현대 포병"
+ modern_artillery_brigade:0 "현대식 포병"
  modern_artillery_brigade_desc:0 ""
- modern_amphibious_marine_brigade:0 "현대 수륙양용 대대"
+ modern_amphibious_marine_brigade:0 "현대식 수륙양용 대대"
  modern_amphibious_marine_brigade_desc:0 ""
-  
+ mot_roket:0 "방사포 지원중대"
+ mot_roket_desc:0 ""
+ modern_motorized_rocket_brigade:0 "현대식 다연장로켓포 대대"
+ modern_motorized_rocket_brigade_desc:0 ""
+ 
  modern_PK:0 "고속정"
  Modern_DDH:0 "미사일 구축함"
  ship_hull_Modern_DDH_desc:0 "대공 요격 미사일을 발사할 수 있는 것은물론,대잠 능력, 대공 능력, 대함 능력을 모두 고루 갖추고 있는 현대의 구축함을 일컫는 말입니다."

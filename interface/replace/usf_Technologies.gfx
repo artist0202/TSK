@@ -1,5 +1,21 @@
 spriteTypes = {	
-
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_USF_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/usf_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_USF_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/usf_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_USF_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/usf_경차량2.png"
+	}
+	
 	### South USFea ###
 	
 	SpriteType = {

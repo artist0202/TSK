@@ -21,7 +21,7 @@ division_template = {
 		mot_artillery_brigade = { x = 3 y = 1 }
 		modern_sp_artillery_brigade = { x = 3 y = 2 }
 		modern_sp_artillery_brigade = { x = 3 y = 3 }
-		motorized_rocket_brigade = { x = 3 y = 4 }
+		modern_motorized_rocket_brigade = { x = 3 y = 4 }
 		
 		modern_sp_anti_air_brigade = { x = 4 y = 0 }
 

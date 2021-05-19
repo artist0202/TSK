@@ -1,5 +1,21 @@
 spriteTypes = {	
-
+ ################################################################################
+ ######경차량
+ ################################################################################
+ 
+	SpriteType = {
+		name = "GFX_MKR_light_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량0.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_light_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량1.png"
+	}
+	SpriteType = {
+		name = "GFX_MKR_light_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/kor_경차량2.png"
+	}
+	
 	### South korea ###
 	
 	SpriteType = {
@@ -449,6 +465,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy/KOR_ship_hull_DDG_2.png"
 	}
 	
+    SpriteType = {
+		name = "GFX_MKR_ship_hull_modern_submarine_3_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_3.png"
+	}
+    SpriteType = {
+		name = "GFX_MKR_ship_hull_modern_submarine_4_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_4.png"
+	}
+    SpriteType = {
+		name = "GFX_MKR_ship_hull_modern_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_5.png"
+	}
+    SpriteType = {
+		name = "GFX_MKR_ship_hull_modern_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/navy/KOR_sub_6.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_Vertical_maneuvering_equipment_1_medium"

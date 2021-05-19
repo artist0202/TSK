@@ -9,19 +9,19 @@ division_template = {
 		heavy_mechanized = { x = 0 y = 2 }
 		heavy_mechanized = { x = 0 y = 3 }
 		
-		mechanized = { x = 1 y = 0 }
-		mechanized = { x = 1 y = 1 }
+		modern_mechanized = { x = 1 y = 0 }
+		modern_mechanized = { x = 1 y = 1 }
 		heavy_mechanized = { x = 1 y = 2 }
 		
-		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
+		modern_motorized = { x = 2 y = 0 }
+		modern_motorized = { x = 2 y = 1 }
+		modern_motorized = { x = 2 y = 2 }
 		
 		mot_artillery_brigade = { x = 3 y = 0 }
 		mot_artillery_brigade = { x = 3 y = 1 }
 		modern_sp_artillery_brigade = { x = 3 y = 2 }
 		modern_sp_artillery_brigade = { x = 3 y = 3 }
-		motorized_rocket_brigade = { x = 3 y = 4 }
+		modern_motorized_rocket_brigade = { x = 3 y = 4 }
 		
 		modern_sp_anti_air_brigade = { x = 4 y = 0 }
 
@@ -34,16 +34,39 @@ units = {
 	
 	division= {
 		name = "USFK 제2보병사단"
-		location = 13246
+		location = 4056
 		division_template = "주한미군"
-		start_experience_factor = 0.8
+		start_experience_factor = 0.9
         force_equipment_variants = { m_1990_spaa_equipment = { owner = "USF" } }
         force_equipment_variants = { m_1990_sp_equipment = { owner = "USF" } }
         force_equipment_variants = { m_1990_mbt = { owner = "USF" } }
         force_equipment_variants = { infantry_equipment_6 = { owner = "USF" } }
         force_equipment_variants = { m_1990_APC_equipment = { owner = "USF" } }
+        force_equipment_variants = { modern_motorized_equipment = { owner = "USF" } }
+        force_equipment_variants = { light_vehicle_equipment_2 = { owner = "USF" } }
         force_equipment_variants = { m_1990_IFV_equipment = { owner = "USF" } }
+        force_equipment_variants = { USF_support_infantry_equipment_2 = { owner = "USF" } }
         force_equipment_variants = { m_1990_mlrs_equipment = { owner = "USF" } }
         force_equipment_variants = { modern_artillery_equipment_2 = { owner = "USF" } }
 	}
 }
+	air_wings = {
+		809={
+			m_1990_jet_multirole_equipment = {
+				owner = "USF" 
+				amount = 20
+			}
+			m_1990_jet_multirole_equipment = {
+				owner = "USF" 
+				amount = 20
+			}
+			m_1990_jet_CAS_equipment = {
+				owner = "USF" 
+				amount = 20
+			}
+			m_1990_attack_helicopter_equipment = {
+				owner = "USF" 
+				amount = 40
+			}
+		}
+	}

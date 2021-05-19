@@ -5,8 +5,9 @@ units = {
 		name = "제1보병사단 '전진'"
 		location = 4056
 		division_template = "상비사단"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.1
 		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
+		start_equipment_factor = 0.4
 	}
 	
 	division= { #화천
@@ -14,75 +15,32 @@ units = {
 		location = 4056
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
 	}
 	division= { #철원
 		name = "제3보병사단 '백골'"
 		location = 4056
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } } 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	} 
 	division= { #연천
 		name = "제5보병사단 '열쇠'"
 		location = 4056
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.3
-	}
-	division= { #철원
-		name = "제6보병사단 '청성'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.3
-	}
-	division= { #화천
-		name = "제7보병사단 '칠성'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-	}
-	division= { #인천
-		name = "제17 보병사단 '번개'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	division= { #양구
 		name = "제21 보병사단 '백두산'"
 		location = 4056
 		division_template = "상비사단"
 		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-	}
-	division= { #동두천
-		name = "제28 보병사단 '태풍'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.2
-	}
-	division= { #구리
-		name = "제57 보병사단 '용마'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.2
-	}
-	division= {
-		name = "제65 보병사단 '밀물'"
-		location = 4056
-		division_template = "상비사단"
-		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	#####################기계화##########
 	
@@ -91,40 +49,14 @@ units = {
 		location = 4056
 		division_template = "기계화보병사단"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
 	}
 	division= {
 		name = "제11기계화보병사단 '화랑'"
 		location = 4056
 		division_template = "기계화보병사단"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-	}
-	division= {
-		name = "제30기계화보병사단 '필승'"
-		location = 4056	
-		division_template = "기계화보병사단"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.8
-	}
-	#####################기갑여단##########
-	
-	division= {
-		name = "제3기갑여단 '번개'"
-		location = 4056
-		division_template = "기갑여단"
-		start_experience_factor = 0.3
-		force_equipment_variants = { m_1980_mbt = { owner = "KOR" } }
-		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
-		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KOR" } }
-	}
-	division= {
-		name = "제5기갑여단 '철풍'"
-		location = 4056
-		division_template = "기갑여단"
-		start_experience_factor = 0.3
-		force_equipment_variants = { m_1970_mbt = { owner = "KOR" } }
-		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
-		force_equipment_variants = { m_1980_spaa_equipment = { owner = "KOR" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	
 	#####################해병##########
@@ -132,9 +64,10 @@ units = {
 		name = "제2해병사단 '청룡'"
 		location = 4056
 		division_template = "대한민국 해병사단"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
 		force_equipment_variants = { m_1960_mbt = { owner = "KOR" } }
 		force_equipment_variants = { m_1980_sp_equipment = { owner = "KOR" } }
+		start_equipment_factor = 0.7
 	}
 	#####################향토사단##########
 	division= {
@@ -142,31 +75,13 @@ units = {
 		location = 4056
 		division_template = "향토방위사단"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
 	}
 	division= {
 		name = "제51 보병사단 '전승'"
 		location = 4056
 		division_template = "향토방위사단"
 		start_experience_factor = 0.2
-	}
-}
-	
-air_wings = {
-	808 = { 
-		m_1970_jet_multirole_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
-
-	}
-	809 = { 
-		m_1980_attack_helicopter_equipment = {
-			owner = "KOR" 
-			amount = 20
-		}
-		m_1990_attack_helicopter_equipment = {
-			owner = "KOR" 
-			amount = 40
-		}
+		start_equipment_factor = 0.4
 	}
 }

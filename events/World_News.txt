@@ -45,14 +45,14 @@ news_event = {
 	major = yes
 	
 	trigger = {
-	OR = {
-		807 = { is_owned_by = KR1 }
-		KR1 = { has_war_with = PRK }
-		807 = { is_owned_by = ROK }
-		ROK = { has_war_with = PRK }
-		807 = { is_owned_by = MKR }
-		MKR = { has_war_with = PRK }
-	}
+		OR = {
+			807 = { is_owned_by = KR1 }
+			KR1 = { has_war_with = PRK }
+			807 = { is_owned_by = ROK }
+			ROK = { has_war_with = PRK }
+			807 = { is_owned_by = MKR }
+			MKR = { has_war_with = PRK }
+		}
 		807 = { is_controlled_by = PRK }
 		NOT = { has_global_flag = fall_of_seoul }
 	}

@@ -790,17 +790,37 @@ country_event = { #정보
 	}
 	option = {
 		name = KOR_MB.2009.c #동의하지
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}
@@ -822,17 +842,37 @@ country_event = {
 	}
 	option = {
 		name = KOR_MB.2010.b #동의하지
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}
@@ -853,17 +893,37 @@ country_event = { #kkshunp
 	}
 	option = {
 		name = KOR_MB.2011.b 
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}
@@ -883,17 +943,37 @@ country_event = { #도움준사람들
 	}
 	option = {
 		name = KOR_MB.2012.b 
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}
@@ -916,17 +996,37 @@ country_event = { #모드정보 - 육군
 	
 	option = {
 		name = KOR_MB.2013.b 
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}
@@ -948,17 +1048,37 @@ country_event = { #모드정보 - 기타등등
 	
 	option = {
 		name = KOR_MB.2014.b 
-		if = {
-			limit = {
-				original_tag = KOR
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = KOR
+				}
+				525 = {
+					add_manpower = 1600000
+					add_manpower = 840000
+				}
+				809 = {
+					add_manpower = 1612000
+					add_manpower = 1612000
+				}
 			}
-			525 = {
-				add_manpower = 1600000
-				add_manpower = 840000
+			KOR = {
+			add_ideas = KOR_ammo
 			}
-			809 = {
-				add_manpower = 1612000
-				add_manpower = 1612000
+			KPA = {
+			add_ideas = KOR_ammo
+			}
+			KR1 = {
+			add_ideas = KOR_ammo
+			}
+			PRK = {
+			add_ideas = KOR_ammo
+			}
+			JDF = {
+			add_ideas = KOR_ammo
+			}
+			USF = {
+			add_ideas = KOR_ammo
 			}
 		}
 	}

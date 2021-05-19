@@ -30,6 +30,11 @@ set_variable = { Imperialism = 0 }
 	}
 # Starting tech
 set_technology = {
+	light_vehicle_equipment_0 = 1
+	light_vehicle_equipment_1 = 1
+	light_vehicle_equipment_2 = 1
+	light_mun_equipment = 1
+	heavy_mun_equipment = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_engineers2 = 1
@@ -96,6 +101,14 @@ set_technology = {
 
 	heavy_anti_air = 1
 	aa_missile = 1
+	
+	m_1970_jet_multirole = 1
+	m_1980_jet_multirole = 1
+	
+	m_1970_jet_fighter = 1
+	m_1980_jet_fighter = 1
+	
+	m_1980_jet_CAS = 1
 	
 	light_ship_engine_modern_1 = 1
 	cruiser_ship_engine_modern_1 = 1
