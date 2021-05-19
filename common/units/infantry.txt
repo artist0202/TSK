@@ -589,6 +589,7 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			mechanized_equipment
+			light_mun_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -662,6 +663,11 @@ sub_units = {
 		training_time = 80
 		suppression = 2
 		weight = 0.5
+		
+		essential = {
+			infantry_equipment
+			light_mun_equipment
+		}
 		
 		supply_consumption = 0.04
 	
@@ -801,7 +807,7 @@ sub_units = {
 			infantry_equipment = 100
 			support_infantry_equipment = 50
 			light_mun_equipment = 450
-			light_vehicle_equipment = 10
+			light_vehicle_equipment = 35
 		}
 	}
 	

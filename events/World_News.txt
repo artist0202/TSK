@@ -45,14 +45,8 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		OR = {
-			807 = { is_owned_by = KR1 }
-			KR1 = { has_war_with = PRK }
-			807 = { is_owned_by = ROK }
-			ROK = { has_war_with = PRK }
-			807 = { is_owned_by = MKR }
-			MKR = { has_war_with = PRK }
-		}
+		807 = { is_owned_by = MKR }
+		MKR = { has_war_with = PRK }
 		807 = { is_controlled_by = PRK }
 		NOT = { has_global_flag = fall_of_seoul }
 	}
@@ -61,6 +55,13 @@ news_event = {
 		set_global_flag = fall_of_seoul
 		ROK = {
 		set_country_flag = fall_of_seoul_rok
+		}
+		hidden_effect = {
+			MKR = {
+				country_event = {
+				id = korea.16
+				}
+			}	
 		}
 	}
 	
@@ -83,7 +84,6 @@ news_event = {
 		name = kor_news.2.b
 		trigger = { TAG = MKR }
 		trigger = { TAG = ROK }
-		trigger = { TAG = KR1 }
 	}
 	option = {
 		name = kor_news.2.c
@@ -107,7 +107,6 @@ news_event = {#서울 수복
 			PRK = {
 				country_event = {
 				id = korea_war.13
-				days = 5
 				}
 			}	
 		}

@@ -266,9 +266,11 @@ country_event = {
             delete_unit_template_and_units = {
                 division_template = "공수특전사단 2" 
             }	
-			country_event = {
-				id = korea.15
-				days = 1
+			ROK = {
+				country_event = {
+					id = korea.15
+					days = 1
+				}
 			}
 		}
 	}
@@ -368,7 +370,7 @@ country_event = { #북한군 남침?
 	
 	option = {
 		name = korea.2.a
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 70 }
 		PRK = {
             declare_war_on = {
 				target = MKR
@@ -386,7 +388,7 @@ country_event = { #북한군 남침?
 	
 	option = {
 		name = korea.2.b
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 30 }
 	}
 }
 country_event = { #1936
@@ -540,12 +542,8 @@ country_event = { #주한미군 참전
 
 	fire_only_once = yes
 
-	trigger = {
-		ROK = { has_war_with = PRK }
-		ROK = {
-		has_country_flag = fall_of_seoul_rok
-		}
-	}
+	is_triggered_only = yes
+	
 	
 	option = {
 		name = korea.10.a
@@ -561,10 +559,10 @@ country_event = { #주한미군 참전
             }
         }
 		hidden_effect = {
-		ROK = { 
+			ROK = { 
 				country_event = {
 					id = korea.11
-					days = 5
+					days = 2
 				}	
 			}
 		}
@@ -602,7 +600,6 @@ country_event = { #자위대 항공기와 접촉
 	
 	option = {
 		name = korea.12.a
-		ai_chance = { factor = 100 }
     }	
 }
 country_event = { #a
@@ -636,8 +633,7 @@ country_event = { #a
 		}
     }	
 }
-#서울해방
-country_event = {
+country_event = { #서울해방
 	id = korea.14
 	title = korea.14.t
 	desc = korea.14.b
@@ -645,16 +641,12 @@ country_event = {
 
 	fire_only_once = yes
 	
-	hidden = yes
-	
 	trigger = {
 		807 = { is_owned_by = PRK }
 		807 = { is_controlled_by = ROK }
 		ROK = { has_war_with = PRK }
 		NOT = { has_global_flag = return_seoul_ROK }
-		ROK = {
-			has_country_flag = fall_of_seoul_rok
-		}	
+		has_global_flag = fall_of_seoul
 	}
 	
 	option = {
@@ -681,5 +673,104 @@ country_event = { #항공자위대 합병
 	
 	option = {
 		name = korea.15.b
+    }	
+}
+country_event = { #항복
+	id = korea.16
+	title = korea.16.t
+	desc = korea.16.d
+	picture = GFX_korean_A_loser
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = korea.16.a
+		PRK = {
+			set_state_owner  = 525
+			set_state_owner  = 810
+			set_state_owner  = 807
+		}
+		ROK = { 
+			country_event = {
+				id = korea.10
+			}	
+		}			
+    }	
+}
+
+country_event = { #낙동강 방어선 
+	id = korea.17
+	title = korea.17.t
+	desc = korea.17.d
+	picture = GFX_korean_A_loser
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ROK
+		has_war_with = PRK
+		surrender_progress > 0.2
+	}
+	
+	option = {
+		name = korea.17.a
+		809 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 7121
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 12089
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 13250
+				instant_build = yes
+			}		
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 12060
+				instant_build = yes
+			}		
+		}	
+	}
+}
+country_event = { #항복
+	id = korea.16
+	title = korea.16.t
+	desc = korea.16.d
+	picture = GFX_korean_A_loser
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MKR
+		has_war_with = PRK
+		surrender_progress > 0.6
+	}
+	
+	option = {
+		name = korea.16.a
+		PRK = {
+			annex_country = {
+				target = GER
+				transfer_troops = no
+			}
+		}
+		ROK = { 
+			country_event = {
+				id = korea.10
+			}	
+		}			
     }	
 }

@@ -18,6 +18,9 @@ ideas = {
 				supply_consumption_factor = -0.25
 			}
 		}
+	} 
+	
+	country = {
 		KOR_ammo = {
 			picture = generic_production_bonus
 			allowed = {
@@ -46,9 +49,6 @@ ideas = {
 				}
 			}
 		}
-	} 
-	
-	country = {
 		KOR_cornered = { #궁지에 몰린 여우
 			picture = generic_production_bonus
 			allowed = {
@@ -566,11 +566,16 @@ ideas = {
 
 			targeted_modifier = {
 				tag = MKR
-				attack_bonus_against = 0.3
-				defense_bonus_against = 0.3
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 
 			}
+			targeted_modifier = {
+				tag = ROK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 
+			}
 		}
 		
 		PRK_focus_def = {
@@ -584,7 +589,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_attack_factor = -0.4
+				ai_focus_defense_factor = 10
 			}
 		}
 		ROK_counterattack = {
