@@ -4,6 +4,14 @@ spriteTypes = {
 		name = "GFX_decision_cat_PRK_hacker"
 		texturefile = "gfx/interface/decisions/PRK_hacker.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_KOR_plan_china_dec"
+		texturefile = "gfx/interface/decisions/KOR_plan_china_dec.png"
+	}
+	spriteType = {
+		name = "GFX_decision_core_HWAN"
+		texturefile = "gfx/interface/decisions/decision_FKR_ancient_korean_literature_category.dds"
+	}
 
 	spriteType = {
 		name = "GFX_decision_cat_kor_dsc"

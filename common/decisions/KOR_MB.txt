@@ -493,6 +493,408 @@ core_KPA = {
 	}
 
 }
+KOR_plan_china_dec = {
+
+	KOR_manchuria_fenhal = { #중국에 코어넣기
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_completed_focus = KOR_fenhal_china
+			is_subject = no 
+			MAN = { exists = no }
+			custom_trigger_tooltip = {
+				tooltip = is_ruling_manchuria_tt
+				controls_state = 328
+				controls_state = 716
+				controls_state = 717
+				controls_state = 745
+				controls_state = 610
+				controls_state = 715
+				controls_state = 714
+				controls_state = 761
+				controls_state = 609
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+
+		complete_effect = {
+			MAN = {
+				transfer_state = 328
+				transfer_state = 716
+				transfer_state = 717
+				transfer_state = 745
+				transfer_state = 610
+				transfer_state = 715
+				transfer_state = 714
+				transfer_state = 761
+				transfer_state = 609
+				609 = {
+					add_core_of = MAN
+				}	
+				set_cosmetic_tag = MAN_republic
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_core_of = KOR
+			}
+			KOR = {
+				puppet = MAN
+			}
+			set_country_flag = manchu_china_republic
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	KOR_neimenggu_fenhal = { #중국에 코어넣기
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_completed_focus = KOR_fenhal_china
+			is_subject = no 
+			MEN = { exists = no }
+			custom_trigger_tooltip = {
+				tooltip = is_ruling_neimenggu_tt
+				controls_state = 611
+				controls_state = 612
+				controls_state = 621
+				controls_state = 746
+				controls_state = 616
+				controls_state = 756
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+
+		complete_effect = {
+		
+			MEN = {
+				transfer_state = 611
+				transfer_state = 612
+				transfer_state = 621
+				transfer_state = 746
+				transfer_state = 616
+				transfer_state = 756
+				621 = {
+					add_core_of = MEN
+				}	
+				746 = {
+					add_core_of = MEN
+				}	
+				616 = {
+					add_core_of = MEN
+				}	
+				756 = {
+					add_core_of = MEN
+				}	
+				set_cosmetic_tag = MEN_republic
+			}
+			every_state = {
+				limit = {
+					is_core_of = MEN
+				}
+				add_core_of = KOR
+			}
+			set_country_flag = neimenggu_china_republic
+			KOR = {
+				puppet = MEN
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	KOR_northen_china_fenhal = { #중국에 코어넣기
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_completed_focus = KOR_northen_southen_china
+			is_subject = no 
+			SHX = { exists = no }
+			custom_trigger_tooltip = {
+				tooltip = is_ruling_china_north_tt
+				controls_state = 608
+				controls_state = 614
+				controls_state = 615
+				controls_state = 622
+				controls_state = 283
+				controls_state = 754
+				controls_state = 755
+				controls_state = 604
+				controls_state = 744
+				controls_state = 607
+				controls_state = 597	
+				controls_state = 743
+				controls_state = 598
+				controls_state = 606
+				controls_state = 620
+				controls_state = 605
+				controls_state = 753
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+
+		complete_effect = {
+			set_country_flag = north_china_republic
+			SHX = {
+				transfer_state = 608
+				transfer_state = 614
+				transfer_state = 615
+				transfer_state = 622
+				transfer_state = 283
+				transfer_state = 754
+				transfer_state = 755
+				transfer_state = 604
+				transfer_state = 744
+				transfer_state = 607
+				transfer_state = 597	
+				transfer_state = 743
+				transfer_state = 598
+				transfer_state = 606
+				transfer_state = 620
+				transfer_state = 605
+				transfer_state = 753
+				set_cosmetic_tag = SHX_republic
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = SHX
+			}
+			KOR = {
+				puppet = SHX
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	KOR_southen_china_fenhal = { #중국에 코어넣기
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_completed_focus = KOR_northen_southen_china
+			is_subject = no 
+			GXC = { exists = no }
+			YUN = { exists = no }
+			custom_trigger_tooltip = {
+				tooltip = is_ruling_china_south_tt
+				controls_state = 750
+				controls_state = 595 
+				controls_state = 600
+				controls_state = 601
+				controls_state = 602
+				controls_state = 603
+				controls_state = 748
+				controls_state = 325
+				controls_state = 747
+				controls_state = 751
+				controls_state = 752
+				controls_state = 749
+				controls_state = 613
+				controls_state = 596
+				controls_state = 592
+				controls_state = 593
+				controls_state = 599
+				controls_state = 594
+				controls_state = 591
+				controls_state = 322
+				controls_state = 757
+				controls_state = 758
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+
+		complete_effect = {
+			set_country_flag = south_china_republic
+			GXC = {
+				transfer_state = 750
+				transfer_state = 595
+				transfer_state = 600
+				transfer_state = 602
+				transfer_state = 603
+				transfer_state = 748
+				transfer_state = 325
+				transfer_state = 747
+				transfer_state = 751
+				transfer_state = 752
+				transfer_state = 749
+				transfer_state = 613
+				transfer_state = 596
+				transfer_state = 592
+				transfer_state = 593
+				transfer_state = 599
+				transfer_state = 594
+				transfer_state = 591
+				set_cosmetic_tag = GXC_republic
+			}
+			TIB = {
+				transfer_state = 601
+				transfer_state = 322
+				transfer_state = 757
+				transfer_state = 758
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = GXC
+			}
+			KOR = {
+				puppet = GXC
+				puppet = TIB
+			}
+			TIB = {
+				set_ruling_party = neutrality
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	KOR_taiwan_china_fenhal = { #중국에 코어넣기
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_completed_focus = KOR_baekje_plan
+			is_subject = no 
+			CHI = { exists = no }
+			custom_trigger_tooltip = {
+				tooltip = is_ruling_china_taiwan_tt
+				controls_state = 524
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+
+		complete_effect = {
+			CHI = {
+				set_cosmetic_tag = TAI_republic
+				transfer_state = 524
+			}
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = KOR
+			}
+			KOR = {
+				puppet = CHI
+			}
+			set_country_flag = taiwan_china_republic
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	name_of_country = {
+		
+		available = {
+				has_country_flag = south_china_republic
+				has_country_flag = north_china_republic
+				has_country_flag = manchu_china_republic
+				has_country_flag = neimenggu_china_republic
+				has_country_flag = taiwan_china_republic
+		}
+		visible = {
+			original_tag = KOR
+			is_subject = no
+		}
+		complete_effect = {
+			GXC = {
+				
+				set_cosmetic_tag = GXC_republic
+			}
+			MAN = {
+				
+				set_cosmetic_tag = MAN_republic
+			}
+			MEN = {
+				
+				set_cosmetic_tag = MEN_republic
+			}
+			SHX = {
+				
+				set_cosmetic_tag = SHX_republic
+			}
+			CHI = {
+				
+				set_cosmetic_tag = TAI_republic
+			}
+		}
+	}
+}
 core_HWAN = {
 	KOR_coring_in_japan = { #일본에 코어넣기
 		icon = generic_form_nation
@@ -541,7 +943,6 @@ core_HWAN = {
 		}
 
 		cost = 150
-		days_remove = 70
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -651,7 +1052,6 @@ core_HWAN = {
 		}
 
 		cost = 150
-		days_remove = 70
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -722,7 +1122,6 @@ core_HWAN = {
 		}
 
 		cost = 150
-		days_remove = 70
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -882,7 +1281,6 @@ core_HWAN = {
 		}
 
 		cost = 150
-		days_remove = 70
 		ai_will_do = {
 			factor = 200
 			modifier = {

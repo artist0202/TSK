@@ -201,6 +201,24 @@
  anarcho_syndicalism:0 "아나르코 생디칼리즘"
  anarcho_syndicalism_desc:0 "혁명적 산별노조나 생디칼리슴을 자본주의 사회에 대한 노동자들의 경제 통제와 사회적 영향력의 확대 위한 방법으로 여기는 아나키즘 이론입니다. 생디칼리스트들은 자신들의 경제전략을 노동자의 자기활동을 촉진 시키고, 인간의 필요성에 중점을 둔 생산과 민주적 가치를 바탕으로한 대안 협력경제 시스템을 만드는 것이라고 여깁니다"
  
+ KOR_plan_china_dec:0 "중국 분할"
+ KOR_plan_china_dec_desc:0 "중국은 어마어마한 인구가 있는 지역입니다. 이곳을 하나로 통합시켜 놓으면 원래 세계에서도 그랬던 것처럼 엄청난 위협이 될 수 있습니다.\n\n바로 지금, 과거 수천년간 우릴 깔보았던 저자들에게 '겸손'을 알려줘야 할 때 입니다."
+ KOR_manchuria_fenhal:0 "만주 공화국 건국"
+ KOR_manchuria_fenhal_desc:0 "" 
+ KOR_neimenggu_fenhal:0 "내몽골 공화국 건국"
+ KOR_neimenggu_fenhal_desc:0 ""
+ KOR_northen_china_fenhal:0 "북중국 분할"
+ KOR_northen_china_fenhal_desc:0 ""
+ KOR_southen_china_fenhal:0 "남중국 분할"
+ KOR_southen_china_fenhal_desc:0 ""
+ KOR_taiwan_china_fenhal:0 "중화민국을 대만섬으로"
+ KOR_southen_china_fenhal_desc:0 ""
+ 
+ 
+ is_ruling_manchuria_tt:0 "만주를 통제하는 중이다."
+ is_ruling_neimenggu_tt:0 "내몽골을 통제하는 중이다."
+ is_ruling_china_north_tt:0 "중국 북부를 통제하는 중이다."
+ is_ruling_china_south_tt:0 "중국 남부를 통제하는 중이다."
  
  ###############북한 이벤트###################
  kpa.1.t:0 "김정은의 권위에 도전한 인민군 장교단"

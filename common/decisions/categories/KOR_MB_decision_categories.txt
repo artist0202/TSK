@@ -12,6 +12,7 @@ core_PRK = {
 }
 
 core_HWAN = {
+	picture = GFX_decision_core_HWAN
 	
 	icon = GFX_decision_category_infiltration
 	
@@ -24,5 +25,17 @@ core_HWAN = {
 			has_completed_focus = KOR_plan_another
 			has_country_flag = debug
 		}	
+	}
+}
+KOR_plan_china_dec = {
+	picture = GFX_decision_KOR_plan_china_dec
+	
+	icon = GFX_decision_category_infiltration
+	
+	allowed = {
+		tag = KOR
+	}
+
+	visible = { 
 	}
 }

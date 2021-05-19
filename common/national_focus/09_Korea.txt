@@ -2388,8 +2388,8 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_plan_china
-		icon = 장개석
-		cost = 5.00
+		icon = chinese_nationalism
+		cost = 0.2
 		prerequisite = {
 			focus = KOR_this_is_japan_heemang
 			focus = KOR_plan_of_fallen_sun
@@ -2397,22 +2397,29 @@ focus_tree = {
 		prerequisite = {
 			focus = KOR_manchu_plan
 		}
-		available = {
-			has_country_flag = KOR_making_sorry
-		}	
 		x = 53
 		y = 11
+		completion_reward = {
+			add_political_power = 100
+		}
 
 	}
 	focus = {
 		id = KOR_new_korean_empire
-		icon = goal_unknown
+		icon = GFX_MKR_non_aggression_treaty_with_Japan
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_plan_china
 		}
 		x = 51
 		y = 12
+		available = {
+			KOR = {
+				JAP = {
+					is_puppet = yes
+				}
+			}	
+		}
 		completion_reward = {
 			JAP = {
 				country_event = {
@@ -2424,7 +2431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_i_saekideul_bwara
-		icon = goal_unknown
+		icon = GFX_MKR_the_defeat_of_fascism
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_new_korean_empire
@@ -2435,13 +2442,17 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_fenhal_china
-		icon = goal_unknown
+		icon = chinese_glory
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_plan_china
 		}
 		x = 55
 		y = 12
+		completion_reward = {
+			unlock_decision_tooltip = KOR_manchuria_fenhal
+			unlock_decision_tooltip = KOR_neimenggu_fenhal
+		}
 
 	}
 	focus = {
@@ -2521,13 +2532,16 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_china_hwangukmong
-		icon = goal_unknown
+		icon = GFX_Offensive
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_fenhal_china
 		}
 		x = 56
 		y = 13
+		completion_reward = {
+			unlock_decision_tooltip = KOR_northen_china_fenhal
+		}	
 
 	}
 	focus = {
@@ -3201,18 +3215,21 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_northen_southen_china
-		icon = goal_unknown
+		icon = tibet
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_fenhal_china
 		}
 		x = 54
 		y = 13
+		completion_reward = {
+			unlock_decision_tooltip = KOR_southen_china_fenhal
+		}
 
 	}
 	focus = {
 		id = KOR_baekje_plan
-		icon = goal_unknown
+		icon = one_china_policy
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_northen_southen_china
@@ -3222,11 +3239,14 @@ focus_tree = {
 		}
 		x = 55
 		y = 14
+		completion_reward = {
+			unlock_decision_tooltip = KOR_taiwan_china_fenhal
+		}
 
 	}
 	focus = {
 		id = KOR_core_in_japan
-		icon = goal_unknown
+		icon = GFX_Popular_face_madam
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_japan_and_korea_is_brother
@@ -3240,13 +3260,19 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_japan_and_korea_is_brother
-		icon = goal_unknown
+		icon = GFX_MKR_PDU
 		cost = 5.00
 		prerequisite = {
 			focus = KOR_new_korean_empire
 		}
 		x = 50
 		y = 13
+		completion_reward = {
+					set_rule = {
+							can_create_factions = yes
+						}
+						create_faction = "수호권"
+		}				
 
 	}
 	focus = {
