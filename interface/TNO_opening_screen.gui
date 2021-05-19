@@ -152,7 +152,7 @@ guiTypes = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
 			position = { x = 14 y = 200 }
-			web_link = "https://discord.gg/JF54QCXDeP"
+			web_link = "https://discord.gg/PHEZ3Fk"
 		}
 	}
 	

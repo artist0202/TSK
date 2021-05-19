@@ -2,16 +2,19 @@
 
  TNO_DEMO_TEXT_APPEAR: "[GET_CURRENT_INTRO_TEXT]"
  TNO_OPENING_SCREEN_BUTTON_TEXT: "[GET_CLOSEBUTTON_TEXT]"
- TNO_OPENING_SCREEN_BUTTON_TT: "§R전쟁이 곧 다가올 것 같군.§!"
- MOD_FEATURES_TEXT:0 "Fall of Stahlreich 디스코드 "
- MOD_INFO_TEXT:0 ""
+ TNO_OPENING_SCREEN_BUTTON_TT: "§R세상은 혼란스럽고, 더욱이 어지럽다.§!"
+ MOD_FEATURES_TEXT:0 "TIME SLIP KOREA 디스코드 " 
+ MOD_INFO_TEXT:0 "'타임슬립 코리아'프로젝트는 2018년부터 기획한 장기 프로젝트입니다. 그때는 저의 기술이 부족해 만들다가 말았지만 팀을 만나서 여려명과 작업하여, 여러분들께 머릿속에만 있던 1991년 시나리오를 보여드릴 수 있어 기쁩니다. 부디 재미있게 플레이 해주십시오.-91년 제작자\n\n갑자기 떠오른 생각으로 여기까지 왔습니다. 여러분들의 관심과 응원이 없었으면 제작 중간에 엎어졌을 가능성이 있는데, 그때마다 호응해주신 분들 정말로 감사합니다. 즐겁게 플레이 해주십쇼! -09년 제작자"
 
- TNO_OPENING_SCREEN_BUTTON_TEXT_GER: "전진!"
- TNO_OPENING_SCREEN_BUTTON_TEXT_RUS: "혁명은 계속된다!"
+ TNO_OPENING_SCREEN_BUTTON_TEXT_GER:0 "전진!"
+ TNO_OPENING_SCREEN_BUTTON_TEXT_KOR:0 "자유대한을 위해!"
+ TNO_OPENING_SCREEN_BUTTON_TEXT_KPA:0 "혁명은 계속된다!"
+ TNO_OPENING_SCREEN_BUTTON_TEXT_RUS:0 "혁명은 계속된다!"
 
  COUNTRY_INFO_TEXT: "[GET_COUNTRY_INFO]"
  REGIONAL_INFO_TEXT: "[GET_REGIONAL_INFO]"
 
  COUNTRY_INFO_GERMANY:0 ""
+ COUNTRY_INFO_KOREA:0 "1945년 8월 15일 해방을 맞이한 대한민국은 이승만, 박정희, 전두환 정부를 거쳐 온전한 민주정부인 6공화국 체제로 돌아왔습니다."
 
  COUNTRY_INFO_RUSSIA:0 ""

@@ -13,6 +13,24 @@ opinion_modifiers = {
 	PRK_south = {
 		value = 50
 	}
+	KOR_plan_hitler_allies = { 
+		value = 10
+	}
+	KOR_plan_hitler_axis = {
+		value = -10
+	}
+	KOR_give_hitler = { 
+		value = 50
+	}
+	KOR_give_england = {
+		value = 20
+	}
+	KOR_give_france = {
+		value = 20
+	}
+	KOR_give_communist = {
+		value = 20
+	}
 }
 
 opinion_modifiers = {
