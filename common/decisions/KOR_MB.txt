@@ -1,7 +1,7 @@
 @MAN_HUNT_BANDITS_EQUIPMENT_COST_TRIGGER = 499
 @MAN_HUNT_BANDITS_EQUIPMENT_COST_EFFECT = -500
 
-core_KPA = {
+core_PRK = {
 	KOR_coring_in_811 = { #황해에 코어넣기
 		icon = generic_form_nation
 
@@ -14,7 +14,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -25,7 +25,7 @@ core_KPA = {
 				controls_state = 820 #함경북도
 				controls_state = 822 #평안북도
 			}
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -66,7 +66,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -78,7 +78,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_811
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -120,7 +120,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -132,7 +132,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_814
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -173,7 +173,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -185,7 +185,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_812
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -226,7 +226,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -238,7 +238,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_527
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -280,7 +280,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -292,7 +292,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_822
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -333,7 +333,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -345,7 +345,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_816
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -386,7 +386,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -398,7 +398,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_815
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -439,7 +439,7 @@ core_KPA = {
 			is_subject = no
 			KPA = { exists = no }
 			custom_trigger_tooltip = {
-				tooltip = form_country_KPA_tt
+				tooltip = form_country_PRK_tt
 				controls_state = 527 #평안남도
 				controls_state = 811 #황해도
 				controls_state = 812 #함경남도
@@ -451,7 +451,7 @@ core_KPA = {
 				controls_state = 822 #평안북도
 			}
 			has_country_flag = KOR_cored_in_820
-			has_country_flag = annex_KPA_war
+			has_country_flag = annex_PRK_war
 		}
 		fire_only_once = yes
 
@@ -467,12 +467,12 @@ core_KPA = {
 			}
 			remove_state_claim = 818
 			set_country_flag = KOR_cored_in_818
-			set_country_flag = KPA_is_our
+			set_country_flag = PRK_is_our
 			hidden_effect = {
 			    country_event = {
 					id = KOR_MB.17
 				}
-				KPA = {
+				PRK = {
 					remove_state_core = 525
 					remove_state_core = 807
 					remove_state_core = 808
