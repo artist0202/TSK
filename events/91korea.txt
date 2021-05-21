@@ -16,13 +16,45 @@ country_event = {
 		add_political_power = 20
 			name = korea.1.a		
 			ROK = { change_tag_from = KR1 }
+			delete_unit_template_and_units = {
+				division_template = "향토방위사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "동원사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "대한민국 해병사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "기계화보병사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "기갑여단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "상비사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "상비사단(중)" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "공수특전사단" 
+				disband = no
+			}	
 			MKR = {
-			    transfer_state = 525
-			    transfer_state = 810
-			    transfer_state = 807
 			    set_state_owner  = 525
 			    set_state_owner  = 810
 			    set_state_owner  = 807
+			    transfer_state  = 525
+			    transfer_state  = 810
+			    transfer_state  = 807
 			    add_state_core  = 525
 			    add_state_core  = 810
 			    add_state_core  = 817
@@ -42,15 +74,10 @@ country_event = {
                 }
 			}	
 			ROK = {
-			    transfer_state = 809
-			    transfer_state = 808
-			    transfer_state = 813
-			    transfer_state = 817
-				transfer_state = 821
-			    set_state_owner  = 809
-			    set_state_owner  = 808
-			    set_state_owner  = 813
-				set_state_owner  = 821
+				annex_country = {
+					target = KR1
+					transfer_troops = no
+				}
 			    add_state_core  = 525
 			    add_state_core  = 810
 			    add_state_core  = 817
@@ -71,7 +98,6 @@ country_event = {
                 }
 			}	
 		hidden_effect = { #
-
 			ROK = {
 				set_fuel_ratio = 0.8
 				load_oob = ROK_civil
@@ -86,8 +112,10 @@ country_event = {
 					days = 5
 				}			
 				set_country_flag = kor_civ
+				
 			}	
 			MKR = {
+				set_fuel_ratio = 0.8
 				add_ideas = KOR_cornered
                 load_oob = MKR_civil
 				add_ideas = KOR_modern_millitary
@@ -122,16 +150,46 @@ country_event = {
 	option = {
 		name = korea.1.b	
 		add_political_power = 20
-		MKR = { change_tag_from = KR1 }
-		ai_chance = { factor = 100 }			
+		MKR = { change_tag_from = KR1 }		
+			delete_unit_template_and_units = {
+				division_template = "향토방위사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "동원사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "대한민국 해병사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "기계화보병사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "기갑여단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "상비사단" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "상비사단(중)" 
+				disband = no
+			}
+			delete_unit_template_and_units = {
+				division_template = "공수특전사단" 
+				disband = no
+			}	
 			MKR = {
+				set_fuel_ratio = 0.8
 			    transfer_state = 525
 			    transfer_state = 810
-			    transfer_state = 817
 			    transfer_state = 807
 			    set_state_owner  = 525
 			    set_state_owner  = 810
-			    set_state_owner  = 817
 			    set_state_owner  = 807
 			    add_state_core  = 525
 			    add_state_core  = 810
@@ -151,16 +209,11 @@ country_event = {
 				
                 	}
 				}	
-				ROK = {
-			    transfer_state = 809
-			    transfer_state = 808
-			    transfer_state = 813
-			    transfer_state = 817
-				transfer_state = 821
-			    set_state_owner  = 809
-			    set_state_owner  = 808
-			    set_state_owner  = 813
-				set_state_owner  = 821
+			ROK = {
+				annex_country = {
+					target = KR1
+					transfer_troops = no
+				}
 			    add_state_core  = 525
 			    add_state_core  = 810
 			    add_state_core  = 817
@@ -192,6 +245,7 @@ country_event = {
 							set_country_flag = kor_civ
 						}	
 						MKR = {
+							set_fuel_ratio = 0.8
 							add_ideas = KOR_cornered
 							load_oob = MKR_civil
 							add_ideas = KOR_modern_millitary
@@ -272,6 +326,9 @@ country_event = {
 					days = 1
 				}
 			}
+			MKR = {
+				set_fuel_ratio = 0.8
+			}		
 		}
 	}
 }	
@@ -712,7 +769,7 @@ country_event = { #낙동강 방어선
 	trigger = {
 		tag = ROK
 		has_war_with = PRK
-		surrender_progress > 0.2
+		surrender_progress < 0.4
 	}
 	
 	option = {
@@ -720,25 +777,25 @@ country_event = { #낙동강 방어선
 		809 = {
 			add_building_construction = {
 				type = bunker
-				level = 3
+				level = 4
 				province = 7121
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
-				level = 3
+				level = 4
 				province = 12089
 				instant_build = yes
 			}
 			add_building_construction = {
 				type = bunker
-				level = 3
+				level = 4
 				province = 13250
 				instant_build = yes
 			}		
 			add_building_construction = {
 				type = bunker
-				level = 3
+				level = 4
 				province = 12060
 				instant_build = yes
 			}		
@@ -746,31 +803,27 @@ country_event = { #낙동강 방어선
 	}
 }
 country_event = { #항복
-	id = korea.16
-	title = korea.16.t
-	desc = korea.16.d
+	id = korea.18
+	title = korea.18.t
+	desc = korea.18.d
 	picture = GFX_korean_A_loser
 
 	fire_only_once = yes
 	
 	trigger = {
 		tag = MKR
-		has_war_with = PRK
-		surrender_progress > 0.6
+		has_war_with = ROK
+		surrender_progress < 0.7
+		NOT = { has_war_with = PRK }
 	}
 	
 	option = {
-		name = korea.16.a
-		PRK = {
+		name = korea.18.a
+		ROK = {
 			annex_country = {
-				target = GER
+				target = MKR
 				transfer_troops = no
 			}
-		}
-		ROK = { 
-			country_event = {
-				id = korea.10
-			}	
-		}			
+		}	
     }	
 }

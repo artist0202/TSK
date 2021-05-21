@@ -305,7 +305,7 @@ units = {
 	}
 	division= {
 		name = "제3기갑여단 '번개'"
-		location = 1100
+		location = 13237
 		division_template = "기갑여단"
 		start_experience_factor = 0.3
 		force_equipment_variants = { m_1980_mbt = { owner = "ROK" } }

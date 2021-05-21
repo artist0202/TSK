@@ -1,5 +1,15 @@
 ﻿l_english:
 
+ ballistic_missile_equipment:0 "탄도미사일"
+ ballistic_missile_equipment_1:0 "구형 탄도미사일"
+ ballistic_missile_equipment_2:0 "전기형 탄도미사일"
+ ballistic_missile_equipment_3:0 "진보된 탄도미사일"
+ ballistic_missile_equipment_4:0 "중거리 미사일"
+ ballistic_missile_equipment_5:0 "대륙간 탄도미사일"
+ PRK_ballistic_missile_equipment_1:0 "화성-5"
+ PRK_ballistic_missile_equipment_2:0 "화성-6"
+ PRK_ballistic_missile_equipment_3:0 "SCUD-ER"
+ 
  modern_motorized_equipment:0 "현대 중형트럭"
  modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
  light_vehicle_equipment:0 "군용 경차량"
@@ -239,15 +249,15 @@
  
  PRK_m_1950_mbt:0 "T-55"
  PRK_m_1960_mbt:0 "천마호"
- PRK_m_1970_mbt:0 "천마-M1970"
+ PRK_m_1970_mbt:0 "천마-75"
  PRK_m_1980_mbt:0 "천마-214"
  PRK_m_1990_mbt:0 "천마-92"
- PRK_m_2000_mbt:0 "선군-915"
- PRK_m_2010_mbt:0 "T-90A"
+ PRK_m_2000_mbt:0 "선군호"
+ PRK_m_2010_mbt:0 "주체호"
  
  KPA_m_1950_mbt:0 "T-55"
  KPA_m_1960_mbt:0 "천마호"
- KPA_m_1970_mbt:0 "천마-M1970"
+ KPA_m_1970_mbt:0 "천마-75"
  KPA_m_1980_mbt:0 "천마-214"
  KPA_m_1990_mbt:0 "천마-92"
  KPA_m_2000_mbt:0 "선군-915"
