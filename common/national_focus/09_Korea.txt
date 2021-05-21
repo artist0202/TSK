@@ -97,6 +97,9 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
+					country_event = {
+						id = KOR_MB.27
+					}
 					add_political_power = 150
 					custom_effect_tooltip = KOR_MB_timeslip_is_done
 					hidden_effect = {
@@ -1057,7 +1060,10 @@ focus_tree = {
 							can_create_factions = yes
 						}
 					add_stability = -0.05
-				}
+					country_event = {
+						id = KOR_MB.28
+					}
+				}	
 			ai_will_do = {
 					factor = 10
 					modifier = {
@@ -1116,6 +1122,9 @@ focus_tree = {
 					add_stability = -0.05
 					KOR = {
 							add_ideas = KOR_not_politic_act
+						}
+						country_event = {
+							id = KOR_MB.29
 						}
 				}
 

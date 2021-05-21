@@ -766,6 +766,80 @@ country_event = {
 		}
 	}
 } 
+##09년 스토리 이벤트##
+country_event = {
+	id = KOR_MB.27 #STORY - KIM SUNG HO
+	title = KOR_MB.27.t
+	desc = KOR_MB.27.d
+	picture = 1936년의세계
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = KOR_MB.27.a #ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+		
+	}
+} 
+
+country_event = {
+	id = KOR_MB.28 #STORY - LEE MYUNG BAK
+	title = KOR_MB.28.t
+	desc = KOR_MB.28.d
+	picture = 1936년의세계
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = KOR_MB.28.a #ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+		
+	}
+} 
+country_event = {
+	id = KOR_MB.29 #STORY - 말년병장과 후임
+	title = KOR_MB.29.t
+	desc = KOR_MB.29.d
+	picture = 1936년의세계
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+		
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = KOR_MB.29.a #ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+		
+	}
+} 
+country_event = {
+	id = KOR_MB.30 #STORY - 그들의 도발
+	title = KOR_MB.30.t
+	desc = KOR_MB.30.d
+	picture = 1936년의세계
+	trigger = {
+		original_tag = KOR
+		has_completed_focus = KOR_MB_the_last_republic
+		has_completed_focus = KOR_MB_none-political
+	}
+	fire_only_once = yes
+	
+		
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = KOR_MB.30.a #ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+		
+	}
+} 
 
 ########
 country_event = { #정보
@@ -794,6 +868,9 @@ country_event = { #정보
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -803,6 +880,7 @@ country_event = { #정보
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo
@@ -846,6 +924,9 @@ country_event = {
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -855,6 +936,7 @@ country_event = {
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo
@@ -897,6 +979,9 @@ country_event = { #kkshunp
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -906,6 +991,7 @@ country_event = { #kkshunp
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo
@@ -947,6 +1033,9 @@ country_event = { #도움준사람들
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -956,6 +1045,7 @@ country_event = { #도움준사람들
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo
@@ -1000,6 +1090,9 @@ country_event = { #모드정보 - 육군
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -1009,6 +1102,7 @@ country_event = { #모드정보 - 육군
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo
@@ -1052,6 +1146,9 @@ country_event = { #모드정보 - 기타등등
 			if = {
 				limit = {
 					original_tag = KOR
+					NOT = {
+						has_country_flag = KOR_MB_up_manpower
+					}
 				}
 				525 = {
 					add_manpower = 1600000
@@ -1061,6 +1158,7 @@ country_event = { #모드정보 - 기타등등
 					add_manpower = 1612000
 					add_manpower = 1612000
 				}
+				set_country_flag = KOR_MB_up_manpower
 			}
 			KOR = {
 			add_ideas = KOR_ammo

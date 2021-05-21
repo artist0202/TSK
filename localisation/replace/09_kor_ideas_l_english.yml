@@ -1,6 +1,6 @@
 ﻿l_english:
  ### KOR - idea
-  KOR_imf_economic_crisis:0 "한국 금융위기"
+ KOR_imf_economic_crisis:0 "한국 금융위기"
  KOR_imf_economic_crisis_desc:0 "Since 1997, South Korea is experiencing a severe economic crisis."
  KOR_national_security_law:0 "국가보안법"
  KOR_national_security_law_desc:0 "The National Security Law is a law that prohibited the communist activities in South Korea."
@@ -274,3 +274,5 @@
  jucheism_desc:0 "북한에 정치·경제·사회·문화 등 모든 분야의 기초가 되는 유일한 통치이념인 주체사상은 김일성-김정일의 권력세습을 위해 김일성이 제안, 황장엽이 창설한 이념입니다. 사실상 북한의 군주제를 이룩하게 한 이 이념은 현대 한국인들에게 매우 안좋은 시각으로 비춰지고 있습니다."
  KOR_plan_hitler_allies:0 "미래의 기억"
  KOR_plan_hitler_axis:0 "미래의 기억"
+ KOR_ammo:0 "탄피 줍기" 
+ KOR_ammo_desc:0 "매우 안타깝게도, 이 모드에서는 '탄약'이라는 현대장비 고유의 생산필요 장비가 있습니다. 이 장비는 그냥 냅둬도 소모가 되니까, 반드시 생산라인에 설정해주셔야 합니다. 안하면 당신이 2009년을 하든 1991년을 하든간에 무조건 게임 터집니다."

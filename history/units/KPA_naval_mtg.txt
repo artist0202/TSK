@@ -1,0 +1,82 @@
+﻿
+
+units = {
+	fleet = {
+		name = "조선인민군해군 동해함대"			
+		naval_base = 3981
+		task_force = {
+			name = "동해함대" 
+			location = 3981
+			ship = { name = "나진" definition = modern_FF start_experience_factor = 0.1 equipment = { ship_hull_FF_1 = { amount = 1 owner = PRK version_name = "나진급" } } }
+			ship = { name = "서호" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "서호급" } } }
+			
+			ship = { name = "사리원" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "사리원급" } } }
+			ship = { name = "해주" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "사리원급" } } }
+			ship = { name = "정주" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "사리원급" } } }
+			ship = { name = "구성" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "사리원급" } } }
+		}
+		task_force = {
+				name = "동해 잠수함전대"
+				location = 3981
+				ship = { name = "SS-001" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-002" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-003" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-004" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-005" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-006" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-007" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-008" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-009" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-010" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-011" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-012" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-013" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-014" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-015" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-016" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-017" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-018" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				
+				ship = { name = "SS-027" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = PRK version_name = "폭스트롯급" } } }
+				ship = { name = "SS-028" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = PRK version_name = "폭스트롯급" } } }
+				ship = { name = "SS-029" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_3 = { amount = 1 owner = PRK version_name = "폭스트롯급" } } }
+		}
+		task_force = {
+				name = "동해 잠수함전대 2"
+				location = 3981
+				ship = { name = "SS-031" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-032" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-033" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-034" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-035" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-036" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-037" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-038" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-039" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+		}
+	}
+	fleet = {
+		name = "조선인민군해군 서해함대"	
+		naval_base = 4052
+		task_force = {
+			name = "서해함대" 
+			location = 4052 	 
+			ship = { name = "개성" definition = modern_FF start_experience_factor = 0.1 equipment = { ship_hull_FF_1 = { amount = 1 owner = PRK version_name = "나진급" } } }
+			ship = { name = "신의주" definition = modern_PCC start_experience_factor = 0.1 equipment = { ship_hull_PCC_1 = { amount = 1 owner = PRK version_name = "사리원급" } } }
+		}
+		task_force = {
+				name = "서해 잠수함전대"
+				location = 4052
+				ship = { name = "SS-019" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-020" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-021" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-022" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_2 = { amount = 1 owner = PRK version_name = "로미오급" } } }
+				ship = { name = "SS-023" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_1 = { amount = 1 owner = PRK version_name = "위스키급" } } }
+				ship = { name = "SS-024" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_1 = { amount = 1 owner = PRK version_name = "위스키급" } } }
+				ship = { name = "SS-025" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_1 = { amount = 1 owner = PRK version_name = "위스키급" } } }
+				ship = { name = "SS-026" definition = modern_submarine start_experience_factor = 0.3 equipment = { ship_hull_modern_submarine_1 = { amount = 1 owner = PRK version_name = "위스키급" } } }
+			}
+		}
+	}
+}
+
