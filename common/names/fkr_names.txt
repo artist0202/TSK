@@ -25,7 +25,7 @@ KOR = {
 			Woosung Kyungjun Kiyoung Namgil Dongwon Seojun Seokwoo Sungmin Sungjin Seungwon
 			Shinil Indeok Euntak Jungwoo Jiseop Jihwan Taeoh Haneul Kyungpyo Sewon Inbeom Juwon
 			Changseok Hyeongjin Dowon Dongnyeong Siyang Jungwook Heesung Sangwoo Sungdeok
-			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang
+			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang Moo-hyun
 		}
 	}
 	female = {
@@ -37,9 +37,9 @@ KOR = {
 	surnames = {
 		Kim Kim Kim Kim Kim Kim Kim Kim Kim Kim Lee Lee Lee Lee Lee Lee Lee 
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
-		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
+		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
 
 MKR = {
@@ -48,7 +48,7 @@ MKR = {
 			Woosung Kyungjun Kiyoung Namgil Dongwon Seojun Seokwoo Sungmin Sungjin Seungwon
 			Shinil Indeok Euntak Jungwoo Jiseop Jihwan Taeoh Haneul Kyungpyo Sewon Inbeom Juwon
 			Changseok Hyeongjin Dowon Dongnyeong Siyang Jungwook Heesung Sangwoo Sungdeok
-			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang
+			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang Moo-hyun
 		}
 	}
 	female = {
@@ -60,9 +60,9 @@ MKR = {
 	surnames = {
 		Kim Kim Kim Kim Kim Kim Kim Kim Kim Kim Lee Lee Lee Lee Lee Lee Lee 
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
-		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
+		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
 
 ROK = {
@@ -71,7 +71,7 @@ ROK = {
 			Woosung Kyungjun Kiyoung Namgil Dongwon Seojun Seokwoo Sungmin Sungjin Seungwon
 			Shinil Indeok Euntak Jungwoo Jiseop Jihwan Taeoh Haneul Kyungpyo Sewon Inbeom Juwon
 			Changseok Hyeongjin Dowon Dongnyeong Siyang Jungwook Heesung Sangwoo Sungdeok
-			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang
+			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang Moo-hyun
 		}
 	}
 	female = {
@@ -83,9 +83,9 @@ ROK = {
 	surnames = {
 		Kim Kim Kim Kim Kim Kim Kim Kim Kim Kim Lee Lee Lee Lee Lee Lee Lee 
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
-		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
+		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
 
 KR1 = {
@@ -94,7 +94,7 @@ KR1 = {
 			Woosung Kyungjun Kiyoung Namgil Dongwon Seojun Seokwoo Sungmin Sungjin Seungwon
 			Shinil Indeok Euntak Jungwoo Jiseop Jihwan Taeoh Haneul Kyungpyo Sewon Inbeom Juwon
 			Changseok Hyeongjin Dowon Dongnyeong Siyang Jungwook Heesung Sangwoo Sungdeok
-			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang
+			Ohjung Yongwoon Taewon Haesung Haeyo Hyeogsu Hyunsang Moo-hyun
 		}
 	}
 	female = {
@@ -106,9 +106,9 @@ KR1 = {
 	surnames = {
 		Kim Kim Kim Kim Kim Kim Kim Kim Kim Kim Lee Lee Lee Lee Lee Lee Lee 
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
-		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
+		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song Roh Roh Yi Jegal Ko
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
 
 PRK = {
@@ -131,7 +131,7 @@ PRK = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
 
 KPA = {
@@ -154,5 +154,5 @@ KPA = {
 		Park Park Park Park Choi Choi Choi Jeong Jeong Kang Kang Jo Jo Yoon Yoon Jang Jang Jung Im Han Han Oh Oh
 		Seo Seo Shin Shin Kwon Kwon Hyun Hyun Hwang Hwang Hong Hong Ahn Song
  	}
-	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Vampire "War Lord" }
+	callsigns = { 비호 부엉이 번개 괴력난신 용 공포 박지 반달곰 단군 신령 산신 장창 전격 귀신 영웅 호랑이 날개 독수리 갓 이리 강치 깍두기 김치 }
 }
