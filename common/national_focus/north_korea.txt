@@ -602,7 +602,7 @@ focus_tree = {
 	}
 	focus = { #여운형의 방한 (남한에 '여운형의 방한' 이벤트발생 월드뉴스로 '새로운 길을걸어가는 한반도'뉴스발생)
 		id = prk_yeo_visit_south
-		icon = GFX_goal_unknown
+		icon = GFX_prk_yeo_visit_south
 		cost = 10.00
 		prerequisite = {
 			focus = prk_contact_with_the_South
@@ -645,7 +645,7 @@ focus_tree = {
 	}
 	focus = { #적대행위중단조약 (남한과 관계 +60)
 		id = prk_Treaty_on_the_Abortment_of_hostilities
-		icon = GFX_goal_unknown
+		icon = GFX_prk_Treaty_on_the_Abortment_of_hostilities
 		cost = 10.00
 		prerequisite = {
 			focus = prk_contact_with_the_South
@@ -657,18 +657,17 @@ focus_tree = {
 	}
 	focus = { #군사,경제적 협력조약 ('남-북 합동군사훈련' 디시전 활성화)
 		id = prk_Treaty_of_Military_and_Economic
-		icon = GFX_goal_unknown
+		icon = GFX_prk_Treaty_of_Military_and_Economic
 		cost = 10.00
 		prerequisite = {
 			focus = prk_contact_with_the_South
 		}
 		x = 26
 		y = 15
-
 	}
 	focus = { #휴전선에서 철수 (휴전선요새 전부제거)
 		id = prk_Reorganization_of_the_KPA
-		icon = GFX_goal_unknown
+		icon = GFX_prk_Withdrawal_from_the_border
 		cost = 10.00
 		prerequisite = {
 			focus = prk_yeo_visit_south
@@ -681,7 +680,6 @@ focus_tree = {
 		}
 		x = 29
 		y = 16
-
 	}
 	focus = { #신 농업정책 ('식량난' 패널티 감소)
 		id = prk_New_Agricultural_Policy
