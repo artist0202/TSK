@@ -180,4 +180,12 @@ sub_units = {
 		need = { jet_multirole_equipment = 1 }
 		categories = { category_fighter }
 	}
+	Ballistic_missile = {
+		sprite = heavy_plane
+		priority = 5
+		active = yes
+		type = { strategic_bomber }
+		need = { ballistic_missile_equipment = 1 }
+		categories = { category_strat_bomber }
+	}
 }

@@ -97,6 +97,49 @@ technologies = {
 			always = no
 		}
 	}
+	
+	ballistic_missile_equipment_1 = { 
+
+		enable_equipments = { 
+			ballistic_missile_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+
+	ballistic_missile_equipment_2 = { #경탄약
+
+		enable_equipments = { 
+			ballistic_missile_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
+	ballistic_missile_equipment_3 = { #중탄약
+
+		enable_equipments = { 
+			ballistic_missile_equipment_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	
 ############################################################################################
 ###보병장비 
 ############################################################################################

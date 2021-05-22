@@ -177,7 +177,7 @@ focus_tree = {
 	focus = {
 		id = KPA_south_attack
 		icon = attack_battle
-		cost = 2
+		cost = 3
 		prerequisite = {
 			focus = KPA_fight_with_korea
 		}

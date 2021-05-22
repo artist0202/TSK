@@ -57,23 +57,23 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_JDF_support_infantry_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_0.dds"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_0.png"
 	}
 	SpriteType = {
 		name = "GFX_JDF_support_infantry_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_1.png"
 	}
 	SpriteType = {
 		name = "GFX_JDF_support_infantry_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_2.png"
 	}
 	SpriteType = {
 		name = "GFX_JDF_support_infantry_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_3.png"
 	}
 	SpriteType = {
 		name = "GFX_JDF_support_infantry_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/infantry/JDF_support_infantry_equipment_4.png"
 	}
 	
  ################################################################################

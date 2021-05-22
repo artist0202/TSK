@@ -501,7 +501,6 @@ sub_units = {
 		
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
-			infantry_equipment
 			mechanized_equipment
 			light_mun_equipment
 			heavy_mun_equipment
@@ -514,7 +513,7 @@ sub_units = {
 			IFV_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 30
-			light_mun_equipment = 390
+			light_mun_equipment = 160
 			heavy_mun_equipment = 100
 		}
 
@@ -587,7 +586,6 @@ sub_units = {
 		
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
-			infantry_equipment
 			mechanized_equipment
 			light_mun_equipment
 		}
@@ -599,7 +597,7 @@ sub_units = {
 			mechanized_equipment = 50
 			infantry_equipment = 100
 			support_infantry_equipment = 40
-			light_mun_equipment = 420
+			light_mun_equipment = 170
 		}
 
 		forest = {
@@ -657,7 +655,6 @@ sub_units = {
 		max_organisation = 60
 		default_morale = 0.55
 		manpower = 1000
-		breakthrough = 0.3
 		
 		#Misc Abilities
 		training_time = 80
@@ -665,18 +662,17 @@ sub_units = {
 		weight = 0.5
 		
 		essential = {
-			infantry_equipment
 			light_mun_equipment
 		}
 		
 		supply_consumption = 0.04
 	
 		need = {
-			infantry_equipment = 80
+			infantry_equipment = 100
 			anti_tank_equipment = 10
 			support_infantry_equipment = 30
-			light_mun_equipment = 330
-			light_vehicle_equipment = 10
+			light_mun_equipment = 190
+			light_vehicle_equipment = 40
 		}
 	}
 	
@@ -721,16 +717,15 @@ sub_units = {
 		transport = motorized_equipment
 		
 		essential = {
-			infantry_equipment
 			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 100
 			motorized_equipment = 50
-			light_vehicle_equipment = 10
+			light_vehicle_equipment = 20
 			support_infantry_equipment = 50
-			light_mun_equipment = 450
+			light_mun_equipment = 180
 		}
 
 		forest = {
@@ -789,7 +784,6 @@ sub_units = {
 		max_organisation = 60
 		default_morale = 0.5
 		manpower = 600
-		breakthrough = 0.3
 		
 		#Misc Abilities
 		training_time = 90
@@ -799,15 +793,14 @@ sub_units = {
 		supply_consumption = 0.04
 		
 		essential = {
-			infantry_equipment
 			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 100
 			support_infantry_equipment = 50
-			light_mun_equipment = 450
-			light_vehicle_equipment = 35
+			light_mun_equipment = 180
+			light_vehicle_equipment = 30
 		}
 	}
 	
@@ -848,17 +841,15 @@ sub_units = {
 		suppression = 1
 		weight = 0.5
 		supply_consumption = 0.01
-		breakthrough = 0.3
 		
 		essential = {
-			infantry_equipment
 			light_mun_equipment
 		}
 		
 		need = {
 			infantry_equipment = 150
-			support_infantry_equipment = 100
-			light_mun_equipment = 400
+			support_infantry_equipment = 40
+			light_mun_equipment = 220
 		}
 
 		marsh = {
@@ -897,8 +888,8 @@ sub_units = {
 		combat_width = 2
 
 		#Offensive Abilities
-		soft_attack = 0.2
-		hard_attack = 0.5
+		soft_attack = 0.1
+		hard_attack = 0.2
 		
 		#Size Definitions
 		max_strength = 40
@@ -910,14 +901,11 @@ sub_units = {
 		training_time = 120
 		suppression = 1
 		weight = 1
-		breakthrough = 0.4
-		defense = 0.3
-
+		
 		supply_consumption = 0.03
 		
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
-			infantry_equipment
 			amphibious_mechanized_equipment
 			light_mun_equipment
 		}
@@ -928,8 +916,8 @@ sub_units = {
 		need = {
 			amphibious_mechanized_equipment = 50
 			infantry_equipment = 100
-			support_infantry_equipment = 50
-			light_mun_equipment = 450
+			support_infantry_equipment = 40
+			light_mun_equipment = 170
 		}
 
 		forest = {
@@ -1005,8 +993,6 @@ sub_units = {
 		transport = motorized_equipment
 
 		essential = {
-			infantry_equipment
-			motorized_equipment
 			engineer_equipment
 			light_mun_equipment
 		}
@@ -1108,8 +1094,6 @@ sub_units = {
 		transport = motorized_equipment
 
 		essential = {
-			infantry_equipment
-			motorized_equipment
 			engineer_equipment
 			light_mun_equipment
 		}
@@ -1207,13 +1191,13 @@ sub_units = {
 		training_time = 90
 		suppression = 1.5
 		weight = 0.5
+		maximum_speed = 0.5
 		
 		supply_consumption = 0.07
 		
-		transport = motorized_equipment
+		transport = light_vehicle_equipment
 		
 		essential = {
-			infantry_equipment
 			light_mun_equipment
 		}
 		

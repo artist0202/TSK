@@ -18,9 +18,6 @@ ideas = {
 				supply_consumption_factor = -0.25
 			}
 		}
-	} 
-	
-	country = {
 		KOR_ammo = {
 			picture = generic_production_bonus
 			allowed = {
@@ -38,17 +35,20 @@ ideas = {
 			
 			equipment_bonus = {
 				light_mun_equipment = {
-					build_cost_ic = -0.85 instant = yes
+					build_cost_ic = -0.99 instant = yes
 					reliability = -2 instant = yes
 				}
 			}
 			equipment_bonus = {
 				heavy_mun_equipment = {
 					reliability = -1.5 instant = yes
-					build_cost_ic = -0.5 instant = yes
+					build_cost_ic = -0.6 instant = yes
 				}
 			}
 		}
+	} 
+	
+	country = {
 		KOR_cornered = { #궁지에 몰린 여우
 			picture = generic_production_bonus
 			allowed = {
@@ -61,7 +61,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				ai_focus_defense_factor = 1
+				ai_focus_aggressive_factor = -0.5
+				forced_surrender_limit = 1.0
 			}
 		}
 		ROK_counterattack = {
@@ -75,11 +76,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_acquire_tanks
-
+			
+			modifier = {
+				ai_focus_aggressive_factor = 0.5
+			}
+			
 			targeted_modifier = {
 				tag = PRK
 				attack_bonus_against = 0.4
-				defense_bonus_against = 0.8
+				defense_bonus_against = 0.5
 			}
 
 		}
@@ -149,7 +154,7 @@ ideas = {
 			modifier = {
 				surrender_limit = 1
 				max_surrender_limit_offset = 0.15
-				ai_focus_aggressive_factor = 0.5
+				army_core_defence_factor = 0.1
 			}
 		}
 
@@ -566,14 +571,8 @@ ideas = {
 
 			targeted_modifier = {
 				tag = MKR
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-
-			}
-			targeted_modifier = {
-				tag = ROK
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 
 			}
 		}
@@ -589,7 +588,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				ai_focus_defense_factor = 10
+				ai_focus_aggressive_factor = -10
+				targeted_modifier = {
+					tag = ROK
+					attack_bonus_against = -0.4
+					defense_bonus_against = -0.5
+				}
 			}
 		}
 		ROK_counterattack = {
@@ -603,11 +607,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_acquire_tanks
-
+			
+			modifier = {
+				ai_focus_aggressive_factor = 10
+			}
+			
 			targeted_modifier = {
 				tag = PRK
 				attack_bonus_against = 0.5
-				defense_bonus_against = 0.4
+				defense_bonus_against = 0.5
 			}
 
 		}

@@ -9,11 +9,11 @@ equipments = {
 		parent = infantry_equipment_3
 		priority = 10
 		visual_level = 4
-		reliability = 1
+		reliability = 0.9
 
 		#Defensive Abilities
 		defense = 35
-		breakthrough = 6
+		breakthrough = 9
 		
 		#Offensive Abilities
 		soft_attack = 13
@@ -34,10 +34,11 @@ equipments = {
 		parent = infantry_equipment_4
 		priority = 10
 		visual_level = 5
-
+		reliability = 0.9
+		
 		#Defensive Abilities
 		defense = 38
-		breakthrough = 7
+		breakthrough = 10
 		
 		#Offensive Abilities
 		soft_attack = 15
@@ -56,10 +57,11 @@ equipments = {
 		parent = infantry_equipment_5
 		priority = 10
 		visual_level = 6
+		reliability = 0.9
 		
 		#Defensive Abilities
 		defense = 41
-		breakthrough = 8
+		breakthrough = 11
 		
 		#Offensive Abilities
 		soft_attack = 17
@@ -81,10 +83,11 @@ equipments = {
 		parent = infantry_equipment_6
 		priority = 10
 		visual_level = 7
+		reliability = 0.9
 		
 		#Defensive Abilities
 		defense = 44
-		breakthrough = 9
+		breakthrough = 12
 		
 		#Offensive Abilities
 		soft_attack = 19
@@ -109,7 +112,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 47
-		breakthrough = 10
+		breakthrough = 13
 		
 		#Offensive Abilities
 		soft_attack = 21
@@ -133,7 +136,7 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 50
-		breakthrough = 11
+		breakthrough = 14
 		
 		#Offensive Abilities
 		soft_attack = 23
@@ -163,11 +166,10 @@ equipments = {
 		
 		#Misc Abilities
 		reliability = 0.9
-		maximum_speed = 4
 
 		#Defensive Abilities
 		defense = 35
-		breakthrough = 10
+		breakthrough = 20
 		hardness = 0
 		armor_value = 0
 
@@ -206,11 +208,11 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 38
-		breakthrough = 11
+		breakthrough = 23
 		
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 6
+		soft_attack = 10
+		hard_attack = 11
 		ap_attack = 185
 		air_attack = 0
 		
@@ -230,11 +232,11 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 41
-		breakthrough = 12
+		breakthrough = 26
 		
 		#Offensive Abilities
-		soft_attack = 7
-		hard_attack = 7
+		soft_attack = 11
+		hard_attack = 12
 		ap_attack = 215
 		air_attack = 0
 		
@@ -255,11 +257,11 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 44
-		breakthrough = 13
+		breakthrough = 29
 		
 		#Offensive Abilities
-		soft_attack = 8
-		hard_attack = 8
+		soft_attack = 12
+		hard_attack = 13
 		ap_attack = 240
 		air_attack = 0
 		
@@ -279,11 +281,11 @@ equipments = {
 		
 		#Defensive Abilities
 		defense = 45
-		breakthrough = 14
+		breakthrough = 32
 		
 		#Offensive Abilities
-		soft_attack = 8
-		hard_attack = 9
+		soft_attack = 13
+		hard_attack = 15
 		ap_attack = 250
 		air_attack = 0
 		
@@ -303,7 +305,8 @@ equipments = {
 		priority = 2
 
 		interface_category = interface_category_land
-
+		defense = 50
+		
 		reliability = 0.8
 
 		#Space taken in convoy

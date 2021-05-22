@@ -74,7 +74,7 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		maximum_speed = 10
+		maximum_speed = 2
 		reliability = 0.8
 		hardness = 0.1
 
@@ -106,7 +106,6 @@ equipments = {
 		priority = 40
 		visual_level = 1
 		
-		maximum_speed = 12
 		reliability = 0.8
 		hardness = 0.1
 		
@@ -126,7 +125,6 @@ equipments = {
 		priority = 40
 		visual_level = 2
 		
-		maximum_speed = 12
 		reliability = 0.8
 		hardness = 0.1
 		
