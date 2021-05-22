@@ -851,3 +851,43 @@ news_event = {
 		trigger = { TAG = ROK }
 	}
 }
+
+# 한국내전의 종결
+news_event = {
+    id = kor_news.23
+    title = kor_news.23.t
+    desc = kor_news.23.desc
+    picture = GFX_내전승리_뉴스
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = kor_news.23.a
+        trigger = {
+            NOT = {
+                TAG = JAP
+                TAG = MKR
+                TAG = PRK
+                TAG = ROK
+            }
+        }
+    }
+    option = {
+        name = kor_news.23.b
+        trigger = { TAG = JAP }
+    }
+    option = {
+        name = kor_news.23.c
+        trigger = { TAG = MKR }
+    }
+    option = {
+        name = kor_news.23.d
+        trigger = { TAG = PRK }
+    }
+    option = {
+        name = kor_news.23.c
+        trigger = { TAG = ROK }
+    }
+}
