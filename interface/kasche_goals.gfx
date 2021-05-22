@@ -203,4 +203,20 @@ spriteTypes = {
 		name = "GFX_prk_south_wave_espionage"
 		texturefile = "gfx/interface/goals/K_asche/prk_south_wave_espionage.png"
 	}
+	SpriteType = {
+		name = "GFX_prk_yeo_visit_south"
+		texturefile = "gfx/interface/goals/K_asche/prk_yeo_visit_south.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Withdrawal_from_the_border"
+		texturefile = "gfx/interface/goals/K_asche/prk_Withdrawal_from_the_border.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_Treaty_of_Military_and_Economic"
+		texturefile = "gfx/interface/goals/K_asche/prk_Treaty_of_Military_and_Economic.png"
+	}
+	SpriteType = {
+		name = "GFX_prk_prk_Treaty_on_the_Abortment_of_hostilities"
+		texturefile = "gfx/interface/goals/K_asche/prk_Treaty_on_the_Abortment_of_hostilities.png"
+	}
 }
